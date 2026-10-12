@@ -1,0 +1,13 @@
+{
+ "key": "344c4b4dc14184269a47f1b5810752c677592f88ce6b8b1ffce5ce7be4489e99",
+ "pass": "check:uk",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "Das ist ein Zahlungsbefehl. Der Brief kommt von Betreibungsamt Bern-Mittelland.\nSie sollen CHF 1’240.00 bezahlen.\nLetzter Tag: [[DUE_DATE]].\nSie können bezahlen.\nSie können beim Amt erklären, dass Sie nicht einverstanden sind.\nFragen Sie die Beratungsperson, an wen Sie sich wenden können.",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

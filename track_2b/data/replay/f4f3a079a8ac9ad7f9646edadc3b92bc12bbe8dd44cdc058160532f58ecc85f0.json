@@ -1,0 +1,13 @@
+{
+ "key": "f4f3a079a8ac9ad7f9646edadc3b92bc12bbe8dd44cdc058160532f58ecc85f0",
+ "pass": "explain:pt",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"Isto é um aviso de pagamento. A carta vem de Seerose Telecom AG.\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"Pedem-lhe que pague CHF 1’328.10.\", \"support\": [\"e9\", \"e11\"]}], \"deadline\": [{\"text\": \"Último dia: [[DUE_DATE]].\", \"support\": [\"e12\"]}], \"what_you_can_do\": [{\"text\": \"Pode pagar.\", \"support\": [\"e13\"]}, {\"text\": \"Pode contactar o remetente.\", \"support\": [\"e14\"]}], \"who_to_contact\": [{\"text\": \"Pergunte ao conselheiro a quem se dirigir.\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "key": "09fedd677f7ec6054fb3961138d372de927d5f2f5c098c842fb853d9281ac793",
+ "pass": "extract",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"amount_due\": null, \"amounts\": [], \"creditor_name\": null, \"deadline_fixed_date\": \"2026-10-23\", \"deadline_period_unit\": null, \"deadline_period_value\": null, \"deadline_start_event\": \"fixed_date\", \"deadline_text\": \"Wir brauchen den Talon bis 23. Oktober 2026.\", \"demanded_action\": \"Bitte geben Sie den Anmeldetalon Ihrem Kind mit.\", \"evidence\": {\"deadline_text\": [\"e8\"], \"demanded_action\": [\"e7\"], \"letter_date\": [\"e5\"], \"letter_type\": [\"e1\"], \"recipient_address\": [\"e4\"], \"recipient_name\": [\"e3\"], \"sender_address\": [\"e6\"], \"sender_name\": [\"e2\"], \"stated_options\": [\"e9\"]}, \"evidence_items\": [{\"bbox\": null, \"id\": \"e1\", \"page\": 0, \"text\": \"Einladung zum Elternabend\"}, {\"bbox\": null, \"id\": \"e2\", \"page\": 0, \"text\": \"Sekundarschule Rebacker\"}, {\"bbox\": null, \"id\": \"e3\", \"page\": 0, \"text\": \"Arta Krasniqi-Berisha\"}, {\"bbox\": null, \"id\": \"e4\", \"page\": 0, \"text\": \"Lindenrain 14\"}, {\"bbox\": null, \"id\": \"e5\", \"page\": 0, \"text\": \"5. Oktober 2026\"}, {\"bbox\": null, \"id\": \"e6\", \"page\": 0, \"text\": \"3012 Bern\"}, {\"bbox\": null, \"id\": \"e7\", \"page\": 0, \"text\": \"Bitte geben Sie den Anmeldetalon Ihrem Kind mit.\"}, {\"bbox\": null, \"id\": \"e8\", \"page\": 0, \"text\": \"Wir brauchen den Talon bis 23. Oktober 2026.\"}, {\"bbox\": null, \"id\": \"e9\", \"page\": 0, \"text\": \"geben Sie den Anmeldetalon Ihrem Kind mit\"}], \"iban\": null, \"letter_date\": \"2026-10-05\", \"letter_type\": \"school_notice\", \"recipient_address\": \"Lindenrain 14, 3012 Bern\", \"recipient_name\": \"Arta Krasniqi-Berisha\", \"reference_numbers\": [], \"sender_address\": \"3012 Bern\", \"sender_contact\": null, \"sender_name\": \"Sekundarschule Rebacker\", \"source_language\": \"de\", \"stated_options\": [\"geben Sie den Anmeldetalon Ihrem Kind mit\"]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

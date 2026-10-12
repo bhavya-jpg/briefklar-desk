@@ -1,0 +1,13 @@
+{
+ "key": "a7be38bfb4cfd05ab659e3fdf1265067f54f56eb089239d7e24b210a9cc609b3",
+ "pass": "explain:de",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"Das ist eine Mitteilung über eine Mietzinserhöhung. Der Brief kommt von Immobilien Sonnhalde AG.\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"Der Brief informiert Sie. Er verlangt nichts.\", \"support\": [\"e1\"]}], \"deadline\": [{\"text\": \"Im Brief steht keine Frist.\", \"support\": [\"e1\"]}], \"what_you_can_do\": [{\"text\": \"Sie können sich beim Absender melden.\", \"support\": [\"e8\"]}], \"who_to_contact\": [{\"text\": \"Fragen Sie die Beratungsperson, an wen Sie sich wenden können.\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

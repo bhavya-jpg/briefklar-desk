@@ -1,0 +1,49 @@
+{
+ "key": "80ddb5e3df63bcc0f03996042a5bba217059f97fbbd983a70059e2fa5a52fc14",
+ "pass": "verify",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": null,
+  "tool_calls": [
+   {
+    "id": "call_1",
+    "name": "compute_deadline",
+    "arguments": {
+     "rule_family": "contract",
+     "period_value": 10,
+     "period_unit": "days",
+     "start_event": "letter_date",
+     "letter_date": "2026-09-19",
+     "fixed_date": null,
+     "canton": "VD"
+    }
+   },
+   {
+    "id": "call_2",
+    "name": "validate_iban",
+    "arguments": {
+     "iban": "CH6199999057986828288"
+    }
+   },
+   {
+    "id": "call_3",
+    "name": "lookup_authority",
+    "arguments": {
+     "sender_name": "Télécom Rive-Bleue SA",
+     "sender_address": "rue de Montandon 17, 8767 Sainte Maire"
+    }
+   },
+   {
+    "id": "call_4",
+    "name": "match_scam_patterns",
+    "arguments": {
+     "letter_id": "letter"
+    }
+   }
+  ],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

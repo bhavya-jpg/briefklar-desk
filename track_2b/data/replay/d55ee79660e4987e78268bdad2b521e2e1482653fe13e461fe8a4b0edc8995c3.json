@@ -1,0 +1,29 @@
+{
+ "key": "d55ee79660e4987e78268bdad2b521e2e1482653fe13e461fe8a4b0edc8995c3",
+ "pass": "verify",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": null,
+  "tool_calls": [
+   {
+    "id": "call_1",
+    "name": "lookup_authority",
+    "arguments": {
+     "sender_name": "Amt für Sozialversicherungen des Kantons Bern",
+     "sender_address": "3000 Bern"
+    }
+   },
+   {
+    "id": "call_2",
+    "name": "match_scam_patterns",
+    "arguments": {
+     "letter_id": "letter"
+    }
+   }
+  ],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

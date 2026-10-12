@@ -1,0 +1,49 @@
+{
+ "key": "a7d7430dbc2910257c7848215cc815236d76566850e517a24c151fc17ab83e04",
+ "pass": "verify",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": null,
+  "tool_calls": [
+   {
+    "id": "call_1",
+    "name": "compute_deadline",
+    "arguments": {
+     "rule_family": "generic_admin",
+     "period_value": 0,
+     "period_unit": "days",
+     "start_event": "fixed_date",
+     "letter_date": "2026-10-07",
+     "fixed_date": "2026-10-12",
+     "canton": "BE"
+    }
+   },
+   {
+    "id": "call_2",
+    "name": "validate_iban",
+    "arguments": {
+     "iban": "LT049999981948219935"
+    }
+   },
+   {
+    "id": "call_3",
+    "name": "lookup_authority",
+    "arguments": {
+     "sender_name": "Staatssekretariat für Migration SEM",
+     "sender_address": "3003 Bern-Wabern"
+    }
+   },
+   {
+    "id": "call_4",
+    "name": "match_scam_patterns",
+    "arguments": {
+     "letter_id": "letter"
+    }
+   }
+  ],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

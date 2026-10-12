@@ -1,0 +1,13 @@
+{
+ "key": "968b346259a9e7cb821d041eaaac9b8b7fb353c09d4c2294ffa6e3a406e58d11",
+ "pass": "explain:fr",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"C'est une information de l'école. La lettre vient de Sekundarschule Rebacker.\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"La lettre vous demande de faire quelque chose.\", \"support\": [\"e7\"]}], \"deadline\": [{\"text\": \"Dernier jour : [[DUE_DATE]].\", \"support\": [\"e8\"]}], \"what_you_can_do\": [{\"text\": \"Vous pouvez rendre le talon.\", \"support\": [\"e9\"]}], \"who_to_contact\": [{\"text\": \"Demandez à la conseillère ou au conseiller à qui vous adresser.\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

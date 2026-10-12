@@ -1,0 +1,97 @@
+{
+ "cases": 3,
+ "letters": 23,
+ "not_measured": [
+  "faithfulness (needs the judge model)",
+  "native-speaker language checks",
+  "latency and cost per case (needs a GPU run)",
+  "judge-human agreement"
+ ],
+ "pipeline": {
+  "letters_failed": 0,
+  "model_missed_links": 0,
+  "model_tool_calls": 88,
+  "orchestrator_forced_tool_calls": 0
+ },
+ "provenance": {
+  "model": null,
+  "model_outputs": "fixture",
+  "note": "FIXTURE responses, not Apertus output. BK shows how the deterministic parts behave on perfect extraction. B0 is a real measurement. No number here describes Apertus."
+ },
+ "set": "bench_small",
+ "systems": {
+  "B0": {
+   "label": "Tesseract + regex rules",
+   "metrics": {
+    "action_correctness": 0.3913,
+    "deadline_accuracy": 0.4783,
+    "field_f1": 0.6493,
+    "field_f1_by_field": {
+     "amount_due": 0.8571,
+     "creditor_name": 0.0,
+     "deadline_fixed_date": 0.9,
+     "deadline_period_value": 1.0,
+     "iban": 0.8571,
+     "letter_date": 1.0,
+     "recipient_name": 0.0,
+     "reference_numbers": 0.4151,
+     "sender_name": 0.0
+    },
+    "letter_type_accuracy": 0.8696,
+    "next_step_accuracy": 0.8696,
+    "red_flag_code_precision": null,
+    "red_flag_code_recall": 0.0,
+    "red_flag_precision": null,
+    "red_flag_recall": 0.0
+   },
+   "status": "ok"
+  },
+  "B1": {
+   "label": "OCR + Apertus translation only",
+   "reason": "needs recorded Apertus responses and the reader model (run `make eval-live`)",
+   "status": "not_run"
+  },
+  "B2": {
+   "label": "OCR text + Apertus explanation",
+   "reason": "needs recorded Apertus responses and the reader model (run `make eval-live`)",
+   "status": "not_run"
+  },
+  "B3": {
+   "label": "Apertus vision, no tools",
+   "reason": "needs recorded Apertus responses and the reader model (run `make eval-live`)",
+   "status": "not_run"
+  },
+  "BK": {
+   "label": "Briefklar full pipeline",
+   "metrics": {
+    "action_correctness": 1.0,
+    "deadline_accuracy": 1.0,
+    "field_f1": 1.0,
+    "field_f1_by_field": {
+     "amount_due": 1.0,
+     "creditor_name": 1.0,
+     "deadline_fixed_date": 1.0,
+     "deadline_period_value": 1.0,
+     "iban": 1.0,
+     "letter_date": 1.0,
+     "recipient_name": 1.0,
+     "reference_numbers": 1.0,
+     "sender_name": 1.0
+    },
+    "letter_type_accuracy": 1.0,
+    "low_confidence_share": 0.0,
+    "median_backtranslation_chrf": 100.0,
+    "next_step_accuracy": 1.0,
+    "open_total_accuracy": 1.0,
+    "red_flag_code_precision": 1.0,
+    "red_flag_code_recall": 1.0,
+    "red_flag_precision": 1.0,
+    "red_flag_recall": 1.0,
+    "reply_completeness": 0.9583,
+    "thread_f1": 1.0,
+    "triage_tau": 1.0
+   },
+   "status": "ok"
+  }
+ }
+}

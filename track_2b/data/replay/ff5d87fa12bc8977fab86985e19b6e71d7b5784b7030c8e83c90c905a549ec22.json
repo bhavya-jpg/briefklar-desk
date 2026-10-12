@@ -1,0 +1,29 @@
+{
+ "key": "ff5d87fa12bc8977fab86985e19b6e71d7b5784b7030c8e83c90c905a549ec22",
+ "pass": "verify",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": null,
+  "tool_calls": [
+   {
+    "id": "call_1",
+    "name": "lookup_authority",
+    "arguments": {
+     "sender_name": "SVA Zürich",
+     "sender_address": "8000 Zürich"
+    }
+   },
+   {
+    "id": "call_2",
+    "name": "match_scam_patterns",
+    "arguments": {
+     "letter_id": "letter"
+    }
+   }
+  ],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

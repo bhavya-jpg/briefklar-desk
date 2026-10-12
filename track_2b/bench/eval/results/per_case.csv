@@ -1,0 +1,4 @@
+case_id,lang,letters,triage_tau,totals_correct,totals_expected
+case-01,de,8,1.0,3,3
+case-02,de,7,1.0,1,1
+case-03,fr,8,1.0,3,3

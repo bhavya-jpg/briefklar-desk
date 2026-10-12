@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>Fallnotiz</title>
+<style>
+{{ font_css|safe }}
+@page { size: A4; margin: 16mm; @bottom-right { content: counter(page) " / " counter(pages); font-size: 9pt; } }
+html { font-family: {{ font_stack|safe }}; font-size: 10.5pt; line-height: 1.4; color: #000; }
+body { margin: 0; }
+h1 { font-size: 18pt; margin: 0 0 1mm; font-weight: 600; }
+h2 { font-size: 12pt; margin: 6mm 0 2mm; font-weight: 600; border-bottom: 0.6pt solid #000; padding-bottom: 1mm; }
+.meta { margin: 0 0 4mm; }
+.letter { padding: 2.5mm 0; border-bottom: 0.3pt solid #000; break-inside: avoid; }
+.letter h3 { font-size: 11pt; margin: 0 0 1mm; font-weight: 600; }
+dl { display: grid; grid-template-columns: 38mm 1fr; margin: 0; row-gap: 0.5mm; }
+dt { font-weight: 600; } dd { margin: 0; }
+ul { margin: 0; padding-left: 4mm; }
+.mono { font-variant-numeric: tabular-nums; }
+.note { border: 0.8pt solid #000; padding: 1mm 2mm; margin-top: 1mm; }
+footer { margin-top: 6mm; font-size: 9.5pt; }
+</style>
+</head>
+<body>
+<h1>Fallnotiz</h1>
+<p class="meta">
+  {{ today }} · Kanton {{ case.canton }} · Sprache der Klientin / des Klienten: {{ language.native }} ({{ language.english }})
+  {% if case.client_name %}<br>Name: {{ case.client_name }}{% endif %}
+  <br>Erstellt mit Briefklar Desk. Diese Notiz enthält keinen Namen, ausser er wurde eingegeben.
+</p>
+
+<h2>Briefe nach Dringlichkeit</h2>
+{% for row in rows %}
+<div class="letter">
+  {% if row.failed %}
+  <h3>{{ row.number }}. Brief nicht gelesen</h3>
+  <p>{{ row.error }}</p>
+  {% else %}
+  <h3>{{ row.number }}. {{ row.type }}{% if row.sender %} · {{ row.sender }}{% endif %}</h3>
+  <dl>
+    {% if row.creditor %}<dt>Gläubiger</dt><dd>{{ row.creditor }}</dd>{% endif %}
+    {% if row.references %}<dt>Referenz</dt><dd class="mono">{{ row.references|join(", ") }}</dd>{% endif %}
+    {% if row.amount %}<dt>Betrag</dt><dd class="mono">{{ row.amount }}</dd>{% endif %}
+    {% if row.letter_date %}<dt>Datum des Briefs</dt><dd>{{ row.letter_date }}</dd>{% endif %}
+    {% if row.delivery %}<dt>Zugestellt am</dt><dd>{{ row.delivery }} (Angabe der Klientin / des Klienten)</dd>{% endif %}
+    <dt>Frist</dt>
+    <dd>{% if row.due %}{{ row.due }}{% elif row.needs_delivery %}offen: Zustelldatum fehlt{% else %}keine Frist im Brief{% endif %}
+      {% if row.unverified %}<div class="note">Regel nicht verifiziert: Datum von Hand prüfen.</div>{% endif %}</dd>
+    {% if row.trace %}<dt>Berechnung</dt><dd><ul>{% for step in row.trace %}<li>{{ step }}</li>{% endfor %}</ul></dd>{% endif %}
+    {% if row.flags %}<dt>Warnsignale</dt><dd><ul>{% for flag in row.flags %}<li>{{ flag.code }}: {{ flag.evidence }}</li>{% endfor %}</ul></dd>{% endif %}
+    {% if row.checks %}<dt>Zu prüfen</dt><dd>{% for field, state in row.checks.items() %}{{ field }} ({{ state }}){% if not loop.last %}, {% endif %}{% endfor %}: Wert weicht von der Texterkennung ab oder fehlt dort.</dd>{% endif %}
+    {% if row.low_confidence %}<dt>Sprache</dt><dd>Rückübersetzung unter dem Schwellenwert: Erklärung mit der Klientin / dem Klienten auf Deutsch geprüft?</dd>{% endif %}
+    {% if row.replies %}<dt>Antwort</dt><dd>{% for r in row.replies %}{{ r.template_id }} ({{ r.language }}) vorbereitet{% if r.missing %}, unvollständig: {{ r.missing|join(", ") }}{% endif %}{% if not loop.last %}; {% endif %}{% endfor %}</dd>{% endif %}
+  </dl>
+  {% endif %}
+</div>
+{% endfor %}
+
+{% if threads %}
+<h2>Zusammengehörige Briefe</h2>
+<ul>
+{% for t in threads %}<li>Briefe {{ t.numbers|join(", ") }}: {{ t.reason }}{% if not t.confirmed %} (nicht bestätigt){% endif %}</li>{% endfor %}
+</ul>
+{% endif %}
+
+{% if totals %}
+<h2>Offene Beträge pro Gläubiger</h2>
+<ul>
+{% for t in totals %}<li>{{ t.creditor }}: <span class="mono">{{ t.display }}</span></li>{% endfor %}
+</ul>
+<p>Pro Vorgang zählt nur die jüngste Forderung. Briefe mit Warnsignalen sind nicht eingerechnet.</p>
+{% endif %}
+
+<footer>{{ disclaimer }} Fristen wurden von der Regel-Engine berechnet, nicht vom Sprachmodell.</footer>
+</body>
+</html>

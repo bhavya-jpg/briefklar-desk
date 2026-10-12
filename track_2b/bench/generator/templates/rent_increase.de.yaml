@@ -1,0 +1,24 @@
+type: rent_increase
+letter_type: rent_increase
+lang: de
+rule_family: contract
+period: null
+# TODO(source): SOURCE REQUIRED. The official form states how and within which period the increase can be
+# challenged. That part is left out until it is copied from the official cantonal form.
+period_source: null
+source: "Team-written. TODO(source): official cantonal form."
+next_step: no_action
+title: "Mitteilung einer Mietzinserhöhung"
+ref_label: "Mietvertrag Nr."
+intro:
+  - "Mietobjekt: {{ flat }}"
+  - "Der Nettomietzins wird von {{ old_rent_text }} auf {{ new_rent_text }} pro Monat erhöht."
+  - "Die Erhöhung gilt ab {{ effective_text }}."
+  - "Begründung: {{ reason }}"
+labels: {}
+demand: null
+deadline: null
+options:
+  contact_office: "Bei Fragen erreichen Sie uns schriftlich"
+closing: ["Bei Fragen erreichen Sie uns schriftlich."]
+greeting: "Freundliche Grüsse"

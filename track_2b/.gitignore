@@ -25,3 +25,11 @@ build/
 .DS_Store
 .idea/
 .vscode/
+
+# Briefklar
+.tessdata/
+bench/out/
+frontend/.svelte-kit/
+frontend/test-results/
+frontend/playwright-report/
+.pytest_cache/

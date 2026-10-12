@@ -1,0 +1,20 @@
+type: invoice_qr
+letter_type: invoice_qr
+lang: it
+rule_family: contract
+period: null
+source: "Team-written invoice. No legal wording."
+next_step: pay
+qr: true
+title: "Fattura"
+ref_label: "Fattura n."
+intro:
+  - "Buongiorno {{ recipient_name }}"
+  - "Le fatturiamo la seguente prestazione: {{ service }}."
+labels: {principal: "Importo", total: "Totale"}
+demand: "La preghiamo di pagare l'importo di {{ amount_text }} con la sezione pagamento qui sotto."
+deadline: "Pagabile entro il {{ due_date_text }}."
+options:
+  pay: "pagare l'importo di {{ amount_text }}"
+closing: []
+greeting: "Distinti saluti"

@@ -1,0 +1,13 @@
+{
+ "key": "a284960869f154d83d3f2077093a9b5c673f84c6afe8ac0768c8c102b92fbc25",
+ "pass": "explain:bcs",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"Ovo je: platni nalog. Pismo šalje Betreibungsamt Bern-Mittelland.\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"Traže da platite CHF 1’240.00.\", \"support\": [\"e11\", \"e12\"]}], \"deadline\": [{\"text\": \"Posljednji dan: [[DUE_DATE]].\", \"support\": [\"e13\"]}], \"what_you_can_do\": [{\"text\": \"Možete platiti.\", \"support\": [\"e14\"]}, {\"text\": \"Možete izjaviti uredu da se ne slažete.\", \"support\": [\"e15\"]}], \"who_to_contact\": [{\"text\": \"Pitajte savjetnika kome da se obratite.\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

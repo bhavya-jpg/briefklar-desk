@@ -1,0 +1,122 @@
+{
+ "as_of": "2026-10-10",
+ "canton": "BE",
+ "gold_order": [
+  "demo-04",
+  "demo-03",
+  "demo-02",
+  "demo-01",
+  "demo-07",
+  "demo-05",
+  "demo-06",
+  "demo-08"
+ ],
+ "gold_threads": [
+  [
+   "demo-01",
+   "demo-02",
+   "demo-03"
+  ]
+ ],
+ "image_sha256": {
+  "demo-01": "005fc5acb5606ea1e282ed29e05da0f24e5cd532e62f43137a9059a39714cfdb",
+  "demo-02": "f88b8b227a1e0a642fa8f47368dac3d505bb16c0b3bebe047675741b550e22f1",
+  "demo-03": "6a8d24a49fc449b1342377877c0bff46b9c0b81e7bf4d7e68f000ebe901c232f",
+  "demo-04": "089c875b898c62671e4f4cbc77f3f101a4b6b8287a5cca1e4f9675fca7d1f756",
+  "demo-05": "eccdbccc1b6ce02332b0ad922c5876dfe6c220295a53cb95c439299f3e25b8f1",
+  "demo-06": "c081876b562583e951fb599879b03edd8ba82170b3cf8cb6c2913a29e06ebb0f",
+  "demo-07": "d1eb1e58ad3ba4e5ecb58b0962a299dc8e063dbebfef4d71bfc48031bc1ba86b",
+  "demo-08": "fb4e431e08a3f71d3aacdcf69970f0f81ab6f4bfe7fbd52000f5e5a62f7822fe"
+ },
+ "letters": [
+  {
+   "delivery_date": "2026-09-03",
+   "files": [
+    "images/clean/demo-01_p1.jpg"
+   ],
+   "id": "demo-01",
+   "suggested_delivery_date": "2026-09-03",
+   "type": "reminder"
+  },
+  {
+   "delivery_date": "2026-09-24",
+   "files": [
+    "images/clean/demo-02_p1.jpg"
+   ],
+   "id": "demo-02",
+   "suggested_delivery_date": "2026-09-24",
+   "type": "reminder"
+  },
+  {
+   "delivery_date": null,
+   "files": [
+    "images/clean/demo-03_p1.jpg"
+   ],
+   "id": "demo-03",
+   "suggested_delivery_date": "2026-10-08",
+   "type": "payment_order"
+  },
+  {
+   "delivery_date": "2026-10-09",
+   "files": [
+    "images/clean/demo-04_p1.jpg"
+   ],
+   "id": "demo-04",
+   "suggested_delivery_date": "2026-10-09",
+   "type": "unknown"
+  },
+  {
+   "delivery_date": "2026-10-03",
+   "files": [
+    "images/clean/demo-05_p1.jpg"
+   ],
+   "id": "demo-05",
+   "suggested_delivery_date": "2026-10-03",
+   "type": "serafe_invoice"
+  },
+  {
+   "delivery_date": "2026-10-01",
+   "files": [
+    "images/clean/demo-06_p1.jpg"
+   ],
+   "id": "demo-06",
+   "suggested_delivery_date": "2026-10-01",
+   "type": "tax_assessment"
+  },
+  {
+   "delivery_date": "2026-10-07",
+   "files": [
+    "images/clean/demo-07_p1.jpg"
+   ],
+   "id": "demo-07",
+   "suggested_delivery_date": "2026-10-07",
+   "type": "school_notice"
+  },
+  {
+   "delivery_date": "2026-09-26",
+   "files": [
+    "images/clean/demo-08_p1.jpg"
+   ],
+   "id": "demo-08",
+   "suggested_delivery_date": "2026-09-26",
+   "type": "premium_reduction"
+  }
+ ],
+ "note": "Synthetic letters. Every person, company, address and reference is fictional.",
+ "recorded_languages": [
+  "de",
+  "fr",
+  "it",
+  "en",
+  "sq",
+  "pt",
+  "bcs",
+  "es",
+  "ta",
+  "ti",
+  "ar",
+  "uk",
+  "tr"
+ ],
+ "source_language": "de"
+}

@@ -1,0 +1,13 @@
+{
+ "key": "103b94bb69bb59bf274b8ea711f80b24bbdf60558b176a315f81627314ea840c",
+ "pass": "explain:it",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"È una comunicazione della scuola. La lettera viene da Sekundarschule Rebacker.\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"La lettera le chiede di fare qualcosa.\", \"support\": [\"e7\"]}], \"deadline\": [{\"text\": \"Ultimo giorno: [[DUE_DATE]].\", \"support\": [\"e8\"]}], \"what_you_can_do\": [{\"text\": \"Può restituire il tagliando.\", \"support\": [\"e9\"]}], \"who_to_contact\": [{\"text\": \"Chieda alla consulente o al consulente a chi rivolgersi.\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

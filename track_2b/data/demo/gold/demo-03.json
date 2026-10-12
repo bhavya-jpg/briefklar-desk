@@ -1,0 +1,208 @@
+{
+ "canton": "BE",
+ "case_id": "demo",
+ "delivered_on": "2026-10-08",
+ "facts": {
+  "amount_due": {
+   "amount": "1240.00",
+   "currency": "CHF"
+  },
+  "amounts": [
+   {
+    "amount": "1126.70",
+    "currency": "CHF"
+   },
+   {
+    "amount": "40.00",
+    "currency": "CHF"
+   },
+   {
+    "amount": "73.30",
+    "currency": "CHF"
+   },
+   {
+    "amount": "1240.00",
+    "currency": "CHF"
+   }
+  ],
+  "creditor_name": "Alpenblick Versand AG",
+  "deadline_fixed_date": null,
+  "deadline_period_unit": "days",
+  "deadline_period_value": 10,
+  "deadline_start_event": "delivery",
+  "deadline_text": "Will der Schuldner die Forderung bestreiten, so hat er dies innert 10 Tagen seit der Zustellung dem Betreibungsamt mündlich oder schriftlich zu erklären (Rechtsvorschlag).",
+  "demanded_action": "Der Schuldner wird aufgefordert, den Betrag von CHF 1'240.00 samt Betreibungskosten zu bezahlen.",
+  "evidence": {
+   "amount_due": [
+    "e11"
+   ],
+   "creditor_name": [
+    "e7"
+   ],
+   "deadline_text": [
+    "e13"
+   ],
+   "demanded_action": [
+    "e12"
+   ],
+   "letter_date": [
+    "e5"
+   ],
+   "letter_type": [
+    "e1"
+   ],
+   "recipient_address": [
+    "e4"
+   ],
+   "recipient_name": [
+    "e3"
+   ],
+   "reference_numbers": [
+    "e8",
+    "e9",
+    "e10"
+   ],
+   "sender_address": [
+    "e6"
+   ],
+   "sender_name": [
+    "e2"
+   ],
+   "stated_options": [
+    "e14",
+    "e15"
+   ]
+  },
+  "evidence_items": [
+   {
+    "bbox": null,
+    "id": "e1",
+    "page": 0,
+    "text": "Zahlungsbefehl"
+   },
+   {
+    "bbox": null,
+    "id": "e2",
+    "page": 0,
+    "text": "Betreibungsamt Bern-Mittelland"
+   },
+   {
+    "bbox": null,
+    "id": "e3",
+    "page": 0,
+    "text": "Arta Krasniqi-Berisha"
+   },
+   {
+    "bbox": null,
+    "id": "e4",
+    "page": 0,
+    "text": "Lindenrain 14"
+   },
+   {
+    "bbox": null,
+    "id": "e5",
+    "page": 0,
+    "text": "6. Oktober 2026"
+   },
+   {
+    "bbox": null,
+    "id": "e6",
+    "page": 0,
+    "text": "3000 Bern"
+   },
+   {
+    "bbox": null,
+    "id": "e7",
+    "page": 0,
+    "text": "Alpenblick Versand AG"
+   },
+   {
+    "bbox": null,
+    "id": "e8",
+    "page": 0,
+    "text": "26239643"
+   },
+   {
+    "bbox": null,
+    "id": "e9",
+    "page": 0,
+    "text": "2026089-65"
+   },
+   {
+    "bbox": null,
+    "id": "e10",
+    "page": 0,
+    "text": "RF32613186091390"
+   },
+   {
+    "bbox": null,
+    "id": "e11",
+    "page": 0,
+    "text": "CHF 1'240.00"
+   },
+   {
+    "bbox": null,
+    "id": "e12",
+    "page": 0,
+    "text": "Der Schuldner wird aufgefordert, den Betrag von CHF 1'240.00 samt Betreibungskosten zu bezahlen."
+   },
+   {
+    "bbox": null,
+    "id": "e13",
+    "page": 0,
+    "text": "Will der Schuldner die Forderung bestreiten, so hat er dies innert 10 Tagen seit der Zustellung dem Betreibungsamt mündlich oder schriftlich zu erklären (Rechtsvorschlag)."
+   },
+   {
+    "bbox": null,
+    "id": "e14",
+    "page": 0,
+    "text": "den Betrag von CHF 1'240.00 samt Betreibungskosten zu bezahlen"
+   },
+   {
+    "bbox": null,
+    "id": "e15",
+    "page": 0,
+    "text": "innert 10 Tagen seit der Zustellung dem Betreibungsamt mündlich oder schriftlich zu erklären"
+   }
+  ],
+  "iban": null,
+  "letter_date": "2026-10-06",
+  "letter_type": "payment_order",
+  "recipient_address": "Lindenrain 14, 3012 Bern",
+  "recipient_name": "Arta Krasniqi-Berisha",
+  "reference_numbers": [
+   "26239643",
+   "2026089-65",
+   "RF32613186091390"
+  ],
+  "sender_address": "3000 Bern",
+  "sender_contact": null,
+  "sender_name": "Betreibungsamt Bern-Mittelland",
+  "source_language": "de",
+  "stated_options": [
+   "den Betrag von CHF 1'240.00 samt Betreibungskosten zu bezahlen",
+   "innert 10 Tagen seit der Zustellung dem Betreibungsamt mündlich oder schriftlich zu erklären"
+  ]
+ },
+ "gold_due_date": "2026-10-19",
+ "gold_next_step": "object",
+ "gold_red_flags": [],
+ "gold_scam": false,
+ "gold_thread_id": "demo-thread-1",
+ "id": "demo-03",
+ "images": {
+  "clean": "images/clean/demo-03_p1.jpg"
+ },
+ "lang": "de",
+ "option_keys": [
+  "pay",
+  "object"
+ ],
+ "period_source": "https://betreibungsamt.tg.ch/public/upload/assets/92744/Informationsblatt%20zum%20Zahlungsbefehl%20de.pdf",
+ "rule_family": "schkg",
+ "sha256": {
+  "clean": "6a8d24a49fc449b1342377877c0bff46b9c0b81e7bf4d7e68f000ebe901c232f"
+ },
+ "template": "payment_order.de",
+ "template_source": "https://betreibungsamt.tg.ch/public/upload/assets/92744/Informationsblatt%20zum%20Zahlungsbefehl%20de.pdf"
+}

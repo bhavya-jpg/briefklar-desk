@@ -1,0 +1,22 @@
+type: scam_sem
+letter_type: unknown
+scam: true
+lang: fr
+rule_family: generic_admin
+period: null
+source: https://www.iamexpat.ch/expat-info/swiss-news/fake-deportation-letters-being-sent-expats-switzerland-sem-warns
+next_step: beware
+red_flags: [FOREIGN_IBAN_FOR_AUTHORITY, LEGAL_BASIS_INCONSISTENT]
+title: "Décision : fin de votre séjour"
+ref_label: "N° personnel"
+intro:
+  - "En application de la clause de sauvegarde de l'accord sur la libre circulation, votre séjour en Suisse prend fin."
+  - "Vous ne pouvez éviter le renvoi qu'en payant immédiatement les frais de procédure."
+labels: {principal: "Frais de procédure", total: "Total"}
+demand: "Versez {{ amount_text }} sur le compte {{ iban_text }}."
+deadline: "Le paiement doit nous parvenir jusqu'au {{ due_date_text }}."
+options:
+  pay: "Versez {{ amount_text }}"
+  contact_office: "Renseignements uniquement par téléphone au {{ phone }}"
+closing: ["Renseignements uniquement par téléphone au {{ phone }}."]
+greeting: "Avec nos salutations distinguées"

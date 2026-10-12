@@ -1,0 +1,13 @@
+{
+ "key": "1450f952dff6972c8f5b10bb2ee3db281a20d68d8beb2edbc5f26aaf77293b9a",
+ "pass": "check:pt",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "Das ist eine Mahnung. Der Brief kommt von Seerose Telecom AG.\nSie sollen CHF 1’328.10 bezahlen.\nLetzter Tag: [[DUE_DATE]].\nSie können bezahlen.\nSie können sich beim Absender melden.\nFragen Sie die Beratungsperson, an wen Sie sich wenden können.",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

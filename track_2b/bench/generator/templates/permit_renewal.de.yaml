@@ -1,0 +1,19 @@
+type: permit_renewal
+letter_type: permit_renewal
+lang: de
+rule_family: generic_admin
+period: null   # the letter prints the date
+period_source: null
+source: "Team-written. TODO(source): official sample letter."
+next_step: apply
+title: "Verlängerung Ihrer Aufenthaltsbewilligung"
+ref_label: "Dossier-Nr."
+intro:
+  - "Ihre Aufenthaltsbewilligung {{ permit }} läuft am {{ expiry_text }} ab."
+labels: {}
+demand: "Bitte reichen Sie das Gesuch um Verlängerung mit den Unterlagen bei Ihrer Wohngemeinde ein."
+deadline: "Das Gesuch muss bis {{ due_date_text }} eingereicht sein."
+options:
+  apply: "reichen Sie das Gesuch um Verlängerung mit den Unterlagen bei Ihrer Wohngemeinde ein"
+closing: []
+greeting: "Freundliche Grüsse"

@@ -1,0 +1,13 @@
+{
+ "key": "9d7539d199f46afe1b683e3b35417f11777fe292d2a723a8266b4f11479621a5",
+ "pass": "case",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"threads\": [{\"letter_ids\": [\"L1\", \"L2\", \"L3\"], \"reason\": \"same creditor and reference\"}], \"order\": [{\"letter_id\": \"L3\", \"reason\": \"deadline depends on the delivery date\"}, {\"letter_id\": \"L2\", \"reason\": \"deadline 2026-10-01\"}, {\"letter_id\": \"L1\", \"reason\": \"deadline 2026-09-09\"}, {\"letter_id\": \"L5\", \"reason\": \"deadline 2026-10-23\"}, {\"letter_id\": \"L4\", \"reason\": \"deadline 2026-11-01\"}, {\"letter_id\": \"L6\", \"reason\": \"no deadline\"}, {\"letter_id\": \"L7\", \"reason\": \"no deadline\"}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

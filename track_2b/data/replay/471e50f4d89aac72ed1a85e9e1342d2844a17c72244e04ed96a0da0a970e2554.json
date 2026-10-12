@@ -1,0 +1,13 @@
+{
+ "key": "471e50f4d89aac72ed1a85e9e1342d2844a17c72244e04ed96a0da0a970e2554",
+ "pass": "check:bcs",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "Das ist ein Entscheid zur Prämienverbilligung. Der Brief kommt von Amt für Sozialversicherungen des Kantons Bern.\nDer Brief informiert Sie. Er verlangt nichts.\nIm Brief steht keine Frist.\nDer Brief nennt keine Möglichkeiten.\nFragen Sie die Beratungsperson, an wen Sie sich wenden können.",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

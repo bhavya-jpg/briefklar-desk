@@ -1,0 +1,20 @@
+type: fine
+letter_type: fine
+lang: de
+rule_family: generic_admin
+period: null   # the letter prints a payment date
+# TODO(source): SOURCE REQUIRED for the legal payment period and for what follows non-payment.
+period_source: null
+source: "Team-written. TODO(source): official sample form."
+next_step: pay
+title: "Ordnungsbusse"
+ref_label: "Bussen-Nr."
+intro:
+  - "Am {{ offence_date_text }} wurde mit dem Fahrzeug {{ plate }} folgende Übertretung festgestellt: {{ offence }}."
+labels: {principal: "Busse", total: "Total"}
+demand: "Bitte bezahlen Sie die Busse von {{ amount_text }} auf das Konto {{ iban_text }}."
+deadline: "Zahlbar bis {{ due_date_text }}."
+options:
+  pay: "bezahlen Sie die Busse von {{ amount_text }}"
+closing: []
+greeting: "Freundliche Grüsse"

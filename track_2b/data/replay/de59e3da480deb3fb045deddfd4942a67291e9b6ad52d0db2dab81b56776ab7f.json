@@ -1,0 +1,13 @@
+{
+ "key": "de59e3da480deb3fb045deddfd4942a67291e9b6ad52d0db2dab81b56776ab7f",
+ "pass": "explain:ti",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"እዚ፦ ናይ ጥዕና መድሕን ክፍሊት ምንካይ ውሳነ እዩ። ደብዳበ ካብ Amt für Sozialversicherungen des Kantons Bern እዩ።\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"እቲ ደብዳበ ሓበሬታ ይህበኩም። ዝኾነ ነገር ኣይሓትትን።\", \"support\": [\"e1\"]}], \"deadline\": [{\"text\": \"እቲ ደብዳበ መወዳእታ ዕለት የብሉን።\", \"support\": [\"e1\"]}], \"what_you_can_do\": [{\"text\": \"እቲ ደብዳበ ዝኾነ ኣማራጺ ኣይገልጽን።\", \"support\": [\"e1\"]}], \"who_to_contact\": [{\"text\": \"ንመን ከም እትውከሱ ንኣማኻሪ ሕተቱ።\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

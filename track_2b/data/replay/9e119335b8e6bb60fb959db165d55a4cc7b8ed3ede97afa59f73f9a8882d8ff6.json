@@ -1,0 +1,13 @@
+{
+ "key": "9e119335b8e6bb60fb959db165d55a4cc7b8ed3ede97afa59f73f9a8882d8ff6",
+ "pass": "explain:fr",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"C'est une décision de réduction des primes. La lettre vient de Amt für Sozialversicherungen des Kantons Bern.\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"La lettre vous informe. Elle ne demande rien.\", \"support\": [\"e1\"]}], \"deadline\": [{\"text\": \"La lettre ne fixe pas de délai.\", \"support\": [\"e1\"]}], \"what_you_can_do\": [{\"text\": \"La lettre n'indique aucune possibilité.\", \"support\": [\"e1\"]}], \"who_to_contact\": [{\"text\": \"Demandez à la conseillère ou au conseiller à qui vous adresser.\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

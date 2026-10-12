@@ -1,0 +1,45 @@
+/* Design tokens (spec 13.4). Locked: no new colours or type sizes without a moodboard note. */
+:root {
+  /* Ground and ink: warm, calm */
+  --bk-paper: #F6F4EF;        /* app background */
+  --bk-surface: #FFFFFF;      /* cards, letter preview */
+  --bk-ink: #14161A;          /* primary text */
+  --bk-ink-2: #4A4F57;        /* secondary text */
+  --bk-rule: #E2DED6;         /* hairlines */
+
+  /* One accent + three meanings */
+  --bk-teal: #0F6E6A;         /* brand / primary action / "clear" */
+  --bk-teal-wash: rgba(15,110,106,.15);  /* grounding highlight */
+  --bk-amber: #8F5D00;        /* deadline soon, needs check (text-safe amber) */
+  --bk-amber-wash: rgba(232,163,23,.18);
+  --bk-red: #C8372D;          /* red flags ONLY */
+  --bk-red-wash: rgba(200,55,45,.10);
+  --bk-green: #2F7D4A;        /* language light green */
+  --bk-on-teal: #FFFFFF;      /* text on a teal button */
+
+  /* Type */
+  --bk-font-ui: "Inter Tight", "Noto Sans", "Noto Sans Arabic", "Noto Sans Ethiopic", "Noto Sans Tamil", system-ui, sans-serif;
+  --bk-font-mono: "JetBrains Mono", ui-monospace, monospace;  /* IBANs, references */
+  --bk-size-display: clamp(40px, 6vw, 72px);
+  --bk-size-h1: 32px; --bk-size-h2: 24px; --bk-size-body: 17px;
+  --bk-size-small: 14px; --bk-size-numeral: 56px;  /* days-left counter */
+  --bk-leading-tight: 1.1; --bk-leading-body: 1.5;
+  --bk-tracking-display: -0.02em;
+
+  /* Space (8-pt), radius, motion */
+  --bk-s1: 4px; --bk-s2: 8px; --bk-s3: 16px; --bk-s4: 24px; --bk-s5: 32px; --bk-s6: 48px; --bk-s7: 72px;
+  --bk-radius: 10px; --bk-radius-chip: 999px;
+  --bk-ease: cubic-bezier(.2,.7,.1,1);
+  --bk-fast: 140ms; --bk-base: 240ms; --bk-slow: 420ms;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bk-paper: #121417; --bk-surface: #1A1D21; --bk-ink: #F2F0EB; --bk-ink-2: #A9AEB6;
+    --bk-rule: #2A2E34; --bk-teal: #3FB8B0; --bk-teal-wash: rgba(63,184,176,.18);
+    --bk-amber: #F0B43C; --bk-red: #FF6B5E; --bk-green: #5CC489;
+    --bk-on-teal: #0B1F1E;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  :root { --bk-fast: 0ms; --bk-base: 0ms; --bk-slow: 0ms; }
+}

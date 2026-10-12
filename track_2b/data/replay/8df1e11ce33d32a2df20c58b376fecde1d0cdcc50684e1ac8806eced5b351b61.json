@@ -1,0 +1,49 @@
+{
+ "key": "8df1e11ce33d32a2df20c58b376fecde1d0cdcc50684e1ac8806eced5b351b61",
+ "pass": "verify",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": null,
+  "tool_calls": [
+   {
+    "id": "call_1",
+    "name": "compute_deadline",
+    "arguments": {
+     "rule_family": "generic_admin",
+     "period_value": 0,
+     "period_unit": "days",
+     "start_event": "fixed_date",
+     "letter_date": "2026-09-30",
+     "fixed_date": "2026-10-25",
+     "canton": "VD"
+    }
+   },
+   {
+    "id": "call_2",
+    "name": "validate_iban",
+    "arguments": {
+     "iban": "CH7999999134125242731"
+    }
+   },
+   {
+    "id": "call_3",
+    "name": "lookup_authority",
+    "arguments": {
+     "sender_name": "Administration cantonale des impôts",
+     "sender_address": "1000 Lausanne"
+    }
+   },
+   {
+    "id": "call_4",
+    "name": "match_scam_patterns",
+    "arguments": {
+     "letter_id": "letter"
+    }
+   }
+  ],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

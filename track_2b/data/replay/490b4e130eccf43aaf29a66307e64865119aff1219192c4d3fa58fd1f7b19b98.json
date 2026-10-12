@@ -1,0 +1,13 @@
+{
+ "key": "490b4e130eccf43aaf29a66307e64865119aff1219192c4d3fa58fd1f7b19b98",
+ "pass": "reply:instalment_request",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"slots\": {\"amount\": {\"value\": null, \"support\": []}, \"debtor_address\": {\"value\": \"Lindenrain 14, 3012 Bern\", \"support\": [\"e4\"]}, \"debtor_name\": {\"value\": \"Arta Krasniqi-Berisha\", \"support\": [\"e3\"]}, \"letter_date\": {\"value\": null, \"support\": []}, \"office_address\": {\"value\": \"3000 Bern\", \"support\": [\"e6\"]}, \"office_name\": {\"value\": \"Steuerverwaltung des Kantons Bern\", \"support\": [\"e2\"]}, \"proposal\": {\"value\": \"Ich schlage vor, den Betrag in monatlichen Raten zu bezahlen.\", \"support\": []}, \"reference\": {\"value\": \"450.255.600\", \"support\": [\"e7\"]}, \"signature_line\": {\"value\": \"Arta Krasniqi-Berisha\", \"support\": [\"e3\"]}}}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

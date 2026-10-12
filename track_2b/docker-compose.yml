@@ -1,0 +1,31 @@
+services:
+  app:
+    build: .
+    env_file: .env
+    environment:
+      BRIEFKLAR_MODE: ${BRIEFKLAR_MODE:-replay}
+    ports: ["8080:8080"]
+    tmpfs: ["/run/briefklar:size=512m", "/tmp"]
+    read_only: true                       # container FS read-only; data/ is a mount
+    volumes: ["./data:/app/data"]         # rw so recording can write data/replay
+    networks: [default, llm]
+
+  vllm:
+    profiles: ["gpu"]
+    # Pin the digest you tested in .env (VLLM_IMAGE=...@sha256:...). Upstream vLLM support is pending.
+    image: ${VLLM_IMAGE:-ghcr.io/swiss-ai/vllm_apertus_1.5_release:latest}
+    command: >
+      vllm serve swiss-ai/Apertus-v1.5-8B --served-model-name apertus-8b
+      --max-model-len 16384 --gpu-memory-utilization 0.85
+      --enable-auto-tool-choice --tool-call-parser apertus --reasoning-parser apertus
+    volumes: ["${HF_HOME:-~/.cache/huggingface}:/root/.cache/huggingface"]
+    environment: ["HF_HUB_OFFLINE=1"]     # air-gapped: weights must already be in the cache
+    networks: [llm]                       # internal only: the model server has no route out
+    deploy:
+      resources:
+        reservations:
+          devices: [{driver: nvidia, count: 1, capabilities: [gpu]}]
+
+networks:
+  llm:
+    internal: true

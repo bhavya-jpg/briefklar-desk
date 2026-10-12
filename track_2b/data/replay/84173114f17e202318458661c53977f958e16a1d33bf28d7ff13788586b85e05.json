@@ -1,0 +1,49 @@
+{
+ "key": "84173114f17e202318458661c53977f958e16a1d33bf28d7ff13788586b85e05",
+ "pass": "verify",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": null,
+  "tool_calls": [
+   {
+    "id": "call_1",
+    "name": "compute_deadline",
+    "arguments": {
+     "rule_family": "contract",
+     "period_value": 10,
+     "period_unit": "days",
+     "start_event": "letter_date",
+     "letter_date": "2026-08-30",
+     "fixed_date": null,
+     "canton": "ZH"
+    }
+   },
+   {
+    "id": "call_2",
+    "name": "validate_iban",
+    "arguments": {
+     "iban": "CH4599999525388853933"
+    }
+   },
+   {
+    "id": "call_3",
+    "name": "lookup_authority",
+    "arguments": {
+     "sender_name": "Seerose Telecom AG",
+     "sender_address": "Kälinstrasse 67, 4231 Thun"
+    }
+   },
+   {
+    "id": "call_4",
+    "name": "match_scam_patterns",
+    "arguments": {
+     "letter_id": "letter"
+    }
+   }
+  ],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

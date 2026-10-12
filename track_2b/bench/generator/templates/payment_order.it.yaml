@@ -1,0 +1,22 @@
+type: payment_order
+letter_type: payment_order
+lang: it
+rule_family: schkg
+period: {value: 10, unit: days, start_event: delivery}
+period_source: https://betreibungsamt.tg.ch/public/upload/assets/92744/Informationsblatt%20zum%20Zahlungsbefehl%20de.pdf
+# Wording: team translation of points 1-3 of the German sheet. TODO(source): replace with the official Italian sheet.
+source: https://betreibungsamt.tg.ch/public/upload/assets/92744/Informationsblatt%20zum%20Zahlungsbefehl%20de.pdf
+next_step: object
+title: "Precetto esecutivo"
+ref_label: "Esecuzione n."
+intro:
+  - "Creditore: {{ creditor_name }}, {{ creditor_city }}"
+  - "Titolo del credito: fattura n. {{ invoice_no }} del {{ invoice_date_text }}, riferimento {{ creditor_ref }}"
+labels: {principal: "Credito", fees: "Spese di sollecito", costs: "Spese del precetto esecutivo", total: "Totale"}
+demand: "Il debitore è invitato a pagare l'importo di {{ amount_text }} e le spese di esecuzione."
+deadline: "Se il debitore intende contestare il credito, deve dichiararlo all'ufficio di esecuzione, verbalmente o per iscritto, entro 10 giorni dalla notificazione (opposizione)."
+options:
+  pay: "pagare l'importo di {{ amount_text }} e le spese di esecuzione"
+  object: "dichiararlo all'ufficio di esecuzione, verbalmente o per iscritto, entro 10 giorni dalla notificazione"
+closing: ["L'opposizione non deve essere motivata."]
+greeting: null

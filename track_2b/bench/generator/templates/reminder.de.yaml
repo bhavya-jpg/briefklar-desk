@@ -1,0 +1,23 @@
+type: reminder
+letter_type: reminder
+lang: de
+rule_family: contract
+# The creditor's own payment term, printed on the letter. Not a legal period.
+period: {value: 10, unit: days, start_event: letter_date}
+source: "Team-written commercial reminder. No legal wording."
+next_step: pay
+title: "{{ level }}. Mahnung"
+ref_label: "Rechnung Nr."
+intro:
+  - "Guten Tag {{ recipient_name }}"
+  - "Unsere Rechnung Nr. {{ invoice_no }} vom {{ invoice_date_text }} ist noch nicht bezahlt."
+labels: {principal: "Rechnungsbetrag", fees: "Mahngebühr", total: "Offener Betrag"}
+demand: "Bitte überweisen Sie den offenen Betrag von {{ amount_text }} auf das Konto {{ iban_text }} mit der Referenz {{ creditor_ref }}."
+deadline: "Die Zahlung muss innert 10 Tagen ab dem Datum dieses Schreibens bei uns eingehen."
+options:
+  pay: "überweisen Sie den offenen Betrag von {{ amount_text }}"
+  contact_office: "Bei Fragen wenden Sie sich an unsere Buchhaltung"
+closing:
+  - "{% if level >= 2 %}Ohne Zahlung behalten wir uns vor, die Betreibung einzuleiten.{% endif %}"
+  - "Bei Fragen wenden Sie sich an unsere Buchhaltung."
+greeting: "Freundliche Grüsse"

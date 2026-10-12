@@ -1,0 +1,29 @@
+{
+ "key": "4e4c1ada9c03abab95fc0f73435d17d7e2508e1622ef5fe81408d353a513ff64",
+ "pass": "verify",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": null,
+  "tool_calls": [
+   {
+    "id": "call_1",
+    "name": "lookup_authority",
+    "arguments": {
+     "sender_name": "Immobilien Sonnhalde AG",
+     "sender_address": "Eugsterstrasse 38, 7018 Münchenstein"
+    }
+   },
+   {
+    "id": "call_2",
+    "name": "match_scam_patterns",
+    "arguments": {
+     "letter_id": "letter"
+    }
+   }
+  ],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

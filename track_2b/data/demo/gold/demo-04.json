@@ -1,0 +1,192 @@
+{
+ "canton": "BE",
+ "case_id": "demo",
+ "delivered_on": "2026-10-09",
+ "facts": {
+  "amount_due": {
+   "amount": "359.80",
+   "currency": "CHF"
+  },
+  "amounts": [
+   {
+    "amount": "359.80",
+    "currency": "CHF"
+   }
+  ],
+  "creditor_name": null,
+  "deadline_fixed_date": "2026-10-12",
+  "deadline_period_unit": null,
+  "deadline_period_value": null,
+  "deadline_start_event": "fixed_date",
+  "deadline_text": "Die Zahlung muss bis 12. Oktober 2026 eingehen.",
+  "demanded_action": "Überweisen Sie CHF 359.80 auf das Konto LT04 9999 9819 4821 9935.",
+  "evidence": {
+   "amount_due": [
+    "e8"
+   ],
+   "deadline_text": [
+    "e12"
+   ],
+   "demanded_action": [
+    "e11"
+   ],
+   "iban": [
+    "e9"
+   ],
+   "letter_date": [
+    "e5"
+   ],
+   "letter_type": [
+    "e1"
+   ],
+   "recipient_address": [
+    "e4"
+   ],
+   "recipient_name": [
+    "e3"
+   ],
+   "reference_numbers": [
+    "e7"
+   ],
+   "sender_address": [
+    "e6"
+   ],
+   "sender_contact": [
+    "e10"
+   ],
+   "sender_name": [
+    "e2"
+   ],
+   "stated_options": [
+    "e13",
+    "e14"
+   ]
+  },
+  "evidence_items": [
+   {
+    "bbox": null,
+    "id": "e1",
+    "page": 0,
+    "text": "Verfügung: Beendigung Ihres Aufenthalts"
+   },
+   {
+    "bbox": null,
+    "id": "e2",
+    "page": 0,
+    "text": "Staatssekretariat für Migration SEM"
+   },
+   {
+    "bbox": null,
+    "id": "e3",
+    "page": 0,
+    "text": "Arta Krasniqi-Berisha"
+   },
+   {
+    "bbox": null,
+    "id": "e4",
+    "page": 0,
+    "text": "Lindenrain 14"
+   },
+   {
+    "bbox": null,
+    "id": "e5",
+    "page": 0,
+    "text": "7. Oktober 2026"
+   },
+   {
+    "bbox": null,
+    "id": "e6",
+    "page": 0,
+    "text": "3003 Bern-Wabern"
+   },
+   {
+    "bbox": null,
+    "id": "e7",
+    "page": 0,
+    "text": "SEM-81793-F"
+   },
+   {
+    "bbox": null,
+    "id": "e8",
+    "page": 0,
+    "text": "CHF 359.80"
+   },
+   {
+    "bbox": null,
+    "id": "e9",
+    "page": 0,
+    "text": "LT04 9999 9819 4821 9935"
+   },
+   {
+    "bbox": null,
+    "id": "e10",
+    "page": 0,
+    "text": "+41 99 555 01 42"
+   },
+   {
+    "bbox": null,
+    "id": "e11",
+    "page": 0,
+    "text": "Überweisen Sie CHF 359.80 auf das Konto LT04 9999 9819 4821 9935."
+   },
+   {
+    "bbox": null,
+    "id": "e12",
+    "page": 0,
+    "text": "Die Zahlung muss bis 12. Oktober 2026 eingehen."
+   },
+   {
+    "bbox": null,
+    "id": "e13",
+    "page": 0,
+    "text": "Überweisen Sie CHF 359.80"
+   },
+   {
+    "bbox": null,
+    "id": "e14",
+    "page": 0,
+    "text": "Rückfragen nur telefonisch unter +41 99 555 01 42"
+   }
+  ],
+  "iban": "LT049999981948219935",
+  "letter_date": "2026-10-07",
+  "letter_type": "unknown",
+  "recipient_address": "Lindenrain 14, 3012 Bern",
+  "recipient_name": "Arta Krasniqi-Berisha",
+  "reference_numbers": [
+   "SEM-81793-F"
+  ],
+  "sender_address": "3003 Bern-Wabern",
+  "sender_contact": "+41 99 555 01 42",
+  "sender_name": "Staatssekretariat für Migration SEM",
+  "source_language": "de",
+  "stated_options": [
+   "Überweisen Sie CHF 359.80",
+   "Rückfragen nur telefonisch unter +41 99 555 01 42"
+  ]
+ },
+ "gold_due_date": "2026-10-12",
+ "gold_next_step": "beware",
+ "gold_red_flags": [
+  "FOREIGN_IBAN_FOR_AUTHORITY",
+  "LEGAL_BASIS_INCONSISTENT"
+ ],
+ "gold_scam": true,
+ "gold_thread_id": null,
+ "id": "demo-04",
+ "images": {
+  "clean": "images/clean/demo-04_p1.jpg"
+ },
+ "lang": "de",
+ "option_keys": [
+  "pay",
+  "contact_office"
+ ],
+ "period_source": null,
+ "rule_family": "generic_admin",
+ "sha256": {
+  "clean": "089c875b898c62671e4f4cbc77f3f101a4b6b8287a5cca1e4f9675fca7d1f756"
+ },
+ "template": "scam_sem.de",
+ "template_source": "https://www.iamexpat.ch/expat-info/swiss-news/fake-deportation-letters-being-sent-expats-switzerland-sem-warns"
+}

@@ -1,0 +1,20 @@
+type: premium_reduction
+letter_type: premium_reduction
+lang: de
+rule_family: generic_admin
+period: null
+# TODO(source): SOURCE REQUIRED. Instructions on appeal are left out until sourced from an official sample decision.
+period_source: null
+source: "Team-written. TODO(source): official sample decision."
+next_step: no_action
+title: "Verfügung Prämienverbilligung {{ year }}"
+ref_label: "Dossier-Nr."
+intro:
+  - "Sie haben für das Jahr {{ year }} Anspruch auf eine Prämienverbilligung."
+  - "Die Verbilligung beträgt {{ monthly_text }} pro Monat. Wir überweisen sie direkt an Ihre Krankenkasse."
+labels: {}
+demand: null
+deadline: null
+options: {}
+closing: ["Sie müssen nichts unternehmen."]
+greeting: "Freundliche Grüsse"

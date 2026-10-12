@@ -1,0 +1,13 @@
+{
+ "key": "e7220f064f1ac9d4bb5c1a3512a4c1aab12bee25526741b6f24af6806613d875",
+ "pass": "explain:sq",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"Kjo është një kujtesë pagese. Letra vjen nga Tannwald Fitness GmbH.\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"Ju kërkojnë të paguani CHF 1’846.95.\", \"support\": [\"e9\", \"e11\"]}], \"deadline\": [{\"text\": \"Dita e fundit: [[DUE_DATE]].\", \"support\": [\"e12\"]}], \"what_you_can_do\": [{\"text\": \"Mund të paguani.\", \"support\": [\"e13\"]}, {\"text\": \"Mund të kontaktoni dërguesin.\", \"support\": [\"e14\"]}], \"who_to_contact\": [{\"text\": \"Pyetni këshilltarin se kë të kontaktoni.\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

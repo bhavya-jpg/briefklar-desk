@@ -1,0 +1,19 @@
+type: school_notice
+letter_type: school_notice
+lang: de
+rule_family: generic_admin
+period: null
+source: "Team-written. No legal wording."
+next_step: reply
+title: "Einladung zum Elternabend"
+ref_label: null
+intro:
+  - "Liebe Eltern"
+  - "Der Elternabend der Klasse {{ klass }} findet am {{ event_text }} um 19.00 Uhr im Schulhaus statt."
+labels: {}
+demand: "Bitte geben Sie den Anmeldetalon Ihrem Kind mit."
+deadline: "Wir brauchen den Talon bis {{ due_date_text }}."
+options:
+  reply: "geben Sie den Anmeldetalon Ihrem Kind mit"
+closing: []
+greeting: "Freundliche Grüsse"

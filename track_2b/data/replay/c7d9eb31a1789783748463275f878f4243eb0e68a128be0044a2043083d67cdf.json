@@ -1,0 +1,54 @@
+{
+ "key": "c7d9eb31a1789783748463275f878f4243eb0e68a128be0044a2043083d67cdf",
+ "pass": "verify",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": null,
+  "tool_calls": [
+   {
+    "id": "call_1",
+    "name": "compute_deadline",
+    "arguments": {
+     "rule_family": "contract",
+     "period_value": 0,
+     "period_unit": "days",
+     "start_event": "fixed_date",
+     "letter_date": "2026-08-19",
+     "fixed_date": "2026-09-08",
+     "canton": "BE"
+    }
+   },
+   {
+    "id": "call_2",
+    "name": "validate_iban",
+    "arguments": {
+     "iban": "CH9099999122330792440"
+    }
+   },
+   {
+    "id": "call_3",
+    "name": "decode_qr_bill",
+    "arguments": {}
+   },
+   {
+    "id": "call_4",
+    "name": "lookup_authority",
+    "arguments": {
+     "sender_name": "Morgentau Energie AG",
+     "sender_address": "Baumannstrasse 20, 5628 Wädenswil"
+    }
+   },
+   {
+    "id": "call_5",
+    "name": "match_scam_patterns",
+    "arguments": {
+     "letter_id": "letter"
+    }
+   }
+  ],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" font-family="Inter Tight, Helvetica, Arial, sans-serif" role="img" aria-label="Briefklar Desk architecture: browser, orchestrator, pre-processing, deterministic tools and Apertus 1.5 8B all run inside the help desk. No arrow leaves the box.">
+  <rect width="960" height="520" fill="#FFFFFF"/>
+  <rect x="20" y="20" width="920" height="420" rx="14" fill="#F6F4EF" stroke="#14161A" stroke-width="2"/>
+  <text x="40" y="52" font-size="16" font-weight="600" fill="#14161A">Help-desk machine or office server · no network at runtime</text>
+
+  <rect x="40" y="76" width="880" height="62" rx="8" fill="#FFFFFF" stroke="#14161A"/>
+  <text x="56" y="102" font-size="14" font-weight="600" fill="#14161A">Browser · SvelteKit single-page app, served locally</text>
+  <text x="56" y="124" font-size="12" fill="#4A4F57">capture · case board · letter view · reply editor · handout</text>
+
+  <path d="M480 138v30" stroke="#0F6E6A" stroke-width="2"/>
+  <text x="492" y="158" font-size="11" fill="#4A4F57">HTTP on localhost + server-sent events</text>
+
+  <rect x="40" y="168" width="880" height="78" rx="8" fill="#FFFFFF" stroke="#14161A"/>
+  <text x="56" y="194" font-size="14" font-weight="600" fill="#14161A">Orchestrator · FastAPI, Python 3.12</text>
+  <text x="56" y="216" font-size="12" fill="#4A4F57">session store in memory, images on tmpfs, wiped on “End case” and after 2 h idle</text>
+  <text x="56" y="234" font-size="12" fill="#4A4F57">pre-process → 1 extract → 2 verify (tools) → 3 explain → 4 check → case pass → reply pass</text>
+
+  <path d="M180 246v34M480 246v34M780 246v34" stroke="#0F6E6A" stroke-width="2"/>
+
+  <rect x="40" y="280" width="280" height="140" rx="8" fill="#FFFFFF" stroke="#14161A"/>
+  <text x="56" y="306" font-size="14" font-weight="600" fill="#14161A">Pre-processing (no model)</text>
+  <text x="56" y="330" font-size="12" fill="#4A4F57">OpenCV: crop, deskew, contrast</text>
+  <text x="56" y="350" font-size="12" fill="#4A4F57">Tesseract: text + word boxes</text>
+  <text x="56" y="370" font-size="12" fill="#4A4F57">zxing-cpp: QR codes</text>
+
+  <rect x="340" y="280" width="280" height="140" rx="8" fill="#FFFFFF" stroke="#14161A"/>
+  <text x="356" y="306" font-size="14" font-weight="600" fill="#14161A">Deterministic tools</text>
+  <text x="356" y="330" font-size="12" fill="#4A4F57">deadline engine (SchKG Art. 31, 56, 63)</text>
+  <text x="356" y="350" font-size="12" fill="#4A4F57">IBAN check · QR-bill parser</text>
+  <text x="356" y="370" font-size="12" fill="#4A4F57">authority directory · red-flag checks</text>
+  <text x="356" y="390" font-size="12" fill="#4A4F57">thread linker · urgency order</text>
+  <text x="356" y="410" font-size="11" fill="#4A4F57">local YAML/JSON knowledge, each item sourced</text>
+
+  <rect x="640" y="280" width="280" height="140" rx="8" fill="#0F6E6A"/>
+  <text x="656" y="306" font-size="14" font-weight="600" fill="#FFFFFF">Apertus 1.5 8B on vLLM</text>
+  <text x="656" y="330" font-size="12" fill="#FFFFFF">OpenAI-compatible API (swiss-ai fork)</text>
+  <text x="656" y="350" font-size="12" fill="#FFFFFF">vision · tool calling · 13 languages</text>
+  <text x="656" y="370" font-size="12" fill="#FFFFFF">4 calls per letter + 2 per case</text>
+  <text x="656" y="410" font-size="11" fill="#FFFFFF">LLM_NAME · LLM_BASE_URL · LLM_API_KEY</text>
+
+  <text x="20" y="470" font-size="12" fill="#14161A"><tspan font-weight="600">Build time only:</tspan> pip and npm installs, model weights, font files. <tspan font-weight="600">Runtime:</tspan> no outbound traffic.</text>
+  <text x="20" y="492" font-size="12" fill="#14161A"><tspan font-weight="600">Sovereign Swiss cloud option:</tspan> point LLM_BASE_URL at a Swiss-hosted Apertus endpoint. Everything else is unchanged.</text>
+  <text x="20" y="512" font-size="12" fill="#4A4F57">Judge mode: `make run` starts replay mode. Cached responses, no GPU, no network.</text>
+</svg>

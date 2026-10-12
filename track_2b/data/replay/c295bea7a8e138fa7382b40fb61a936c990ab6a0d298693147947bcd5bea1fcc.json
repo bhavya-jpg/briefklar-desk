@@ -1,0 +1,13 @@
+{
+ "key": "c295bea7a8e138fa7382b40fb61a936c990ab6a0d298693147947bcd5bea1fcc",
+ "pass": "check:it",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "Das ist eine Mitteilung der Schule. Der Brief kommt von Sekundarschule Rebacker.\nDer Brief verlangt etwas von Ihnen.\nLetzter Tag: [[DUE_DATE]].\nSie können den Talon zurückgeben.\nFragen Sie die Beratungsperson, an wen Sie sich wenden können.",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

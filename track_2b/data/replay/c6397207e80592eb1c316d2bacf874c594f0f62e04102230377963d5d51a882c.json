@@ -1,0 +1,13 @@
+{
+ "key": "c6397207e80592eb1c316d2bacf874c594f0f62e04102230377963d5d51a882c",
+ "pass": "explain:pt",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"Isto é uma liquidação de impostos. A carta vem de Steuerverwaltung des Kantons Bern.\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"Pedem-lhe que pague CHF 2’521.70.\", \"support\": [\"e8\", \"e10\"]}], \"deadline\": [{\"text\": \"Último dia: [[DUE_DATE]].\", \"support\": [\"e11\"]}], \"what_you_can_do\": [{\"text\": \"Pode pagar.\", \"support\": [\"e12\"]}], \"who_to_contact\": [{\"text\": \"Pergunte ao conselheiro a quem se dirigir.\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

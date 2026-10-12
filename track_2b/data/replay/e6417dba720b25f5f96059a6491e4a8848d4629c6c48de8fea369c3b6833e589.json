@@ -1,0 +1,42 @@
+{
+ "key": "e6417dba720b25f5f96059a6491e4a8848d4629c6c48de8fea369c3b6833e589",
+ "pass": "verify",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": null,
+  "tool_calls": [
+   {
+    "id": "call_1",
+    "name": "compute_deadline",
+    "arguments": {
+     "rule_family": "schkg",
+     "period_value": 10,
+     "period_unit": "days",
+     "start_event": "delivery",
+     "letter_date": "2026-10-03",
+     "fixed_date": null,
+     "canton": "VD"
+    }
+   },
+   {
+    "id": "call_2",
+    "name": "lookup_authority",
+    "arguments": {
+     "sender_name": "Office des poursuites du district de Lausanne",
+     "sender_address": "1000 Lausanne"
+    }
+   },
+   {
+    "id": "call_3",
+    "name": "match_scam_patterns",
+    "arguments": {
+     "letter_id": "letter"
+    }
+   }
+  ],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

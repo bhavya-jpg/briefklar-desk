@@ -1,0 +1,54 @@
+{
+ "key": "06e01b45e7f9eef6a3f44ce320fc109c1ea1efb3bb46251c871ee75a5cfa6acc",
+ "pass": "verify",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": null,
+  "tool_calls": [
+   {
+    "id": "call_1",
+    "name": "compute_deadline",
+    "arguments": {
+     "rule_family": "contract",
+     "period_value": 0,
+     "period_unit": "days",
+     "start_event": "fixed_date",
+     "letter_date": "2026-10-05",
+     "fixed_date": "2026-10-30",
+     "canton": "VD"
+    }
+   },
+   {
+    "id": "call_2",
+    "name": "validate_iban",
+    "arguments": {
+     "iban": "CH0699999314170586492"
+    }
+   },
+   {
+    "id": "call_3",
+    "name": "decode_qr_bill",
+    "arguments": {}
+   },
+   {
+    "id": "call_4",
+    "name": "lookup_authority",
+    "arguments": {
+     "sender_name": "Lumière du Léman Énergie SA",
+     "sender_address": "rue Guillaume Nüsslin 78, 9392 Saint Rapin"
+    }
+   },
+   {
+    "id": "call_5",
+    "name": "match_scam_patterns",
+    "arguments": {
+     "letter_id": "letter"
+    }
+   }
+  ],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

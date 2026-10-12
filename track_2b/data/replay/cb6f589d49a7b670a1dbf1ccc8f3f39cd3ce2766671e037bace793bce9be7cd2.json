@@ -1,0 +1,13 @@
+{
+ "key": "cb6f589d49a7b670a1dbf1ccc8f3f39cd3ce2766671e037bace793bce9be7cd2",
+ "pass": "explain:en",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"This is an invoice for the radio and TV fee. The letter is from Serafe AG.\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"They ask you to pay CHF 153.60.\", \"support\": [\"e8\", \"e10\"]}], \"deadline\": [{\"text\": \"Last day: [[DUE_DATE]].\", \"support\": [\"e11\"]}], \"what_you_can_do\": [{\"text\": \"You can pay.\", \"support\": [\"e12\"]}], \"who_to_contact\": [{\"text\": \"Ask the counsellor who to contact.\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "key": "611dd3badeb18bc78b16706ad9e79122aba19bb78c08bf766042edb5b48d410e",
+ "pass": "check:ta",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "Das ist eine Rechnung. Der Brief kommt von Télécom Rive-Bleue SA.\nSie sollen CHF 1’071.00 bezahlen.\nLetzter Tag: [[DUE_DATE]].\nSie können bezahlen.\nFragen Sie die Beratungsperson, an wen Sie sich wenden können.",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

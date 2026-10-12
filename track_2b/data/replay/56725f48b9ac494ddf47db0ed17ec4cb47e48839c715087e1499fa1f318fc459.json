@@ -1,0 +1,13 @@
+{
+ "key": "56725f48b9ac494ddf47db0ed17ec4cb47e48839c715087e1499fa1f318fc459",
+ "pass": "reply:objection_payment_order",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"slots\": {\"debtor_address\": {\"value\": \"rue Nicolas Bavaud 70, 2238 Julliard\", \"support\": [\"e4\"]}, \"debtor_name\": {\"value\": \"Raymond Gubéran\", \"support\": [\"e3\"]}, \"enforcement_number\": {\"value\": \"20909774\", \"support\": [\"e8\"]}, \"office_address\": {\"value\": \"1000 Lausanne\", \"support\": [\"e6\"]}, \"office_name\": {\"value\": \"Office des poursuites du district de Lausanne\", \"support\": [\"e2\"]}, \"signature_line\": {\"value\": \"Raymond Gubéran\", \"support\": [\"e3\"]}}}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

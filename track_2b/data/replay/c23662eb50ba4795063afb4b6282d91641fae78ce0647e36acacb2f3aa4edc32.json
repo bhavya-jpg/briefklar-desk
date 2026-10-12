@@ -1,0 +1,13 @@
+{
+ "key": "c23662eb50ba4795063afb4b6282d91641fae78ce0647e36acacb2f3aa4edc32",
+ "pass": "explain:de",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"Vorsicht: Dieser Brief zeigt Warnsignale.\", \"support\": [\"flags\"]}, {\"text\": \"Das ist ein Brief. Der Brief kommt von Staatssekretariat für Migration SEM.\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"Sie sollen CHF 719.55 bezahlen.\", \"support\": [\"e8\", \"e11\"]}], \"deadline\": [{\"text\": \"Letzter Tag: [[DUE_DATE]].\", \"support\": [\"e12\"]}], \"what_you_can_do\": [{\"text\": \"Zahlen Sie nicht und rufen Sie nicht an, bevor die Beratungsperson den Brief geprüft hat.\", \"support\": [\"flags\"]}], \"who_to_contact\": [{\"text\": \"Fragen Sie die Beratungsperson, an wen Sie sich wenden können.\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

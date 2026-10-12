@@ -1,0 +1,13 @@
+{
+ "key": "c7c3f374b66b5e95e153f5e3ad9222ba70c86a02777370c75d1e2d17701ec931",
+ "pass": "explain:es",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"Esto es un aviso de la escuela. La carta viene de Sekundarschule Rebacker.\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"La carta le pide que haga algo.\", \"support\": [\"e7\"]}], \"deadline\": [{\"text\": \"Último día: [[DUE_DATE]].\", \"support\": [\"e8\"]}], \"what_you_can_do\": [{\"text\": \"Puede devolver el talón de respuesta.\", \"support\": [\"e9\"]}], \"who_to_contact\": [{\"text\": \"Pregunte al asesor a quién dirigirse.\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

@@ -1,0 +1,37 @@
+id,rule_family,period_value,period_unit,start_event,start_date,canton,expected_due_date,expected_needs_delivery,expected_verified,note
+D01,schkg,10,days,delivery,2026-10-08,BE,2026-10-19,false,true,Thu delivery; day 10 is Sun 18 Oct; next working day Mon (Art. 31)
+D02,schkg,10,days,delivery,2026-10-05,BE,2026-10-15,false,true,Mon delivery; day 10 is Thu 15 Oct; no move
+D03,schkg,10,days,delivery,2026-10-07,BE,2026-10-19,false,true,Wed delivery; day 10 is Sat 17 Oct; Mon 19 Oct
+D04,schkg,10,days,delivery,2026-05-04,BE,2026-05-15,false,true,Day 10 is Thu 14 May 2026 = Ascension (Easter 5 Apr + 39); Fri 15 May
+D05,schkg,10,days,delivery,2026-05-15,BE,2026-05-26,false,true,Day 10 is Mon 25 May 2026 = Whit Monday (holiday in BE); Tue 26 May
+D06,schkg,10,days,delivery,2026-05-25,LU,2026-06-05,false,true,Day 10 is Thu 4 Jun 2026 = Corpus Christi (holiday in LU); Fri 5 Jun
+D07,schkg,10,days,delivery,2026-05-25,BE,2026-06-04,false,true,Same letter in BE: Corpus Christi is not a holiday; Thu 4 Jun stands
+D08,schkg,10,days,delivery,2026-04-21,ZH,2026-05-04,false,true,Day 10 is Fri 1 May 2026 (holiday in ZH); Sat; Sun; Mon 4 May
+D09,schkg,10,days,delivery,2026-04-21,BE,2026-05-01,false,true,Same letter in BE: 1 May is a working day
+D10,schkg,10,days,delivery,2026-12-07,BE,2026-12-17,false,true,Day 10 is Thu 17 Dec: one day before the Christmas window (18 Dec - 1 Jan)
+D11,schkg,10,days,delivery,2026-12-08,BE,2027-01-06,false,false,Day 10 is Fri 18 Dec = first day of the window; window ends Fri 1 Jan 2027; Sat 2; Sun 3; working days Mon 4 / Tue 5 / Wed 6 (Art. 63)
+D12,schkg,10,days,delivery,2026-12-08,TI,2027-01-07,false,false,Same in TI: 6 Jan (Epiphany) is a holiday and not counted; Mon 4 / Tue 5 / Thu 7
+D13,schkg,10,days,delivery,2026-12-22,BE,2027-01-06,false,false,Day 10 is Fri 1 Jan 2027 = last day of the window; third working day after is Wed 6 Jan
+D14,schkg,10,days,delivery,2026-12-23,BE,2027-01-04,false,true,Day 10 is Sat 2 Jan 2027: one day after the window; plain Art. 31 move to Mon 4 Jan
+D15,schkg,10,days,delivery,2026-07-04,BE,2026-07-14,false,true,Day 10 is Tue 14 Jul: one day before the July window
+D16,schkg,10,days,delivery,2026-07-05,BE,2026-08-05,false,false,Day 10 is Wed 15 Jul = first day of the July window; ends Fri 31 Jul; Sat 1 Aug (holiday and Saturday); Sun 2; working days Mon 3 / Tue 4 / Wed 5
+D17,schkg,10,days,delivery,2026-07-06,BE,2026-08-05,false,false,Day 10 is Thu 16 Jul inside the July window; third working day after 31 Jul skipping the weekend is Wed 5 Aug
+D18,schkg,10,days,delivery,2026-07-21,BE,2026-08-05,false,false,Day 10 is Fri 31 Jul = last day of the July window
+D19,schkg,10,days,delivery,2026-07-22,BE,2026-08-03,false,true,Day 10 is Sat 1 Aug: after the window; Sat and national holiday; Sun; Mon 3 Aug
+D20,schkg,10,days,delivery,2027-07-12,ZH,2027-08-04,false,false,Day 10 is Thu 22 Jul 2027; window ends Sat 31 Jul; Sun 1 Aug; working days Mon 2 / Tue 3 / Wed 4
+D21,schkg,10,days,delivery,2027-03-15,ZH,2027-04-07,false,false,Easter 2027 is 28 Mar; window 21 Mar - 4 Apr; day 10 is Thu 25 Mar; after Sun 4 Apr: Mon 5 / Tue 6 / Wed 7
+D22,schkg,10,days,delivery,2026-03-19,BE,2026-04-15,false,false,Easter 2026 is 5 Apr; window 29 Mar - 12 Apr; day 10 is Sun 29 Mar = first day; after Sun 12 Apr: Mon 13 / Tue 14 / Wed 15
+D23,schkg,10,days,delivery,2026-04-02,BE,2026-04-15,false,false,Day 10 is Sun 12 Apr = last day of the Easter window; Wed 15 Apr
+D24,schkg,10,days,delivery,2026-04-03,BE,2026-04-13,false,true,Day 10 is Mon 13 Apr: one day after the Easter window; working day
+D25,schkg,10,days,delivery,2026-03-18,BE,2026-03-30,false,false,Day 10 is Sat 28 Mar (before the window); Art. 31 moves it to Mon 30 Mar which lies inside the window; spec algorithm stops here and the result is marked unverified
+D26,schkg,1,months,delivery,2027-01-31,BE,2027-03-01,false,true,Month period from 31 Jan 2027: no 31 Feb so last day Sun 28 Feb; Mon 1 Mar
+D27,schkg,1,months,delivery,2028-01-31,BE,2028-02-29,false,true,Leap year: last day of February is Tue 29 Feb 2028
+D28,schkg,2,months,delivery,2026-10-15,BE,2026-12-15,false,true,Same day number two months later: Tue 15 Dec 2026
+D29,schkg,20,days,delivery,2026-11-02,BE,2026-11-23,false,true,Day 20 is Sun 22 Nov; Mon 23 Nov
+D30,schkg,10,days,delivery,,BE,,true,true,No delivery date: nothing is computed and the date is requested
+D31,contract,,,fixed_date,2026-10-31,BE,2026-10-31,false,true,Printed due date Sat 31 Oct: contractual dates are not moved
+D32,contract,30,days,letter_date,2026-10-01,BE,2026-10-31,false,true,30 days from the letter date: Sat 31 Oct; not moved
+D33,generic_admin,30,days,delivery,2026-10-01,BE,2026-11-02,false,false,Day 30 is Sat 31 Oct; Mon 2 Nov; rule family unverified
+D34,generic_admin,30,days,delivery,2026-03-04,BE,2026-04-07,false,false,Day 30 is Fri 3 Apr 2026 = Good Friday (holiday in BE); Sat; Easter Sun; Easter Mon (holiday); Tue 7 Apr
+D35,generic_admin,30,days,delivery,2026-03-04,TI,2026-04-03,false,false,Same in TI: Good Friday is a working day
+D36,generic_admin,,,fixed_date,2026-11-20,BE,2026-11-20,false,false,Printed date Fri 20 Nov; working day

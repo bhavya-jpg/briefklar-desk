@@ -1,0 +1,13 @@
+{
+ "key": "4d3b84488b1083e7b6a6115aecdeaf4d68529e2330a72a381df936476bca9d83",
+ "pass": "reply:extension_request",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"slots\": {\"debtor_address\": {\"value\": \"Lindenrain 14, 3012 Bern\", \"support\": [\"e4\"]}, \"debtor_name\": {\"value\": \"Arta Krasniqi-Berisha\", \"support\": [\"e3\"]}, \"letter_date\": {\"value\": null, \"support\": []}, \"office_address\": {\"value\": \"Eugsterstrasse 42, 1181 Weinfelden\", \"support\": [\"e6\"]}, \"office_name\": {\"value\": \"Alpenblick Versand AG\", \"support\": [\"e2\"]}, \"reason\": {\"value\": \"Ich brauche mehr Zeit, um die nötigen Unterlagen zusammenzustellen.\", \"support\": []}, \"reference\": {\"value\": \"2026089-65\", \"support\": [\"e7\"]}, \"signature_line\": {\"value\": \"Arta Krasniqi-Berisha\", \"support\": [\"e3\"]}}}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

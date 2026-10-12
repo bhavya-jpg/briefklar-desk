@@ -1,0 +1,13 @@
+{
+ "key": "4d706e9f496fd3e7956bca30c6a798e3601b3c98ca595d5abad321d373c318b8",
+ "pass": "explain:es",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"Esto es un recordatorio de pago. La carta viene de Alpenblick Versand AG.\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"Le piden que pague CHF 1’146.70.\", \"support\": [\"e9\", \"e11\"]}], \"deadline\": [{\"text\": \"Último día: [[DUE_DATE]].\", \"support\": [\"e12\"]}], \"what_you_can_do\": [{\"text\": \"Puede pagar.\", \"support\": [\"e13\"]}, {\"text\": \"Puede contactar al remitente.\", \"support\": [\"e14\"]}], \"who_to_contact\": [{\"text\": \"Pregunte al asesor a quién dirigirse.\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

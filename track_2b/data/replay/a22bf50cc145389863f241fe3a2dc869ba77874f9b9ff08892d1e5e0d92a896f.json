@@ -1,0 +1,13 @@
+{
+ "key": "a22bf50cc145389863f241fe3a2dc869ba77874f9b9ff08892d1e5e0d92a896f",
+ "pass": "explain:ar",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"هذه قرار ضريبي. الرسالة من Steuerverwaltung des Kantons Bern.\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"يطلبون منك دفع CHF 2’521.70.\", \"support\": [\"e8\", \"e10\"]}], \"deadline\": [{\"text\": \"آخر يوم: [[DUE_DATE]].\", \"support\": [\"e11\"]}], \"what_you_can_do\": [{\"text\": \"يمكنك الدفع.\", \"support\": [\"e12\"]}], \"who_to_contact\": [{\"text\": \"اسأل المستشار بمن تتصل.\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

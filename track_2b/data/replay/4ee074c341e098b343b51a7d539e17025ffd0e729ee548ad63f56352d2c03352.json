@@ -1,0 +1,13 @@
+{
+ "key": "4ee074c341e098b343b51a7d539e17025ffd0e729ee548ad63f56352d2c03352",
+ "pass": "reply:objection_payment_order",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"slots\": {\"debtor_address\": {\"value\": \"Lindenrain 14, 3012 Bern\", \"support\": [\"e4\"]}, \"debtor_name\": {\"value\": \"Arta Krasniqi-Berisha\", \"support\": [\"e3\"]}, \"enforcement_number\": {\"value\": \"26239643\", \"support\": [\"e8\"]}, \"office_address\": {\"value\": \"3000 Bern\", \"support\": [\"e6\"]}, \"office_name\": {\"value\": \"Betreibungsamt Bern-Mittelland\", \"support\": [\"e2\"]}, \"signature_line\": {\"value\": \"Arta Krasniqi-Berisha\", \"support\": [\"e3\"]}}}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

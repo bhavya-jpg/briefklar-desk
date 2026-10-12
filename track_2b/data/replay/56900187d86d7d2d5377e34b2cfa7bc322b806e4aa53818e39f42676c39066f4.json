@@ -1,0 +1,13 @@
+{
+ "key": "56900187d86d7d2d5377e34b2cfa7bc322b806e4aa53818e39f42676c39066f4",
+ "pass": "explain:sq",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"Kjo është një urdhër pagese. Letra vjen nga Betreibungsamt Bern-Mittelland.\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"Ju kërkojnë të paguani CHF 1’952.20.\", \"support\": [\"e11\", \"e12\"]}], \"deadline\": [{\"text\": \"Dita e fundit: [[DUE_DATE]].\", \"support\": [\"e13\"]}], \"what_you_can_do\": [{\"text\": \"Mund të paguani.\", \"support\": [\"e14\"]}, {\"text\": \"Mund t'i thoni zyrës se nuk jeni dakord.\", \"support\": [\"e15\"]}], \"who_to_contact\": [{\"text\": \"Pyetni këshilltarin se kë të kontaktoni.\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="{{ lang }}">
+<head>
+<meta charset="utf-8">
+<style>
+{{ font_css|safe }}
+@page { size: A4; margin: 0; }
+html { font-family: {{ font_stack|safe }}; font-size: 10.5pt; line-height: 1.42; color: #111; }
+body { margin: 0; position: relative; width: 210mm; height: 297mm; }
+.sender { position: absolute; top: 16mm; left: 22mm; right: 22mm; }
+.sender .name { font-weight: 600; font-size: 12.5pt; }
+.recipient { position: absolute; top: 48mm; left: 22mm; width: 85mm; }
+.content { position: absolute; top: 86mm; left: 22mm; right: 22mm; }
+.date { margin: 0 0 7mm; }
+h1 { font-size: 14pt; line-height: 1.2; margin: 0 0 2mm; font-weight: 600; }
+.ref { margin: 0 0 5mm; }
+p { margin: 0 0 2.6mm; }
+table { border-collapse: collapse; margin: 2mm 0 4mm; width: 110mm; }
+td { padding: 0.8mm 0; }
+td.amount { text-align: right; font-variant-numeric: tabular-nums; }
+tr.total td { border-top: 0.5pt solid #111; font-weight: 600; }
+.greeting { margin-top: 5mm; }
+.synthetic { position: absolute; left: 22mm; right: 22mm; bottom: {{ "109mm" if qr_svg else "9mm" }};
+  font-size: 7pt; color: #555; letter-spacing: 0.02em; }
+.qr { position: absolute; left: 0; bottom: 0; width: 210mm; height: 105mm; }
+</style>
+</head>
+<body>
+<div class="sender">
+  <div class="name">{{ sender_name }}</div>
+  {% for line in sender_lines %}<div>{{ line }}</div>{% endfor %}
+</div>
+<div class="recipient">
+  <div>{{ recipient_name }}</div>
+  {% for line in recipient_lines %}<div>{{ line }}</div>{% endfor %}
+</div>
+<div class="content">
+  <p class="date">{{ place }}, {{ letter_date_text }}</p>
+  <h1>{{ title }}</h1>
+  {% if ref_line %}<p class="ref">{{ ref_line }}</p>{% endif %}
+  {% for paragraph in intro %}<p>{{ paragraph }}</p>{% endfor %}
+  {% if rows %}
+  <table>
+    {% for row in rows %}<tr{% if row.total %} class="total"{% endif %}><td>{{ row.label }}</td><td class="amount">{{ row.amount }}</td></tr>{% endfor %}
+  </table>
+  {% endif %}
+  {% for paragraph in body %}<p>{{ paragraph }}</p>{% endfor %}
+  {% if greeting %}<p class="greeting">{{ greeting }}</p><p>{{ sender_name }}</p>{% endif %}
+</div>
+<div class="synthetic">SYNTHETIC TEST LETTER · Swiss Letters Bench v0 · not a real document · {{ letter_id }}</div>
+{% if qr_svg %}<img class="qr" src="{{ qr_svg }}" alt="">{% endif %}
+</body>
+</html>

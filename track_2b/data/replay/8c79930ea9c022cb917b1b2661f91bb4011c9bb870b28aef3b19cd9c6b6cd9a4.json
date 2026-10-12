@@ -1,0 +1,54 @@
+{
+ "key": "8c79930ea9c022cb917b1b2661f91bb4011c9bb870b28aef3b19cd9c6b6cd9a4",
+ "pass": "verify",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": null,
+  "tool_calls": [
+   {
+    "id": "call_1",
+    "name": "compute_deadline",
+    "arguments": {
+     "rule_family": "contract",
+     "period_value": 0,
+     "period_unit": "days",
+     "start_event": "fixed_date",
+     "letter_date": "2026-10-07",
+     "fixed_date": "2026-11-01",
+     "canton": "ZH"
+    }
+   },
+   {
+    "id": "call_2",
+    "name": "validate_iban",
+    "arguments": {
+     "iban": "CH7799999116372651676"
+    }
+   },
+   {
+    "id": "call_3",
+    "name": "decode_qr_bill",
+    "arguments": {}
+   },
+   {
+    "id": "call_4",
+    "name": "lookup_authority",
+    "arguments": {
+     "sender_name": "Seerose Telecom AG",
+     "sender_address": "Jäggistrasse 83, 5911 Freiburg"
+    }
+   },
+   {
+    "id": "call_5",
+    "name": "match_scam_patterns",
+    "arguments": {
+     "letter_id": "letter"
+    }
+   }
+  ],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

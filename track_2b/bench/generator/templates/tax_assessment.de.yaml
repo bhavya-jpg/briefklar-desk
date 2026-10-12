@@ -1,0 +1,21 @@
+type: tax_assessment
+letter_type: tax_assessment
+lang: de
+rule_family: generic_admin
+period: null   # the letter prints a payment date
+# TODO(source): SOURCE REQUIRED. A real assessment carries instructions on appeal with a legal period.
+# It is left out until the period and wording are taken from an official sample form.
+period_source: null
+source: "Team-written. TODO(source): official sample assessment."
+next_step: pay
+title: "Veranlagungsverfügung Kantons- und Gemeindesteuern {{ tax_year }}"
+ref_label: "Register-Nr."
+intro:
+  - "Gestützt auf Ihre Steuererklärung haben wir die Steuern für das Jahr {{ tax_year }} veranlagt."
+labels: {principal: "Geschuldete Steuer", paid: "Bereits bezahlt", total: "Noch zu bezahlen"}
+demand: "Bitte überweisen Sie den Betrag von {{ amount_text }} auf das Konto {{ iban_text }}."
+deadline: "Zahlbar bis {{ due_date_text }}."
+options:
+  pay: "überweisen Sie den Betrag von {{ amount_text }}"
+closing: []
+greeting: "Freundliche Grüsse"

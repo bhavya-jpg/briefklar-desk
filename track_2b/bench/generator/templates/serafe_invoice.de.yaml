@@ -1,0 +1,21 @@
+type: serafe_invoice
+letter_type: serafe_invoice
+lang: de
+rule_family: contract
+period: null
+# The amount on these letters is synthetic and does not state the real fee. TODO(source) if realism matters.
+source: "Team-written invoice. No legal wording."
+next_step: pay
+qr: true
+title: "Rechnung für die Radio- und Fernsehabgabe"
+ref_label: "Rechnung Nr."
+intro:
+  - "Guten Tag {{ recipient_name }}"
+  - "Abgabeperiode: {{ period_text }}"
+labels: {principal: "Abgabe für Ihren Haushalt", total: "Total"}
+demand: "Bitte bezahlen Sie den Betrag von {{ amount_text }} mit dem Zahlteil unten."
+deadline: "Zahlbar bis {{ due_date_text }}."
+options:
+  pay: "bezahlen Sie den Betrag von {{ amount_text }}"
+closing: []
+greeting: "Freundliche Grüsse"

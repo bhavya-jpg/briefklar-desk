@@ -1,0 +1,13 @@
+{
+ "key": "c9b799b43bc941ef3e6307ea3ce0032551fedec12b63c86ace0563925ab6b162",
+ "pass": "explain:es",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"Esto es una orden de pago. La carta viene de Betreibungsamt Bern-Mittelland.\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"Le piden que pague CHF 1’240.00.\", \"support\": [\"e11\", \"e12\"]}], \"deadline\": [{\"text\": \"Último día: [[DUE_DATE]].\", \"support\": [\"e13\"]}], \"what_you_can_do\": [{\"text\": \"Puede pagar.\", \"support\": [\"e14\"]}, {\"text\": \"Puede declarar ante la oficina que no está de acuerdo.\", \"support\": [\"e15\"]}], \"who_to_contact\": [{\"text\": \"Pregunte al asesor a quién dirigirse.\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

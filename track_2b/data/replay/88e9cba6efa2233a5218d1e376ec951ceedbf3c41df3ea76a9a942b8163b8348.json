@@ -1,0 +1,13 @@
+{
+ "key": "88e9cba6efa2233a5218d1e376ec951ceedbf3c41df3ea76a9a942b8163b8348",
+ "pass": "check:es",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "Vorsicht: Dieser Brief zeigt Warnsignale.\nDas ist ein Brief. Der Brief kommt von Staatssekretariat für Migration SEM.\nSie sollen CHF 359.80 bezahlen.\nLetzter Tag: [[DUE_DATE]].\nZahlen Sie nicht und rufen Sie nicht an, bevor die Beratungsperson den Brief geprüft hat.\nFragen Sie die Beratungsperson, an wen Sie sich wenden können.",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

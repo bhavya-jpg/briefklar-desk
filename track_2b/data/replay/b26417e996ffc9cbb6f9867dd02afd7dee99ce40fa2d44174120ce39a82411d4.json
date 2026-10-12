@@ -1,0 +1,13 @@
+{
+ "key": "b26417e996ffc9cbb6f9867dd02afd7dee99ce40fa2d44174120ce39a82411d4",
+ "pass": "explain:ta",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"இது: பள்ளியிலிருந்து ஒரு அறிவிப்பு. கடிதம் அனுப்பியவர்: Sekundarschule Rebacker.\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"கடிதம் உங்களிடம் ஒன்றைச் செய்யக் கேட்கிறது.\", \"support\": [\"e7\"]}], \"deadline\": [{\"text\": \"கடைசி நாள்: [[DUE_DATE]].\", \"support\": [\"e8\"]}], \"what_you_can_do\": [{\"text\": \"பதில் சீட்டைத் திருப்பிக் கொடுக்கலாம்.\", \"support\": [\"e9\"]}], \"who_to_contact\": [{\"text\": \"யாரைத் தொடர்பு கொள்வது என்று ஆலோசகரிடம் கேளுங்கள்.\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

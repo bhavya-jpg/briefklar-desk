@@ -1,0 +1,25 @@
+{
+  "_comment": "Produced by bench/eval (spec 15.5). Every language is 'unmeasured' until Apertus has been run on the bench and native speakers have checked the output. A language without a native check can never be green.",
+  "generated_by": "initial placeholder, no evaluation run yet",
+  "thresholds": {
+    "green_chrf": 60,
+    "amber_chrf": 45,
+    "green_native_mean": 4,
+    "low_confidence_chrf": {"default": 50}
+  },
+  "languages": {
+    "de": {"light": "unmeasured", "median_chrf": null, "native_mean": null, "native_checked": false},
+    "fr": {"light": "unmeasured", "median_chrf": null, "native_mean": null, "native_checked": false},
+    "it": {"light": "unmeasured", "median_chrf": null, "native_mean": null, "native_checked": false},
+    "en": {"light": "unmeasured", "median_chrf": null, "native_mean": null, "native_checked": false},
+    "sq": {"light": "unmeasured", "median_chrf": null, "native_mean": null, "native_checked": false},
+    "pt": {"light": "unmeasured", "median_chrf": null, "native_mean": null, "native_checked": false},
+    "bcs": {"light": "unmeasured", "median_chrf": null, "native_mean": null, "native_checked": false},
+    "es": {"light": "unmeasured", "median_chrf": null, "native_mean": null, "native_checked": false},
+    "ta": {"light": "unmeasured", "median_chrf": null, "native_mean": null, "native_checked": false},
+    "ti": {"light": "unmeasured", "median_chrf": null, "native_mean": null, "native_checked": false},
+    "ar": {"light": "unmeasured", "median_chrf": null, "native_mean": null, "native_checked": false},
+    "uk": {"light": "unmeasured", "median_chrf": null, "native_mean": null, "native_checked": false},
+    "tr": {"light": "unmeasured", "median_chrf": null, "native_mean": null, "native_checked": false}
+  }
+}

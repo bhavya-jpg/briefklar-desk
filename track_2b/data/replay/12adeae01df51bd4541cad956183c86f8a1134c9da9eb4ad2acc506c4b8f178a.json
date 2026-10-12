@@ -1,0 +1,13 @@
+{
+ "key": "12adeae01df51bd4541cad956183c86f8a1134c9da9eb4ad2acc506c4b8f178a",
+ "pass": "explain:de",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"Das ist eine Mahnung. Der Brief kommt von Tannwald Fitness GmbH.\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"Sie sollen CHF 1’846.95 bezahlen.\", \"support\": [\"e9\", \"e11\"]}], \"deadline\": [{\"text\": \"Letzter Tag: [[DUE_DATE]].\", \"support\": [\"e12\"]}], \"what_you_can_do\": [{\"text\": \"Sie können bezahlen.\", \"support\": [\"e13\"]}, {\"text\": \"Sie können sich beim Absender melden.\", \"support\": [\"e14\"]}], \"who_to_contact\": [{\"text\": \"Fragen Sie die Beratungsperson, an wen Sie sich wenden können.\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

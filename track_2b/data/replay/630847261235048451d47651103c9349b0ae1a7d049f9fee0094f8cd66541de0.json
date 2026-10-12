@@ -1,0 +1,13 @@
+{
+ "key": "630847261235048451d47651103c9349b0ae1a7d049f9fee0094f8cd66541de0",
+ "pass": "reply:extension_request",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"slots\": {\"debtor_address\": {\"value\": \"Lindenrain 14, 3012 Bern\", \"support\": [\"e4\"]}, \"debtor_name\": {\"value\": \"Arta Krasniqi-Berisha\", \"support\": [\"e3\"]}, \"letter_date\": {\"value\": null, \"support\": []}, \"office_address\": {\"value\": \"3000 Bern\", \"support\": [\"e6\"]}, \"office_name\": {\"value\": \"Steuerverwaltung des Kantons Bern\", \"support\": [\"e2\"]}, \"reason\": {\"value\": \"Ich brauche mehr Zeit, um die nötigen Unterlagen zusammenzustellen.\", \"support\": []}, \"reference\": {\"value\": \"450.255.600\", \"support\": [\"e7\"]}, \"signature_line\": {\"value\": \"Arta Krasniqi-Berisha\", \"support\": [\"e3\"]}}}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

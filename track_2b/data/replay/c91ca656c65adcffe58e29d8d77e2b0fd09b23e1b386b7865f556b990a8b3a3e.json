@@ -1,0 +1,13 @@
+{
+ "key": "c91ca656c65adcffe58e29d8d77e2b0fd09b23e1b386b7865f556b990a8b3a3e",
+ "pass": "check:pt",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "Das ist eine Mitteilung über eine Mietzinserhöhung. Der Brief kommt von Immobilien Sonnhalde AG.\nDer Brief informiert Sie. Er verlangt nichts.\nIm Brief steht keine Frist.\nSie können sich beim Absender melden.\nFragen Sie die Beratungsperson, an wen Sie sich wenden können.",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

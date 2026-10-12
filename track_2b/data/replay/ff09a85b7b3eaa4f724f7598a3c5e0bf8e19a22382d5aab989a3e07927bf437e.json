@@ -1,0 +1,13 @@
+{
+ "key": "ff09a85b7b3eaa4f724f7598a3c5e0bf8e19a22382d5aab989a3e07927bf437e",
+ "pass": "reply:extension_request",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"slots\": {\"debtor_address\": {\"value\": \"Lindenrain 14, 3012 Bern\", \"support\": [\"e4\"]}, \"debtor_name\": {\"value\": \"Arta Krasniqi-Berisha\", \"support\": [\"e3\"]}, \"letter_date\": {\"value\": null, \"support\": []}, \"office_address\": {\"value\": \"Postfach\", \"support\": [\"e6\"]}, \"office_name\": {\"value\": \"Serafe AG\", \"support\": [\"e2\"]}, \"reason\": {\"value\": \"Ich brauche mehr Zeit, um die nötigen Unterlagen zusammenzustellen.\", \"support\": []}, \"reference\": {\"value\": \"850539557\", \"support\": [\"e7\"]}, \"signature_line\": {\"value\": \"Arta Krasniqi-Berisha\", \"support\": [\"e3\"]}}}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

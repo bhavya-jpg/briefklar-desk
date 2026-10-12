@@ -1,0 +1,49 @@
+{
+ "key": "0efce09ff01735bf149ae3ca6f827b4ded8493ab5c93295facc6adf1f6e9c868",
+ "pass": "verify",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": null,
+  "tool_calls": [
+   {
+    "id": "call_1",
+    "name": "compute_deadline",
+    "arguments": {
+     "rule_family": "contract",
+     "period_value": 10,
+     "period_unit": "days",
+     "start_event": "letter_date",
+     "letter_date": "2026-09-22",
+     "fixed_date": null,
+     "canton": "BE"
+    }
+   },
+   {
+    "id": "call_2",
+    "name": "validate_iban",
+    "arguments": {
+     "iban": "CH9399999260181590830"
+    }
+   },
+   {
+    "id": "call_3",
+    "name": "lookup_authority",
+    "arguments": {
+     "sender_name": "Alpenblick Versand AG",
+     "sender_address": "Eugsterstrasse 42, 1181 Weinfelden"
+    }
+   },
+   {
+    "id": "call_4",
+    "name": "match_scam_patterns",
+    "arguments": {
+     "letter_id": "letter"
+    }
+   }
+  ],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

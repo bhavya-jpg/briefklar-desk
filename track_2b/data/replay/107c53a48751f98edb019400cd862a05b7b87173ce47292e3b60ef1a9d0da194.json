@@ -1,0 +1,13 @@
+{
+ "key": "107c53a48751f98edb019400cd862a05b7b87173ce47292e3b60ef1a9d0da194",
+ "pass": "explain:ti",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"እዚ፦ ካብ ቤት ትምህርቲ ዝመጸ መፍለጢ እዩ። ደብዳበ ካብ Sekundarschule Rebacker እዩ።\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"እቲ ደብዳበ ገለ ክትገብሩ ይሓትት።\", \"support\": [\"e7\"]}], \"deadline\": [{\"text\": \"መወዳእታ መዓልቲ፦ [[DUE_DATE]]።\", \"support\": [\"e8\"]}], \"what_you_can_do\": [{\"text\": \"ናይ መልሲ ቅጥዒ ክትመልሱ ትኽእሉ።\", \"support\": [\"e9\"]}], \"who_to_contact\": [{\"text\": \"ንመን ከም እትውከሱ ንኣማኻሪ ሕተቱ።\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

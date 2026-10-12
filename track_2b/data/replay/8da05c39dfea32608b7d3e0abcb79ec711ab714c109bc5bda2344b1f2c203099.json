@@ -1,0 +1,13 @@
+{
+ "key": "8da05c39dfea32608b7d3e0abcb79ec711ab714c109bc5bda2344b1f2c203099",
+ "pass": "explain:ta",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"இது: பணம் செலுத்த நினைவூட்டல். கடிதம் அனுப்பியவர்: Alpenblick Versand AG.\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"நீங்கள் CHF 1’146.70 செலுத்த வேண்டும் என்று கேட்கிறார்கள்.\", \"support\": [\"e9\", \"e11\"]}], \"deadline\": [{\"text\": \"கடைசி நாள்: [[DUE_DATE]].\", \"support\": [\"e12\"]}], \"what_you_can_do\": [{\"text\": \"நீங்கள் பணம் செலுத்தலாம்.\", \"support\": [\"e13\"]}, {\"text\": \"அனுப்புநரைத் தொடர்பு கொள்ளலாம்.\", \"support\": [\"e14\"]}], \"who_to_contact\": [{\"text\": \"யாரைத் தொடர்பு கொள்வது என்று ஆலோசகரிடம் கேளுங்கள்.\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

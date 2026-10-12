@@ -1,0 +1,49 @@
+{
+ "key": "d6a8fbde7a7eb9523009904fd9e2324a8a532de418fd62fd427201d4b2041cf5",
+ "pass": "verify",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": null,
+  "tool_calls": [
+   {
+    "id": "call_1",
+    "name": "compute_deadline",
+    "arguments": {
+     "rule_family": "contract",
+     "period_value": 10,
+     "period_unit": "days",
+     "start_event": "letter_date",
+     "letter_date": "2026-08-31",
+     "fixed_date": null,
+     "canton": "BE"
+    }
+   },
+   {
+    "id": "call_2",
+    "name": "validate_iban",
+    "arguments": {
+     "iban": "CH2099999114710497465"
+    }
+   },
+   {
+    "id": "call_3",
+    "name": "lookup_authority",
+    "arguments": {
+     "sender_name": "Tannwald Fitness GmbH",
+     "sender_address": "Benzstrasse 59, 4909 Basel"
+    }
+   },
+   {
+    "id": "call_4",
+    "name": "match_scam_patterns",
+    "arguments": {
+     "letter_id": "letter"
+    }
+   }
+  ],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

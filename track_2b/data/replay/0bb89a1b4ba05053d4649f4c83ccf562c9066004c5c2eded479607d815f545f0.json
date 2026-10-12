@@ -1,0 +1,42 @@
+{
+ "key": "0bb89a1b4ba05053d4649f4c83ccf562c9066004c5c2eded479607d815f545f0",
+ "pass": "verify",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": null,
+  "tool_calls": [
+   {
+    "id": "call_1",
+    "name": "compute_deadline",
+    "arguments": {
+     "rule_family": "schkg",
+     "period_value": 0,
+     "period_unit": "days",
+     "start_event": "fixed_date",
+     "letter_date": "2026-10-05",
+     "fixed_date": "2026-10-21",
+     "canton": "BE"
+    }
+   },
+   {
+    "id": "call_2",
+    "name": "lookup_authority",
+    "arguments": {
+     "sender_name": "Betreibungsamt Bern-Mittelland",
+     "sender_address": "3000 Bern"
+    }
+   },
+   {
+    "id": "call_3",
+    "name": "match_scam_patterns",
+    "arguments": {
+     "letter_id": "letter"
+    }
+   }
+  ],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

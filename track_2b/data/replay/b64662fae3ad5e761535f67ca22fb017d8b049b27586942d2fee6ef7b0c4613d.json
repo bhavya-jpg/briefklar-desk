@@ -1,0 +1,13 @@
+{
+ "key": "b64662fae3ad5e761535f67ca22fb017d8b049b27586942d2fee6ef7b0c4613d",
+ "pass": "reply:objection_payment_order",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"slots\": {\"debtor_address\": {\"value\": \"Scheideggerstrasse 12, 4786 Schlieren\", \"support\": [\"e4\"]}, \"debtor_name\": {\"value\": \"Nadja Thommen\", \"support\": [\"e3\"]}, \"enforcement_number\": {\"value\": \"22314301\", \"support\": [\"e8\"]}, \"office_address\": {\"value\": \"8000 Zürich\", \"support\": [\"e6\"]}, \"office_name\": {\"value\": \"Betreibungsamt Zürich 4\", \"support\": [\"e2\"]}, \"signature_line\": {\"value\": \"Nadja Thommen\", \"support\": [\"e3\"]}}}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

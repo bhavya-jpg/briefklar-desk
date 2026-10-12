@@ -1,0 +1,13 @@
+{
+ "key": "49d9e78ce251e99ba25b224e720ac1ce4435f6a03b45348dc96278a02d2dbd82",
+ "pass": "explain:sq",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"Kjo është një kujtesë pagese. Letra vjen nga Alpenblick Versand AG.\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"Ju kërkojnë të paguani CHF 1’146.70.\", \"support\": [\"e9\", \"e11\"]}], \"deadline\": [{\"text\": \"Dita e fundit: [[DUE_DATE]].\", \"support\": [\"e12\"]}], \"what_you_can_do\": [{\"text\": \"Mund të paguani.\", \"support\": [\"e13\"]}, {\"text\": \"Mund të kontaktoni dërguesin.\", \"support\": [\"e14\"]}], \"who_to_contact\": [{\"text\": \"Pyetni këshilltarin se kë të kontaktoni.\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

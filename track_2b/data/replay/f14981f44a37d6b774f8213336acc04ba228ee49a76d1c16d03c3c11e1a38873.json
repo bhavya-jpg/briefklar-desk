@@ -1,0 +1,13 @@
+{
+ "key": "f14981f44a37d6b774f8213336acc04ba228ee49a76d1c16d03c3c11e1a38873",
+ "pass": "explain:uk",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"Це повідомлення зі школи. Лист надіслав Sekundarschule Rebacker.\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"У листі вас просять щось зробити.\", \"support\": [\"e7\"]}], \"deadline\": [{\"text\": \"Останній день: [[DUE_DATE]].\", \"support\": [\"e8\"]}], \"what_you_can_do\": [{\"text\": \"Ви можете повернути бланк відповіді.\", \"support\": [\"e9\"]}], \"who_to_contact\": [{\"text\": \"Запитайте консультанта, до кого звернутися.\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

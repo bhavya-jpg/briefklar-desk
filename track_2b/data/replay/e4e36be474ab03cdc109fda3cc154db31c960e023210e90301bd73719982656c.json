@@ -1,0 +1,13 @@
+{
+ "key": "e4e36be474ab03cdc109fda3cc154db31c960e023210e90301bd73719982656c",
+ "pass": "explain:sq",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"Kjo është një vendim tatimor. Letra vjen nga Steuerverwaltung des Kantons Bern.\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"Ju kërkojnë të paguani CHF 2’521.70.\", \"support\": [\"e8\", \"e10\"]}], \"deadline\": [{\"text\": \"Dita e fundit: [[DUE_DATE]].\", \"support\": [\"e11\"]}], \"what_you_can_do\": [{\"text\": \"Mund të paguani.\", \"support\": [\"e12\"]}], \"who_to_contact\": [{\"text\": \"Pyetni këshilltarin se kë të kontaktoni.\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

@@ -1,0 +1,22 @@
+type: reminder
+letter_type: reminder
+lang: fr
+rule_family: contract
+period: {value: 10, unit: days, start_event: letter_date}
+source: "Team-written commercial reminder. No legal wording."
+next_step: pay
+title: "{{ level }}{% if level == 1 %}er{% else %}e{% endif %} rappel"
+ref_label: "Facture n°"
+intro:
+  - "Bonjour {{ recipient_name }}"
+  - "Notre facture n° {{ invoice_no }} du {{ invoice_date_text }} n'est pas encore payée."
+labels: {principal: "Montant de la facture", fees: "Frais de rappel", total: "Montant ouvert"}
+demand: "Veuillez verser le montant ouvert de {{ amount_text }} sur le compte {{ iban_text }} avec la référence {{ creditor_ref }}."
+deadline: "Le paiement doit nous parvenir dans les 10 jours à compter de la date de ce courrier."
+options:
+  pay: "verser le montant ouvert de {{ amount_text }}"
+  contact_office: "Pour toute question, adressez-vous à notre comptabilité"
+closing:
+  - "{% if level >= 2 %}Sans paiement, nous nous réservons le droit d'engager une poursuite.{% endif %}"
+  - "Pour toute question, adressez-vous à notre comptabilité."
+greeting: "Meilleures salutations"

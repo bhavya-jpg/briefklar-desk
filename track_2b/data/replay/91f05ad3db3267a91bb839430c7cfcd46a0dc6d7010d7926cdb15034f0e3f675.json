@@ -1,0 +1,42 @@
+{
+ "key": "91f05ad3db3267a91bb839430c7cfcd46a0dc6d7010d7926cdb15034f0e3f675",
+ "pass": "verify",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": null,
+  "tool_calls": [
+   {
+    "id": "call_1",
+    "name": "compute_deadline",
+    "arguments": {
+     "rule_family": "generic_admin",
+     "period_value": 0,
+     "period_unit": "days",
+     "start_event": "fixed_date",
+     "letter_date": "2026-10-05",
+     "fixed_date": "2026-10-23",
+     "canton": "BE"
+    }
+   },
+   {
+    "id": "call_2",
+    "name": "lookup_authority",
+    "arguments": {
+     "sender_name": "Sekundarschule Rebacker",
+     "sender_address": "3012 Bern"
+    }
+   },
+   {
+    "id": "call_3",
+    "name": "match_scam_patterns",
+    "arguments": {
+     "letter_id": "letter"
+    }
+   }
+  ],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

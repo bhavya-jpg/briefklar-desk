@@ -1,0 +1,208 @@
+{
+ "canton": "VD",
+ "case_id": "case-03",
+ "delivered_on": "2026-10-06",
+ "facts": {
+  "amount_due": {
+   "amount": "1983.50",
+   "currency": "CHF"
+  },
+  "amounts": [
+   {
+    "amount": "1878.50",
+    "currency": "CHF"
+   },
+   {
+    "amount": "40.00",
+    "currency": "CHF"
+   },
+   {
+    "amount": "65.00",
+    "currency": "CHF"
+   },
+   {
+    "amount": "1983.50",
+    "currency": "CHF"
+   }
+  ],
+  "creditor_name": "Télécom Rive-Bleue SA",
+  "deadline_fixed_date": null,
+  "deadline_period_unit": "days",
+  "deadline_period_value": 10,
+  "deadline_start_event": "delivery",
+  "deadline_text": "Si le débiteur entend contester la créance, il doit le déclarer à l'office des poursuites, verbalement ou par écrit, dans les 10 jours dès la notification (opposition).",
+  "demanded_action": "Le débiteur est sommé de payer le montant de CHF 1'983.50 ainsi que les frais de poursuite.",
+  "evidence": {
+   "amount_due": [
+    "e11"
+   ],
+   "creditor_name": [
+    "e7"
+   ],
+   "deadline_text": [
+    "e13"
+   ],
+   "demanded_action": [
+    "e12"
+   ],
+   "letter_date": [
+    "e5"
+   ],
+   "letter_type": [
+    "e1"
+   ],
+   "recipient_address": [
+    "e4"
+   ],
+   "recipient_name": [
+    "e3"
+   ],
+   "reference_numbers": [
+    "e8",
+    "e9",
+    "e10"
+   ],
+   "sender_address": [
+    "e6"
+   ],
+   "sender_name": [
+    "e2"
+   ],
+   "stated_options": [
+    "e14",
+    "e15"
+   ]
+  },
+  "evidence_items": [
+   {
+    "bbox": null,
+    "id": "e1",
+    "page": 0,
+    "text": "Commandement de payer"
+   },
+   {
+    "bbox": null,
+    "id": "e2",
+    "page": 0,
+    "text": "Office des poursuites du district de Lausanne"
+   },
+   {
+    "bbox": null,
+    "id": "e3",
+    "page": 0,
+    "text": "Raymond Gubéran"
+   },
+   {
+    "bbox": null,
+    "id": "e4",
+    "page": 0,
+    "text": "rue Nicolas Bavaud 70"
+   },
+   {
+    "bbox": null,
+    "id": "e5",
+    "page": 0,
+    "text": "3 octobre 2026"
+   },
+   {
+    "bbox": null,
+    "id": "e6",
+    "page": 0,
+    "text": "1000 Lausanne"
+   },
+   {
+    "bbox": null,
+    "id": "e7",
+    "page": 0,
+    "text": "Télécom Rive-Bleue SA"
+   },
+   {
+    "bbox": null,
+    "id": "e8",
+    "page": 0,
+    "text": "20909774"
+   },
+   {
+    "bbox": null,
+    "id": "e9",
+    "page": 0,
+    "text": "2026020-66"
+   },
+   {
+    "bbox": null,
+    "id": "e10",
+    "page": 0,
+    "text": "RF72290222791805"
+   },
+   {
+    "bbox": null,
+    "id": "e11",
+    "page": 0,
+    "text": "CHF 1'983.50"
+   },
+   {
+    "bbox": null,
+    "id": "e12",
+    "page": 0,
+    "text": "Le débiteur est sommé de payer le montant de CHF 1'983.50 ainsi que les frais de poursuite."
+   },
+   {
+    "bbox": null,
+    "id": "e13",
+    "page": 0,
+    "text": "Si le débiteur entend contester la créance, il doit le déclarer à l'office des poursuites, verbalement ou par écrit, dans les 10 jours dès la notification (opposition)."
+   },
+   {
+    "bbox": null,
+    "id": "e14",
+    "page": 0,
+    "text": "payer le montant de CHF 1'983.50 ainsi que les frais de poursuite"
+   },
+   {
+    "bbox": null,
+    "id": "e15",
+    "page": 0,
+    "text": "le déclarer à l'office des poursuites, verbalement ou par écrit, dans les 10 jours dès la notification"
+   }
+  ],
+  "iban": null,
+  "letter_date": "2026-10-03",
+  "letter_type": "payment_order",
+  "recipient_address": "rue Nicolas Bavaud 70, 2238 Julliard",
+  "recipient_name": "Raymond Gubéran",
+  "reference_numbers": [
+   "20909774",
+   "2026020-66",
+   "RF72290222791805"
+  ],
+  "sender_address": "1000 Lausanne",
+  "sender_contact": null,
+  "sender_name": "Office des poursuites du district de Lausanne",
+  "source_language": "fr",
+  "stated_options": [
+   "payer le montant de CHF 1'983.50 ainsi que les frais de poursuite",
+   "le déclarer à l'office des poursuites, verbalement ou par écrit, dans les 10 jours dès la notification"
+  ]
+ },
+ "gold_due_date": "2026-10-16",
+ "gold_next_step": "object",
+ "gold_red_flags": [],
+ "gold_scam": false,
+ "gold_thread_id": "case-03-t1",
+ "id": "SLB-0018",
+ "images": {
+  "phone": "images/phone/SLB-0018_p1.jpg"
+ },
+ "lang": "fr",
+ "option_keys": [
+  "pay",
+  "object"
+ ],
+ "period_source": "https://betreibungsamt.tg.ch/public/upload/assets/92744/Informationsblatt%20zum%20Zahlungsbefehl%20de.pdf",
+ "rule_family": "schkg",
+ "sha256": {
+  "phone": "a88e6f786243811e1a6fd6f5596b255745d98b1e7799a3f5a60fdc3a27901803"
+ },
+ "template": "payment_order.fr",
+ "template_source": "https://betreibungsamt.tg.ch/public/upload/assets/92744/Informationsblatt%20zum%20Zahlungsbefehl%20de.pdf"
+}

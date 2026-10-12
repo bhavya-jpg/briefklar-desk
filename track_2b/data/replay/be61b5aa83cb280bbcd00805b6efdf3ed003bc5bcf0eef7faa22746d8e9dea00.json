@@ -1,0 +1,13 @@
+{
+ "key": "be61b5aa83cb280bbcd00805b6efdf3ed003bc5bcf0eef7faa22746d8e9dea00",
+ "pass": "explain:pt",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"Isto é uma carta sobre a renovação da autorização de residência. A carta vem de Migrationsamt des Kantons Zürich.\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"A carta pede-lhe que faça algo.\", \"support\": [\"e8\"]}], \"deadline\": [{\"text\": \"Último dia: [[DUE_DATE]].\", \"support\": [\"e9\"]}], \"what_you_can_do\": [{\"text\": \"Pode entregar o pedido.\", \"support\": [\"e10\"]}], \"who_to_contact\": [{\"text\": \"Pergunte ao conselheiro a quem se dirigir.\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

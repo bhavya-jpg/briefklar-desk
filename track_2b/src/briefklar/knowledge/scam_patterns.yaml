@@ -1,0 +1,49 @@
+# Patterns for the red-flag checks (spec section 9.3). Keyword matching only: a hit is evidence
+# shown to the counsellor, never a verdict.
+
+# A sender that uses one of these words presents itself as an authority.
+authority_keywords:
+  # single words match the start or end of a word in the sender ("amt" matches "Betreibungsamt",
+  # not "Gesamtschule"); phrases match anywhere.
+  de: ["amt", "staatssekretariat", "kanton", "gemeinde", "stadt", "steuerverwaltung",
+       "polizei", "staatsanwaltschaft", "gericht", "behörde", "bundesamt", "migrationsdienst"]
+  fr: ["office des poursuites", "secrétariat d'etat", "canton", "cantonal", "cantonale", "commune",
+       "administration cantonale", "police", "ministère public", "tribunal", "service de la population", "autorité"]
+  it: ["ufficio di esecuzione", "segreteria di stato", "cantone", "cantonale", "comune",
+       "polizia", "ministero pubblico", "tribunale", "sezione della popolazione", "autorità", "divisione delle contribuzioni"]
+
+# Letter types that only an authority sends.
+authority_letter_types: [payment_order, continuation_notice, tax_assessment, premium_reduction, fine, permit_renewal]
+
+# URGENCY_PAYMENT_UNUSUAL_CHANNEL: payment demanded through channels authorities do not use.
+unusual_payment_channels:
+  - {id: gift_card, terms: ["geschenkkarte", "gutscheinkarte", "guthabenkarte", "paysafecard", "itunes", "google play",
+                            "carte cadeau", "carte prépayée", "carta regalo", "carta prepagata"]}
+  - {id: crypto, terms: ["bitcoin", "kryptowährung", "krypto-wallet", "cryptomonnaie", "criptovaluta", "ethereum", "usdt"]}
+  - {id: cash_transfer, terms: ["western union", "moneygram", "bargeldtransfer", "transfert d'argent liquide",
+                                "trasferimento di contanti"]}
+
+# LEGAL_BASIS_INCONSISTENT: a legal basis cited for a situation it does not apply to.
+# Every entry must carry its source URL.
+legal_basis:
+  - id: valve_clause_for_residents
+    # Reported fake SEM letters cited the bilateral "valve clause" to end the residence of people
+    # already living in Switzerland. Reports note it applies only to immigration and had not been
+    # applied since Dec 2021.
+    cites_any: ["ventilklausel", "clause de sauvegarde", "clausola di salvaguardia"]  # TODO(source): confirm FR/IT terms
+    situation_any: ["aufenthalt", "ausreise", "ausschaffung", "wegweisung", "séjour", "renvoi", "expulsion",
+                    "soggiorno", "espulsione", "allontanamento"]
+    evidence: >-
+      The letter cites the "valve clause" to end a residence. Public warnings about letters that claim to
+      come from SEM note that this clause concerns new immigration only.
+    source_url: https://www.iamexpat.ch/expat-info/swiss-news/fake-deportation-letters-being-sent-expats-switzerland-sem-warns
+
+# NO_LEGAL_REMEDY_NOTICE: official decisions that should carry instructions on appeal.
+# SOURCE REQUIRED per letter type. The check stays off for a type until it is listed here with a source.
+remedy_notice_expected:
+  # - {letter_type: tax_assessment, source_url: ...}   # TODO(source)
+  []
+
+remedy_notice_terms: ["rechtsmittelbelehrung", "einsprache", "rekurs", "beschwerde", "rechtsvorschlag",
+                      "voies de droit", "réclamation", "recours", "opposition",
+                      "rimedi giuridici", "reclamo", "ricorso", "opposizione"]

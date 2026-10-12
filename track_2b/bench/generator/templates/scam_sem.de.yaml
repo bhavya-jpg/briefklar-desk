@@ -1,0 +1,23 @@
+type: scam_sem
+letter_type: unknown
+scam: true
+lang: de
+rule_family: generic_admin
+period: null
+# Modelled on the reported fake SEM letters (valve clause cited to end a residence). Synthetic text.
+source: https://www.iamexpat.ch/expat-info/swiss-news/fake-deportation-letters-being-sent-expats-switzerland-sem-warns
+next_step: beware
+red_flags: [FOREIGN_IBAN_FOR_AUTHORITY, LEGAL_BASIS_INCONSISTENT]
+title: "Verfügung: Beendigung Ihres Aufenthalts"
+ref_label: "Personal-Nr."
+intro:
+  - "Gestützt auf die Ventilklausel des Freizügigkeitsabkommens wird Ihr Aufenthalt in der Schweiz beendet."
+  - "Sie können die Ausschaffung nur abwenden, wenn Sie die Verfahrensgebühr sofort bezahlen."
+labels: {principal: "Verfahrensgebühr", total: "Total"}
+demand: "Überweisen Sie {{ amount_text }} auf das Konto {{ iban_text }}."
+deadline: "Die Zahlung muss bis {{ due_date_text }} eingehen."
+options:
+  pay: "Überweisen Sie {{ amount_text }}"
+  contact_office: "Rückfragen nur telefonisch unter {{ phone }}"
+closing: ["Rückfragen nur telefonisch unter {{ phone }}."]
+greeting: "Hochachtungsvoll"

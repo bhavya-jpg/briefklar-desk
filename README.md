@@ -1,60 +1,24 @@
-# Hack Apertus — project template
+# Briefklar Desk
 
-Template repository for [Hack Apertus](https://hackapertus.ch/) submissions.
-Every project keeps almost the same layout, so organizers and judges find the
-same things in the same place.
+Hack Apertus 2026 · Online Hackathon · Track 2B (Own Project)
 
-## Select your track
+Briefklar Desk turns the pile of Swiss official letters a client brings to a help desk into a
+deadline-ordered case plan, warning signs, ready-to-sign replies, and an explanation in the client's own
+language. It runs on Apertus 1.5 8B on the help desk's own hardware, with no network at runtime.
 
-This repository holds one example project per track:
-
-- `track_1a/`
-- `track_1b/`
-- `track_2a/`
-- `track_2b/`
-
-Keep the directory for the track you are competing in **exactly as it is** —
-don't rename it or move its files — and delete the other track directories.
-That directory is your project root. Keep the files and directories as shown
-below.
-
-## The structure
-
-| Path | What it is |
-| --- | --- |
-| `README.md` | The challenge description and submission requirements for your track |
-| `technical_report.md` | The deeper write-up: architecture, evaluation, limitations |
-| `Makefile` | `make run` must spin up your project |
-| `src/` | Your code |
-| `data/` | Datasets — `track_1a`, `track_2a` and `track_2b` only; max. 100 MB |
-| `findings/` | Issue files — `track_1a` only |
-| `docs/` | Diagrams, notes, longer write-ups |
+Everything lives in [`track_2b/`](track_2b/). Start with [`track_2b/README.md`](track_2b/README.md).
 
 ## Run it
 
-Judges run `make run` from the root of the project, on a clean checkout:
-
 ```bash
-make run
+make run        # Docker only. Replay mode, no GPU. Then open http://localhost:8080
 ```
 
-`make run` is expected to run the project using Docker, since that
-is how the judges will run it.
-- If you used other local open-weight models, include instructions for running the project in your technical report.
-- Use the following environment variables:
-```
-LLM_NAME — name and version of the model
-LLM_BASE_URL — endpoint base URL
-LLM_API_KEY — your API key
-```
+Environment variables, as the template requires: `LLM_NAME`, `LLM_BASE_URL`, `LLM_API_KEY`
+(see [`track_2b/.env.example`](track_2b/.env.example)).
 
-## Getting started
+## Licence
 
-1. Click **Use this template** to create your own repository.
-2. Delete the other track directories. Don't rename or restructure yours.
-3. Read its `README.md` and fill in `technical_report.md`.
-4. Make `make run` work from the root of the project, on a clean checkout.
-
-## License
-
-All Hack Apertus projects are open-sourced. Please check our Terms & Conditions for specific licensing details (6. What you build is open source): https://hackapertus.ch/terms-and-conditions
+Code: Apache-2.0 ([LICENSE](LICENSE)). Dataset: CDLA-Permissive-2.0. Technical report: CC-BY-4.0.
+Fonts: SIL Open Font Licence 1.1 (texts in `track_2b/frontend/static/fonts/licenses/`).
+All Hack Apertus projects are open-sourced, see section 6 of https://hackapertus.ch/terms-and-conditions.

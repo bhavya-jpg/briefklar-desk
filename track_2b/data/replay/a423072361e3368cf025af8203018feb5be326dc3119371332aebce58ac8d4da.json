@@ -1,0 +1,13 @@
+{
+ "key": "a423072361e3368cf025af8203018feb5be326dc3119371332aebce58ac8d4da",
+ "pass": "reply:objection_payment_order",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"slots\": {\"debtor_address\": {\"value\": \"Bättigstrasse 64, 7613 Versoix\", \"support\": [\"e4\"]}, \"debtor_name\": {\"value\": \"Ali Ott\", \"support\": [\"e3\"]}, \"enforcement_number\": {\"value\": \"22815887\", \"support\": [\"e8\"]}, \"office_address\": {\"value\": \"3000 Bern\", \"support\": [\"e6\"]}, \"office_name\": {\"value\": \"Betreibungsamt Bern-Mittelland\", \"support\": [\"e2\"]}, \"signature_line\": {\"value\": \"Ali Ott\", \"support\": [\"e3\"]}}}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

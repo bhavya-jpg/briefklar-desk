@@ -1,0 +1,13 @@
+{
+ "key": "bc63d0a1b985737f61e61e51ab25a9239053b1b6294b1ad61833dfaf1d0a92d4",
+ "pass": "explain:it",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"È un sollecito di pagamento. La lettera viene da Alpenblick Versand AG.\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"Le chiedono di pagare CHF 1’146.70.\", \"support\": [\"e9\", \"e11\"]}], \"deadline\": [{\"text\": \"Ultimo giorno: [[DUE_DATE]].\", \"support\": [\"e12\"]}], \"what_you_can_do\": [{\"text\": \"Può pagare.\", \"support\": [\"e13\"]}, {\"text\": \"Può contattare il mittente.\", \"support\": [\"e14\"]}], \"who_to_contact\": [{\"text\": \"Chieda alla consulente o al consulente a chi rivolgersi.\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

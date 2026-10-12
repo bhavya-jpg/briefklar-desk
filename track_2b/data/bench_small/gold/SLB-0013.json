@@ -1,0 +1,145 @@
+{
+ "canton": "ZH",
+ "case_id": "case-02",
+ "delivered_on": "2026-10-06",
+ "facts": {
+  "amount_due": null,
+  "amounts": [],
+  "creditor_name": null,
+  "deadline_fixed_date": "2026-10-23",
+  "deadline_period_unit": null,
+  "deadline_period_value": null,
+  "deadline_start_event": "fixed_date",
+  "deadline_text": "Das Gesuch muss bis 23. Oktober 2026 eingereicht sein.",
+  "demanded_action": "Bitte reichen Sie das Gesuch um Verlängerung mit den Unterlagen bei Ihrer Wohngemeinde ein.",
+  "evidence": {
+   "deadline_text": [
+    "e9"
+   ],
+   "demanded_action": [
+    "e8"
+   ],
+   "letter_date": [
+    "e5"
+   ],
+   "letter_type": [
+    "e1"
+   ],
+   "recipient_address": [
+    "e4"
+   ],
+   "recipient_name": [
+    "e3"
+   ],
+   "reference_numbers": [
+    "e7"
+   ],
+   "sender_address": [
+    "e6"
+   ],
+   "sender_name": [
+    "e2"
+   ],
+   "stated_options": [
+    "e10"
+   ]
+  },
+  "evidence_items": [
+   {
+    "bbox": null,
+    "id": "e1",
+    "page": 0,
+    "text": "Verlängerung Ihrer Aufenthaltsbewilligung"
+   },
+   {
+    "bbox": null,
+    "id": "e2",
+    "page": 0,
+    "text": "Migrationsamt des Kantons Zürich"
+   },
+   {
+    "bbox": null,
+    "id": "e3",
+    "page": 0,
+    "text": "Nadja Thommen"
+   },
+   {
+    "bbox": null,
+    "id": "e4",
+    "page": 0,
+    "text": "Scheideggerstrasse 12"
+   },
+   {
+    "bbox": null,
+    "id": "e5",
+    "page": 0,
+    "text": "3. Oktober 2026"
+   },
+   {
+    "bbox": null,
+    "id": "e6",
+    "page": 0,
+    "text": "8000 Zürich"
+   },
+   {
+    "bbox": null,
+    "id": "e7",
+    "page": 0,
+    "text": "11911654"
+   },
+   {
+    "bbox": null,
+    "id": "e8",
+    "page": 0,
+    "text": "Bitte reichen Sie das Gesuch um Verlängerung mit den Unterlagen bei Ihrer Wohngemeinde ein."
+   },
+   {
+    "bbox": null,
+    "id": "e9",
+    "page": 0,
+    "text": "Das Gesuch muss bis 23. Oktober 2026 eingereicht sein."
+   },
+   {
+    "bbox": null,
+    "id": "e10",
+    "page": 0,
+    "text": "reichen Sie das Gesuch um Verlängerung mit den Unterlagen bei Ihrer Wohngemeinde ein"
+   }
+  ],
+  "iban": null,
+  "letter_date": "2026-10-03",
+  "letter_type": "permit_renewal",
+  "recipient_address": "Scheideggerstrasse 12, 4786 Schlieren",
+  "recipient_name": "Nadja Thommen",
+  "reference_numbers": [
+   "11911654"
+  ],
+  "sender_address": "8000 Zürich",
+  "sender_contact": null,
+  "sender_name": "Migrationsamt des Kantons Zürich",
+  "source_language": "de",
+  "stated_options": [
+   "reichen Sie das Gesuch um Verlängerung mit den Unterlagen bei Ihrer Wohngemeinde ein"
+  ]
+ },
+ "gold_due_date": "2026-10-23",
+ "gold_next_step": "apply",
+ "gold_red_flags": [],
+ "gold_scam": false,
+ "gold_thread_id": null,
+ "id": "SLB-0013",
+ "images": {
+  "phone": "images/phone/SLB-0013_p1.jpg"
+ },
+ "lang": "de",
+ "option_keys": [
+  "apply"
+ ],
+ "period_source": null,
+ "rule_family": "generic_admin",
+ "sha256": {
+  "phone": "b35adaf99989305ba740e79b98bff9262651d24bad026d1ee3ba005d614e67be"
+ },
+ "template": "permit_renewal.de",
+ "template_source": "Team-written. TODO(source): official sample letter."
+}

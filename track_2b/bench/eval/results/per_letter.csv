@@ -1,0 +1,24 @@
+id,case_id,type,lang,pred_type,gold_due_date,pred_due_date,deadline_ok,type_ok,next_step_ok,pred_flags,gold_flags,b0_pred_due_date,b0_deadline_ok,b0_type_ok
+SLB-0001,case-01,reminder,de,reminder,2026-08-20,2026-08-20,1,1,1,,,2026-08-23,0,1
+SLB-0002,case-01,reminder,de,reminder,2026-09-10,2026-09-10,1,1,1,,,2026-09-12,0,0
+SLB-0003,case-01,reminder,de,reminder,2026-09-28,2026-09-28,1,1,1,,,2026-10-01,0,1
+SLB-0004,case-01,payment_order,de,payment_order,2026-10-19,2026-10-19,1,1,1,,,2026-10-18,0,1
+SLB-0005,case-01,invoice_qr,de,invoice_qr,2026-09-08,2026-09-08,1,1,1,,,2026-09-08,1,1
+SLB-0006,case-01,reminder,de,reminder,2026-10-11,2026-10-11,1,1,1,,,2026-10-12,0,1
+SLB-0007,case-01,unknown,de,unknown,2026-10-06,2026-10-06,1,1,1,FOREIGN_IBAN_FOR_AUTHORITY LEGAL_BASIS_INCONSISTENT,FOREIGN_IBAN_FOR_AUTHORITY LEGAL_BASIS_INCONSISTENT,2026-10-06,1,1
+SLB-0008,case-01,continuation_notice,de,continuation_notice,2026-10-21,2026-10-21,1,1,1,,,2026-10-21,1,1
+SLB-0009,case-02,reminder,de,reminder,2026-09-09,2026-09-09,1,1,1,,,2026-09-10,0,1
+SLB-0010,case-02,reminder,de,reminder,2026-10-01,2026-10-01,1,1,1,,,2026-10-03,0,1
+SLB-0011,case-02,payment_order,de,payment_order,2026-10-19,2026-10-19,1,1,1,,,2026-10-18,0,1
+SLB-0012,case-02,invoice_qr,de,invoice_qr,2026-11-01,2026-11-01,1,1,1,,,2026-11-01,1,1
+SLB-0013,case-02,permit_renewal,de,permit_renewal,2026-10-23,2026-10-23,1,1,1,,,2026-11-22,0,1
+SLB-0014,case-02,premium_reduction,de,premium_reduction,,,1,1,1,,,,1,1
+SLB-0015,case-02,rent_increase,de,rent_increase,,,1,1,1,,,,1,1
+SLB-0016,case-03,reminder,fr,reminder,2026-09-06,2026-09-06,1,1,1,,,2026-09-09,0,1
+SLB-0017,case-03,reminder,fr,reminder,2026-09-29,2026-09-29,1,1,1,,,2026-09-30,0,1
+SLB-0018,case-03,payment_order,fr,payment_order,2026-10-16,2026-10-16,1,1,1,,,2026-10-16,1,1
+SLB-0019,case-03,invoice_qr,fr,invoice_qr,2026-10-23,2026-10-23,1,1,1,,,2026-10-23,1,1
+SLB-0020,case-03,tax_assessment,fr,tax_assessment,2026-10-26,2026-10-26,1,1,1,,,2026-10-25,0,0
+SLB-0021,case-03,invoice_qr,fr,invoice_qr,2026-11-01,2026-11-01,1,1,1,,,2026-11-01,1,1
+SLB-0022,case-03,tax_assessment,fr,tax_assessment,2026-10-19,2026-10-19,1,1,1,,,2026-10-19,1,0
+SLB-0023,case-03,invoice_qr,fr,invoice_qr,2026-10-30,2026-10-30,1,1,1,,,2026-10-30,1,1

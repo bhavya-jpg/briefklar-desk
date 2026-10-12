@@ -1,0 +1,3259 @@
+{
+ "canton": "BE",
+ "client_language": "sq",
+ "client_name": null,
+ "creditor_totals": [
+  {
+   "creditor": "Steuerverwaltung des Kantons Bern",
+   "currency": "CHF",
+   "display": "CHF 2’521.70",
+   "letter_ids": [
+    "demo-06.CASE"
+   ],
+   "total": "2521.70"
+  },
+  {
+   "creditor": "Alpenblick Versand AG",
+   "currency": "CHF",
+   "display": "CHF 1’240.00",
+   "letter_ids": [
+    "demo-03.CASE"
+   ],
+   "total": "1240.00"
+  },
+  {
+   "creditor": "Serafe AG",
+   "currency": "CHF",
+   "display": "CHF 153.60",
+   "letter_ids": [
+    "demo-05.CASE"
+   ],
+   "total": "153.60"
+  }
+ ],
+ "demo": true,
+ "id": "CASE",
+ "language": {
+  "babel": "sq",
+  "code": "sq",
+  "dir": "ltr",
+  "english": "Albanian",
+  "native": "Shqip",
+  "reviewed": null,
+  "script": "latin"
+ },
+ "letters": [
+  {
+   "amount_display": "CHF 1’146.70",
+   "delivery_date": "2026-09-03",
+   "due_display": "Fri 11 Sept 2026",
+   "due_display_client": "e premte, 11 shtator 2026",
+   "error": null,
+   "explanation": {
+    "backtranslation_chrf": 100.0,
+    "deadline": [
+     {
+      "support": [
+       "e12"
+      ],
+      "text": "Dita e fundit: e premte, 11 shtator 2026."
+     }
+    ],
+    "failed_field_checks": [],
+    "language": "sq",
+    "low_confidence": false,
+    "what_they_want": [
+     {
+      "support": [
+       "e9",
+       "e11"
+      ],
+      "text": "Ju kërkojnë të paguani CHF 1’146.70."
+     }
+    ],
+    "what_this_is": [
+     {
+      "support": [
+       "e1",
+       "e2"
+      ],
+      "text": "Kjo është një kujtesë pagese. Letra vjen nga Alpenblick Versand AG."
+     }
+    ],
+    "what_you_can_do": [
+     {
+      "support": [
+       "e13"
+      ],
+      "text": "Mund të paguani."
+     },
+     {
+      "support": [
+       "e14"
+      ],
+      "text": "Mund të kontaktoni dërguesin."
+     }
+    ],
+    "who_to_contact": [
+     {
+      "support": [
+       "e2"
+      ],
+      "text": "Pyetni këshilltarin se kë të kontaktoni."
+     }
+    ]
+   },
+   "explanation_de": {
+    "backtranslation_chrf": null,
+    "deadline": [
+     {
+      "support": [
+       "e12"
+      ],
+      "text": "Letzter Tag: Freitag, 11. September 2026."
+     }
+    ],
+    "failed_field_checks": [],
+    "language": "de",
+    "low_confidence": false,
+    "what_they_want": [
+     {
+      "support": [
+       "e9",
+       "e11"
+      ],
+      "text": "Sie sollen CHF 1’146.70 bezahlen."
+     }
+    ],
+    "what_this_is": [
+     {
+      "support": [
+       "e1",
+       "e2"
+      ],
+      "text": "Das ist eine Mahnung. Der Brief kommt von Alpenblick Versand AG."
+     }
+    ],
+    "what_you_can_do": [
+     {
+      "support": [
+       "e13"
+      ],
+      "text": "Sie können bezahlen."
+     },
+     {
+      "support": [
+       "e14"
+      ],
+      "text": "Sie können sich beim Absender melden."
+     }
+    ],
+    "who_to_contact": [
+     {
+      "support": [
+       "e2"
+      ],
+      "text": "Fragen Sie die Beratungsperson, an wen Sie sich wenden können."
+     }
+    ]
+   },
+   "facts": {
+    "amount_due": {
+     "amount": "1146.70",
+     "currency": "CHF"
+    },
+    "amounts": [
+     {
+      "amount": "1126.70",
+      "currency": "CHF"
+     },
+     {
+      "amount": "20.00",
+      "currency": "CHF"
+     },
+     {
+      "amount": "1146.70",
+      "currency": "CHF"
+     }
+    ],
+    "creditor_name": null,
+    "deadline_fixed_date": null,
+    "deadline_period_unit": "days",
+    "deadline_period_value": 10,
+    "deadline_start_event": "letter_date",
+    "deadline_text": "Die Zahlung muss innert 10 Tagen ab dem Datum dieses Schreibens bei uns eingehen.",
+    "demanded_action": "Bitte überweisen Sie den offenen Betrag von CHF 1'146.70 auf das Konto CH93 9999 9260 1815 9083 0 mit der Referenz RF32613186091390.",
+    "evidence": {
+     "amount_due": [
+      "e9"
+     ],
+     "deadline_text": [
+      "e12"
+     ],
+     "demanded_action": [
+      "e11"
+     ],
+     "iban": [
+      "e10"
+     ],
+     "letter_date": [
+      "e5"
+     ],
+     "letter_type": [
+      "e1"
+     ],
+     "recipient_address": [
+      "e4"
+     ],
+     "recipient_name": [
+      "e3"
+     ],
+     "reference_numbers": [
+      "e7",
+      "e8"
+     ],
+     "sender_address": [
+      "e6"
+     ],
+     "sender_name": [
+      "e2"
+     ],
+     "stated_options": [
+      "e13",
+      "e14"
+     ]
+    },
+    "evidence_items": [
+     {
+      "bbox": [
+       0.1052,
+       0.3348,
+       0.2249,
+       0.3501
+      ],
+      "id": "e1",
+      "page": 0,
+      "text": "1. Mahnung"
+     },
+     {
+      "bbox": [
+       0.1046,
+       0.0581,
+       0.3192,
+       0.0727
+      ],
+      "id": "e2",
+      "page": 0,
+      "text": "Alpenblick Versand AG"
+     },
+     {
+      "bbox": [
+       0.1046,
+       0.1655,
+       0.2636,
+       0.1774
+      ],
+      "id": "e3",
+      "page": 0,
+      "text": "Arta Krasniqi-Berisha"
+     },
+     {
+      "bbox": [
+       0.1058,
+       0.1834,
+       0.2031,
+       0.1928
+      ],
+      "id": "e4",
+      "page": 0,
+      "text": "Lindenrain 14"
+     },
+     {
+      "bbox": [
+       0.1487,
+       0.2937,
+       0.2908,
+       0.3057
+      ],
+      "id": "e5",
+      "page": 0,
+      "text": "1. September 2026"
+     },
+     {
+      "bbox": [
+       0.1052,
+       0.0966,
+       0.2207,
+       0.106
+      ],
+      "id": "e6",
+      "page": 0,
+      "text": "1181 Weinfelden"
+     },
+     {
+      "bbox": [
+       0.2116,
+       0.3617,
+       0.3077,
+       0.3711
+      ],
+      "id": "e7",
+      "page": 0,
+      "text": "2026089-65"
+     },
+     {
+      "bbox": [
+       0.234,
+       0.5502,
+       0.3857,
+       0.5596
+      ],
+      "id": "e8",
+      "page": 0,
+      "text": "RF32613186091390"
+     },
+     {
+      "bbox": [
+       0.5145,
+       0.4985,
+       0.6282,
+       0.5079
+      ],
+      "id": "e9",
+      "page": 0,
+      "text": "CHF 1'146.70"
+     },
+     {
+      "bbox": [
+       0.6554,
+       0.5323,
+       0.8827,
+       0.5417
+      ],
+      "id": "e10",
+      "page": 0,
+      "text": "CH93 9999 9260 1815 9083 0"
+     },
+     {
+      "bbox": [
+       0.1052,
+       0.5323,
+       0.8827,
+       0.5596
+      ],
+      "id": "e11",
+      "page": 0,
+      "text": "Bitte überweisen Sie den offenen Betrag von CHF 1'146.70 auf das Konto CH93 9999 9260 1815 9083 0 mit der Referenz RF32613186091390."
+     },
+     {
+      "bbox": [
+       0.1058,
+       0.5763,
+       0.7521,
+       0.5883
+      ],
+      "id": "e12",
+      "page": 0,
+      "text": "Die Zahlung muss innert 10 Tagen ab dem Datum dieses Schreibens bei uns eingehen."
+     },
+     {
+      "bbox": [
+       0.1439,
+       0.5323,
+       0.5417,
+       0.5442
+      ],
+      "id": "e13",
+      "page": 0,
+      "text": "überweisen Sie den offenen Betrag von CHF 1'146.70"
+     },
+     {
+      "bbox": [
+       0.1058,
+       0.6028,
+       0.4933,
+       0.6148
+      ],
+      "id": "e14",
+      "page": 0,
+      "text": "Bei Fragen wenden Sie sich an unsere Buchhaltung"
+     }
+    ],
+    "iban": "CH9399999260181590830",
+    "letter_date": "2026-09-01",
+    "letter_type": "reminder",
+    "recipient_address": "Lindenrain 14, 3012 Bern",
+    "recipient_name": "Arta Krasniqi-Berisha",
+    "reference_numbers": [
+     "2026089-65",
+     "RF32613186091390"
+    ],
+    "sender_address": "Eugsterstrasse 42, 1181 Weinfelden",
+    "sender_contact": null,
+    "sender_name": "Alpenblick Versand AG",
+    "source_language": "de",
+    "stated_options": [
+     "überweisen Sie den offenen Betrag von CHF 1'146.70",
+     "Bei Fragen wenden Sie sich an unsere Buchhaltung"
+    ]
+   },
+   "id": "demo-01.CASE",
+   "label": "demo-01",
+   "letter_date_display": "Tue 1 Sept 2026",
+   "page_ids": [
+    "demo-01-p0.CASE"
+   ],
+   "pages": [
+    {
+     "height": 2339,
+     "id": "demo-01-p0.CASE",
+     "url": "/api/cases/CASE/pages/demo-01-p0.CASE.jpg",
+     "width": 1654
+    }
+   ],
+   "priority_reason": "deadline 2026-09-11",
+   "reply_templates": [
+    {
+     "id": "extension_request",
+     "title": "Gesuch um Fristverlängerung",
+     "unsourced": []
+    },
+    {
+     "id": "instalment_request",
+     "title": "Gesuch um Ratenzahlung",
+     "unsourced": []
+    }
+   ],
+   "stage": null,
+   "status": "done",
+   "type_label": "Reminder",
+   "type_label_de": "Mahnung",
+   "verification": {
+    "authority_contact": null,
+    "authority_id": null,
+    "deadline": {
+     "days_left": -29,
+     "due_date": "2026-09-11",
+     "needs_delivery_date": false,
+     "period_unit": "days",
+     "period_value": 10,
+     "rule_family": "contract",
+     "start_date": "2026-09-01",
+     "start_event": "letter_date",
+     "trace": [
+      "Letter dated Tue 1 Sep 2026",
+      "+10 days (start day not counted; period stated in the letter) → Fri 11 Sep 2026",
+      "Contractual date: no roll-over applied."
+     ],
+     "verified_rule": true
+    },
+    "field_checks": {
+     "amounts": "match",
+     "iban": "match",
+     "letter_date": "match",
+     "reference_numbers": "match"
+    },
+    "iban_country": "CH",
+    "iban_valid": true,
+    "model_tool_calls": [
+     "compute_deadline",
+     "validate_iban",
+     "lookup_authority",
+     "match_scam_patterns"
+    ],
+    "orchestrator_forced_tools": [],
+    "qr": null,
+    "red_flags": []
+   }
+  },
+  {
+   "amount_display": "CHF 1’166.70",
+   "delivery_date": "2026-09-24",
+   "due_display": "Fri 2 Oct 2026",
+   "due_display_client": "e premte, 2 tetor 2026",
+   "error": null,
+   "explanation": {
+    "backtranslation_chrf": 100.0,
+    "deadline": [
+     {
+      "support": [
+       "e12"
+      ],
+      "text": "Dita e fundit: e premte, 2 tetor 2026."
+     }
+    ],
+    "failed_field_checks": [],
+    "language": "sq",
+    "low_confidence": false,
+    "what_they_want": [
+     {
+      "support": [
+       "e9",
+       "e11"
+      ],
+      "text": "Ju kërkojnë të paguani CHF 1’166.70."
+     }
+    ],
+    "what_this_is": [
+     {
+      "support": [
+       "e1",
+       "e2"
+      ],
+      "text": "Kjo është një kujtesë pagese. Letra vjen nga Alpenblick Versand AG."
+     }
+    ],
+    "what_you_can_do": [
+     {
+      "support": [
+       "e13"
+      ],
+      "text": "Mund të paguani."
+     },
+     {
+      "support": [
+       "e14"
+      ],
+      "text": "Mund të kontaktoni dërguesin."
+     }
+    ],
+    "who_to_contact": [
+     {
+      "support": [
+       "e2"
+      ],
+      "text": "Pyetni këshilltarin se kë të kontaktoni."
+     }
+    ]
+   },
+   "explanation_de": {
+    "backtranslation_chrf": null,
+    "deadline": [
+     {
+      "support": [
+       "e12"
+      ],
+      "text": "Letzter Tag: Freitag, 2. Oktober 2026."
+     }
+    ],
+    "failed_field_checks": [],
+    "language": "de",
+    "low_confidence": false,
+    "what_they_want": [
+     {
+      "support": [
+       "e9",
+       "e11"
+      ],
+      "text": "Sie sollen CHF 1’166.70 bezahlen."
+     }
+    ],
+    "what_this_is": [
+     {
+      "support": [
+       "e1",
+       "e2"
+      ],
+      "text": "Das ist eine Mahnung. Der Brief kommt von Alpenblick Versand AG."
+     }
+    ],
+    "what_you_can_do": [
+     {
+      "support": [
+       "e13"
+      ],
+      "text": "Sie können bezahlen."
+     },
+     {
+      "support": [
+       "e14"
+      ],
+      "text": "Sie können sich beim Absender melden."
+     }
+    ],
+    "who_to_contact": [
+     {
+      "support": [
+       "e2"
+      ],
+      "text": "Fragen Sie die Beratungsperson, an wen Sie sich wenden können."
+     }
+    ]
+   },
+   "facts": {
+    "amount_due": {
+     "amount": "1166.70",
+     "currency": "CHF"
+    },
+    "amounts": [
+     {
+      "amount": "1126.70",
+      "currency": "CHF"
+     },
+     {
+      "amount": "40.00",
+      "currency": "CHF"
+     },
+     {
+      "amount": "1166.70",
+      "currency": "CHF"
+     }
+    ],
+    "creditor_name": null,
+    "deadline_fixed_date": null,
+    "deadline_period_unit": "days",
+    "deadline_period_value": 10,
+    "deadline_start_event": "letter_date",
+    "deadline_text": "Die Zahlung muss innert 10 Tagen ab dem Datum dieses Schreibens bei uns eingehen.",
+    "demanded_action": "Bitte überweisen Sie den offenen Betrag von CHF 1'166.70 auf das Konto CH93 9999 9260 1815 9083 0 mit der Referenz RF32613186091390.",
+    "evidence": {
+     "amount_due": [
+      "e9"
+     ],
+     "deadline_text": [
+      "e12"
+     ],
+     "demanded_action": [
+      "e11"
+     ],
+     "iban": [
+      "e10"
+     ],
+     "letter_date": [
+      "e5"
+     ],
+     "letter_type": [
+      "e1"
+     ],
+     "recipient_address": [
+      "e4"
+     ],
+     "recipient_name": [
+      "e3"
+     ],
+     "reference_numbers": [
+      "e7",
+      "e8"
+     ],
+     "sender_address": [
+      "e6"
+     ],
+     "sender_name": [
+      "e2"
+     ],
+     "stated_options": [
+      "e13",
+      "e14"
+     ]
+    },
+    "evidence_items": [
+     {
+      "bbox": [
+       0.1058,
+       0.3343,
+       0.2291,
+       0.3501
+      ],
+      "id": "e1",
+      "page": 0,
+      "text": "2. Mahnung"
+     },
+     {
+      "bbox": [
+       0.1046,
+       0.0581,
+       0.3192,
+       0.0727
+      ],
+      "id": "e2",
+      "page": 0,
+      "text": "Alpenblick Versand AG"
+     },
+     {
+      "bbox": [
+       0.1046,
+       0.1655,
+       0.2636,
+       0.1774
+      ],
+      "id": "e3",
+      "page": 0,
+      "text": "Arta Krasniqi-Berisha"
+     },
+     {
+      "bbox": [
+       0.1058,
+       0.1834,
+       0.2031,
+       0.1928
+      ],
+      "id": "e4",
+      "page": 0,
+      "text": "Lindenrain 14"
+     },
+     {
+      "bbox": [
+       0.1493,
+       0.2937,
+       0.3041,
+       0.3057
+      ],
+      "id": "e5",
+      "page": 0,
+      "text": "22. September 2026"
+     },
+     {
+      "bbox": [
+       0.1052,
+       0.0966,
+       0.2207,
+       0.106
+      ],
+      "id": "e6",
+      "page": 0,
+      "text": "1181 Weinfelden"
+     },
+     {
+      "bbox": [
+       0.2116,
+       0.3617,
+       0.3077,
+       0.3711
+      ],
+      "id": "e7",
+      "page": 0,
+      "text": "2026089-65"
+     },
+     {
+      "bbox": [
+       0.234,
+       0.5502,
+       0.3857,
+       0.5596
+      ],
+      "id": "e8",
+      "page": 0,
+      "text": "RF32613186091390"
+     },
+     {
+      "bbox": [
+       0.5145,
+       0.4985,
+       0.6282,
+       0.5079
+      ],
+      "id": "e9",
+      "page": 0,
+      "text": "CHF 1'166.70"
+     },
+     {
+      "bbox": [
+       0.6548,
+       0.5323,
+       0.8821,
+       0.5417
+      ],
+      "id": "e10",
+      "page": 0,
+      "text": "CH93 9999 9260 1815 9083 0"
+     },
+     {
+      "bbox": [
+       0.1052,
+       0.5323,
+       0.8821,
+       0.5596
+      ],
+      "id": "e11",
+      "page": 0,
+      "text": "Bitte überweisen Sie den offenen Betrag von CHF 1'166.70 auf das Konto CH93 9999 9260 1815 9083 0 mit der Referenz RF32613186091390."
+     },
+     {
+      "bbox": [
+       0.1058,
+       0.5763,
+       0.7521,
+       0.5883
+      ],
+      "id": "e12",
+      "page": 0,
+      "text": "Die Zahlung muss innert 10 Tagen ab dem Datum dieses Schreibens bei uns eingehen."
+     },
+     {
+      "bbox": [
+       0.1439,
+       0.5323,
+       0.5411,
+       0.5442
+      ],
+      "id": "e13",
+      "page": 0,
+      "text": "überweisen Sie den offenen Betrag von CHF 1'166.70"
+     },
+     {
+      "bbox": [
+       0.1058,
+       0.6293,
+       0.4933,
+       0.6413
+      ],
+      "id": "e14",
+      "page": 0,
+      "text": "Bei Fragen wenden Sie sich an unsere Buchhaltung"
+     }
+    ],
+    "iban": "CH9399999260181590830",
+    "letter_date": "2026-09-22",
+    "letter_type": "reminder",
+    "recipient_address": "Lindenrain 14, 3012 Bern",
+    "recipient_name": "Arta Krasniqi-Berisha",
+    "reference_numbers": [
+     "2026089-65",
+     "RF32613186091390"
+    ],
+    "sender_address": "Eugsterstrasse 42, 1181 Weinfelden",
+    "sender_contact": null,
+    "sender_name": "Alpenblick Versand AG",
+    "source_language": "de",
+    "stated_options": [
+     "überweisen Sie den offenen Betrag von CHF 1'166.70",
+     "Bei Fragen wenden Sie sich an unsere Buchhaltung"
+    ]
+   },
+   "id": "demo-02.CASE",
+   "label": "demo-02",
+   "letter_date_display": "Tue 22 Sept 2026",
+   "page_ids": [
+    "demo-02-p0.CASE"
+   ],
+   "pages": [
+    {
+     "height": 2339,
+     "id": "demo-02-p0.CASE",
+     "url": "/api/cases/CASE/pages/demo-02-p0.CASE.jpg",
+     "width": 1654
+    }
+   ],
+   "priority_reason": "deadline 2026-10-02",
+   "reply_templates": [
+    {
+     "id": "extension_request",
+     "title": "Gesuch um Fristverlängerung",
+     "unsourced": []
+    },
+    {
+     "id": "instalment_request",
+     "title": "Gesuch um Ratenzahlung",
+     "unsourced": []
+    }
+   ],
+   "stage": null,
+   "status": "done",
+   "type_label": "Reminder",
+   "type_label_de": "Mahnung",
+   "verification": {
+    "authority_contact": null,
+    "authority_id": null,
+    "deadline": {
+     "days_left": -8,
+     "due_date": "2026-10-02",
+     "needs_delivery_date": false,
+     "period_unit": "days",
+     "period_value": 10,
+     "rule_family": "contract",
+     "start_date": "2026-09-22",
+     "start_event": "letter_date",
+     "trace": [
+      "Letter dated Tue 22 Sep 2026",
+      "+10 days (start day not counted; period stated in the letter) → Fri 2 Oct 2026",
+      "Contractual date: no roll-over applied."
+     ],
+     "verified_rule": true
+    },
+    "field_checks": {
+     "amounts": "match",
+     "iban": "match",
+     "letter_date": "match",
+     "reference_numbers": "match"
+    },
+    "iban_country": "CH",
+    "iban_valid": true,
+    "model_tool_calls": [
+     "compute_deadline",
+     "validate_iban",
+     "lookup_authority",
+     "match_scam_patterns"
+    ],
+    "orchestrator_forced_tools": [],
+    "qr": null,
+    "red_flags": []
+   }
+  },
+  {
+   "amount_display": "CHF 1’240.00",
+   "delivery_date": "2026-10-08",
+   "due_display": "Mon 19 Oct 2026",
+   "due_display_client": "e hënë, 19 tetor 2026",
+   "error": null,
+   "explanation": {
+    "backtranslation_chrf": 100.0,
+    "deadline": [
+     {
+      "support": [
+       "e13"
+      ],
+      "text": "Dita e fundit: e hënë, 19 tetor 2026."
+     }
+    ],
+    "failed_field_checks": [],
+    "language": "sq",
+    "low_confidence": false,
+    "what_they_want": [
+     {
+      "support": [
+       "e11",
+       "e12"
+      ],
+      "text": "Ju kërkojnë të paguani CHF 1’240.00."
+     }
+    ],
+    "what_this_is": [
+     {
+      "support": [
+       "e1",
+       "e2"
+      ],
+      "text": "Kjo është një urdhër pagese. Letra vjen nga Betreibungsamt Bern-Mittelland."
+     }
+    ],
+    "what_you_can_do": [
+     {
+      "support": [
+       "e14"
+      ],
+      "text": "Mund të paguani."
+     },
+     {
+      "support": [
+       "e15"
+      ],
+      "text": "Mund t'i thoni zyrës se nuk jeni dakord."
+     }
+    ],
+    "who_to_contact": [
+     {
+      "support": [
+       "e2"
+      ],
+      "text": "Pyetni këshilltarin se kë të kontaktoni."
+     }
+    ]
+   },
+   "explanation_de": {
+    "backtranslation_chrf": null,
+    "deadline": [
+     {
+      "support": [
+       "e13"
+      ],
+      "text": "Letzter Tag: Montag, 19. Oktober 2026."
+     }
+    ],
+    "failed_field_checks": [],
+    "language": "de",
+    "low_confidence": false,
+    "what_they_want": [
+     {
+      "support": [
+       "e11",
+       "e12"
+      ],
+      "text": "Sie sollen CHF 1’240.00 bezahlen."
+     }
+    ],
+    "what_this_is": [
+     {
+      "support": [
+       "e1",
+       "e2"
+      ],
+      "text": "Das ist ein Zahlungsbefehl. Der Brief kommt von Betreibungsamt Bern-Mittelland."
+     }
+    ],
+    "what_you_can_do": [
+     {
+      "support": [
+       "e14"
+      ],
+      "text": "Sie können bezahlen."
+     },
+     {
+      "support": [
+       "e15"
+      ],
+      "text": "Sie können beim Amt erklären, dass Sie nicht einverstanden sind."
+     }
+    ],
+    "who_to_contact": [
+     {
+      "support": [
+       "e2"
+      ],
+      "text": "Fragen Sie die Beratungsperson, an wen Sie sich wenden können."
+     }
+    ]
+   },
+   "facts": {
+    "amount_due": {
+     "amount": "1240.00",
+     "currency": "CHF"
+    },
+    "amounts": [
+     {
+      "amount": "1126.70",
+      "currency": "CHF"
+     },
+     {
+      "amount": "40.00",
+      "currency": "CHF"
+     },
+     {
+      "amount": "73.30",
+      "currency": "CHF"
+     },
+     {
+      "amount": "1240.00",
+      "currency": "CHF"
+     }
+    ],
+    "creditor_name": "Alpenblick Versand AG",
+    "deadline_fixed_date": null,
+    "deadline_period_unit": "days",
+    "deadline_period_value": 10,
+    "deadline_start_event": "delivery",
+    "deadline_text": "Will der Schuldner die Forderung bestreiten, so hat er dies innert 10 Tagen seit der Zustellung dem Betreibungsamt mündlich oder schriftlich zu erklären (Rechtsvorschlag).",
+    "demanded_action": "Der Schuldner wird aufgefordert, den Betrag von CHF 1'240.00 samt Betreibungskosten zu bezahlen.",
+    "evidence": {
+     "amount_due": [
+      "e11"
+     ],
+     "creditor_name": [
+      "e7"
+     ],
+     "deadline_text": [
+      "e13"
+     ],
+     "demanded_action": [
+      "e12"
+     ],
+     "letter_date": [
+      "e5"
+     ],
+     "letter_type": [
+      "e1"
+     ],
+     "recipient_address": [
+      "e4"
+     ],
+     "recipient_name": [
+      "e3"
+     ],
+     "reference_numbers": [
+      "e8",
+      "e9",
+      "e10"
+     ],
+     "sender_address": [
+      "e6"
+     ],
+     "sender_name": [
+      "e2"
+     ],
+     "stated_options": [
+      "e14",
+      "e15"
+     ]
+    },
+    "evidence_items": [
+     {
+      "bbox": [
+       0.1052,
+       0.3339,
+       0.2684,
+       0.3501
+      ],
+      "id": "e1",
+      "page": 0,
+      "text": "Zahlungsbefehl"
+     },
+     {
+      "bbox": [
+       0.1058,
+       0.0581,
+       0.4063,
+       0.0731
+      ],
+      "id": "e2",
+      "page": 0,
+      "text": "Betreibungsamt Bern-Mittelland"
+     },
+     {
+      "bbox": [
+       0.1046,
+       0.1655,
+       0.2636,
+       0.1774
+      ],
+      "id": "e3",
+      "page": 0,
+      "text": "Arta Krasniqi-Berisha"
+     },
+     {
+      "bbox": [
+       0.1058,
+       0.1834,
+       0.2031,
+       0.1928
+      ],
+      "id": "e4",
+      "page": 0,
+      "text": "Lindenrain 14"
+     },
+     {
+      "bbox": [
+       0.1493,
+       0.2937,
+       0.2715,
+       0.3031
+      ],
+      "id": "e5",
+      "page": 0,
+      "text": "6. Oktober 2026"
+     },
+     {
+      "bbox": [
+       0.1052,
+       0.0791,
+       0.1844,
+       0.0885
+      ],
+      "id": "e6",
+      "page": 0,
+      "text": "3000 Bern"
+     },
+     {
+      "bbox": [
+       0.1856,
+       0.3959,
+       0.3597,
+       0.4079
+      ],
+      "id": "e7",
+      "page": 0,
+      "text": "Alpenblick Versand AG"
+     },
+     {
+      "bbox": [
+       0.2177,
+       0.3617,
+       0.2969,
+       0.3711
+      ],
+      "id": "e8",
+      "page": 0,
+      "text": "26239643"
+     },
+     {
+      "bbox": [
+       0.3507,
+       0.4224,
+       0.4468,
+       0.4318
+      ],
+      "id": "e9",
+      "page": 0,
+      "text": "2026089-65"
+     },
+     {
+      "bbox": [
+       0.6657,
+       0.4224,
+       0.8144,
+       0.4318
+      ],
+      "id": "e10",
+      "page": 0,
+      "text": "RF32613186091390"
+     },
+     {
+      "bbox": [
+       0.5145,
+       0.5216,
+       0.6282,
+       0.531
+      ],
+      "id": "e11",
+      "page": 0,
+      "text": "CHF 1'240.00"
+     },
+     {
+      "bbox": [
+       0.1058,
+       0.5554,
+       0.864,
+       0.5673
+      ],
+      "id": "e12",
+      "page": 0,
+      "text": "Der Schuldner wird aufgefordert, den Betrag von CHF 1'240.00 samt Betreibungskosten zu bezahlen."
+     },
+     {
+      "bbox": [
+       0.1046,
+       0.5819,
+       0.8386,
+       0.6118
+      ],
+      "id": "e13",
+      "page": 0,
+      "text": "Will der Schuldner die Forderung bestreiten, so hat er dies innert 10 Tagen seit der Zustellung dem Betreibungsamt mündlich oder schriftlich zu erklären (Rechtsvorschlag)."
+     },
+     {
+      "bbox": [
+       0.3561,
+       0.5554,
+       0.864,
+       0.5673
+      ],
+      "id": "e14",
+      "page": 0,
+      "text": "den Betrag von CHF 1'240.00 samt Betreibungskosten zu bezahlen"
+     },
+     {
+      "bbox": [
+       0.1058,
+       0.5819,
+       0.8386,
+       0.6118
+      ],
+      "id": "e15",
+      "page": 0,
+      "text": "innert 10 Tagen seit der Zustellung dem Betreibungsamt mündlich oder schriftlich zu erklären"
+     }
+    ],
+    "iban": null,
+    "letter_date": "2026-10-06",
+    "letter_type": "payment_order",
+    "recipient_address": "Lindenrain 14, 3012 Bern",
+    "recipient_name": "Arta Krasniqi-Berisha",
+    "reference_numbers": [
+     "26239643",
+     "2026089-65",
+     "RF32613186091390"
+    ],
+    "sender_address": "3000 Bern",
+    "sender_contact": null,
+    "sender_name": "Betreibungsamt Bern-Mittelland",
+    "source_language": "de",
+    "stated_options": [
+     "den Betrag von CHF 1'240.00 samt Betreibungskosten zu bezahlen",
+     "innert 10 Tagen seit der Zustellung dem Betreibungsamt mündlich oder schriftlich zu erklären"
+    ]
+   },
+   "id": "demo-03.CASE",
+   "label": "demo-03",
+   "letter_date_display": "Tue 6 Oct 2026",
+   "page_ids": [
+    "demo-03-p0.CASE"
+   ],
+   "pages": [
+    {
+     "height": 2339,
+     "id": "demo-03-p0.CASE",
+     "url": "/api/cases/CASE/pages/demo-03-p0.CASE.jpg",
+     "width": 1654
+    }
+   ],
+   "priority_reason": "deadline depends on the delivery date",
+   "reply_templates": [
+    {
+     "id": "objection_payment_order",
+     "title": "Rechtsvorschlag",
+     "unsourced": []
+    }
+   ],
+   "stage": null,
+   "status": "done",
+   "type_label": "Payment order",
+   "type_label_de": "Zahlungsbefehl",
+   "verification": {
+    "authority_contact": {
+     "address": null,
+     "email": null,
+     "id": "be_debt_bern_mittelland",
+     "name": "Betreibungsamt Bern-Mittelland",
+     "phone": null,
+     "retrieved": null,
+     "source_url": null,
+     "sourced": false,
+     "web": null
+    },
+    "authority_id": "be_debt_bern_mittelland",
+    "deadline": {
+     "days_left": 9,
+     "due_date": "2026-10-19",
+     "needs_delivery_date": false,
+     "period_unit": "days",
+     "period_value": 10,
+     "rule_family": "schkg",
+     "start_date": "2026-10-08",
+     "start_event": "delivery",
+     "trace": [
+      "Delivered Thu 8 Oct 2026",
+      "+10 days (start day not counted; SchKG Art. 31) → Sun 18 Oct 2026",
+      "Sun 18 Oct 2026 is not a working day (Sunday) → moved to Mon 19 Oct 2026 (SchKG Art. 31)"
+     ],
+     "verified_rule": true
+    },
+    "field_checks": {
+     "amounts": "match",
+     "letter_date": "match",
+     "reference_numbers": "match"
+    },
+    "iban_country": null,
+    "iban_valid": null,
+    "model_tool_calls": [
+     "compute_deadline",
+     "lookup_authority",
+     "match_scam_patterns"
+    ],
+    "orchestrator_forced_tools": [],
+    "qr": null,
+    "red_flags": []
+   }
+  },
+  {
+   "amount_display": "CHF 359.80",
+   "delivery_date": "2026-10-09",
+   "due_display": "Mon 12 Oct 2026",
+   "due_display_client": "e hënë, 12 tetor 2026",
+   "error": null,
+   "explanation": {
+    "backtranslation_chrf": 100.0,
+    "deadline": [
+     {
+      "support": [
+       "e12"
+      ],
+      "text": "Dita e fundit: e hënë, 12 tetor 2026."
+     }
+    ],
+    "failed_field_checks": [],
+    "language": "sq",
+    "low_confidence": false,
+    "what_they_want": [
+     {
+      "support": [
+       "e8",
+       "e11"
+      ],
+      "text": "Ju kërkojnë të paguani CHF 359.80."
+     }
+    ],
+    "what_this_is": [
+     {
+      "support": [
+       "flags"
+      ],
+      "text": "Kujdes: kjo letër ka shenja paralajmëruese."
+     },
+     {
+      "support": [
+       "e1",
+       "e2"
+      ],
+      "text": "Kjo është një letër. Letra vjen nga Staatssekretariat für Migration SEM."
+     }
+    ],
+    "what_you_can_do": [
+     {
+      "support": [
+       "flags"
+      ],
+      "text": "Mos paguani dhe mos telefononi para se këshilltari ta ketë kontrolluar këtë letër."
+     }
+    ],
+    "who_to_contact": [
+     {
+      "support": [
+       "e2"
+      ],
+      "text": "Pyetni këshilltarin se kë të kontaktoni."
+     }
+    ]
+   },
+   "explanation_de": {
+    "backtranslation_chrf": null,
+    "deadline": [
+     {
+      "support": [
+       "e12"
+      ],
+      "text": "Letzter Tag: Montag, 12. Oktober 2026."
+     }
+    ],
+    "failed_field_checks": [],
+    "language": "de",
+    "low_confidence": false,
+    "what_they_want": [
+     {
+      "support": [
+       "e8",
+       "e11"
+      ],
+      "text": "Sie sollen CHF 359.80 bezahlen."
+     }
+    ],
+    "what_this_is": [
+     {
+      "support": [
+       "flags"
+      ],
+      "text": "Vorsicht: Dieser Brief zeigt Warnsignale."
+     },
+     {
+      "support": [
+       "e1",
+       "e2"
+      ],
+      "text": "Das ist ein Brief. Der Brief kommt von Staatssekretariat für Migration SEM."
+     }
+    ],
+    "what_you_can_do": [
+     {
+      "support": [
+       "flags"
+      ],
+      "text": "Zahlen Sie nicht und rufen Sie nicht an, bevor die Beratungsperson den Brief geprüft hat."
+     }
+    ],
+    "who_to_contact": [
+     {
+      "support": [
+       "e2"
+      ],
+      "text": "Fragen Sie die Beratungsperson, an wen Sie sich wenden können."
+     }
+    ]
+   },
+   "facts": {
+    "amount_due": {
+     "amount": "359.80",
+     "currency": "CHF"
+    },
+    "amounts": [
+     {
+      "amount": "359.80",
+      "currency": "CHF"
+     }
+    ],
+    "creditor_name": null,
+    "deadline_fixed_date": "2026-10-12",
+    "deadline_period_unit": null,
+    "deadline_period_value": null,
+    "deadline_start_event": "fixed_date",
+    "deadline_text": "Die Zahlung muss bis 12. Oktober 2026 eingehen.",
+    "demanded_action": "Überweisen Sie CHF 359.80 auf das Konto LT04 9999 9819 4821 9935.",
+    "evidence": {
+     "amount_due": [
+      "e8"
+     ],
+     "deadline_text": [
+      "e12"
+     ],
+     "demanded_action": [
+      "e11"
+     ],
+     "iban": [
+      "e9"
+     ],
+     "letter_date": [
+      "e5"
+     ],
+     "letter_type": [
+      "e1"
+     ],
+     "recipient_address": [
+      "e4"
+     ],
+     "recipient_name": [
+      "e3"
+     ],
+     "reference_numbers": [
+      "e7"
+     ],
+     "sender_address": [
+      "e6"
+     ],
+     "sender_contact": [
+      "e10"
+     ],
+     "sender_name": [
+      "e2"
+     ],
+     "stated_options": [
+      "e13",
+      "e14"
+     ]
+    },
+    "evidence_items": [
+     {
+      "bbox": [
+       0.1046,
+       0.3339,
+       0.5417,
+       0.3501
+      ],
+      "id": "e1",
+      "page": 0,
+      "text": "Verfügung: Beendigung Ihres Aufenthalts"
+     },
+     {
+      "bbox": [
+       0.1052,
+       0.0581,
+       0.4383,
+       0.0731
+      ],
+      "id": "e2",
+      "page": 0,
+      "text": "Staatssekretariat für Migration SEM"
+     },
+     {
+      "bbox": [
+       0.1046,
+       0.1655,
+       0.2636,
+       0.1774
+      ],
+      "id": "e3",
+      "page": 0,
+      "text": "Arta Krasniqi-Berisha"
+     },
+     {
+      "bbox": [
+       0.1058,
+       0.1834,
+       0.2031,
+       0.1928
+      ],
+      "id": "e4",
+      "page": 0,
+      "text": "Lindenrain 14"
+     },
+     {
+      "bbox": [
+       0.1487,
+       0.2937,
+       0.269,
+       0.3031
+      ],
+      "id": "e5",
+      "page": 0,
+      "text": "7. Oktober 2026"
+     },
+     {
+      "bbox": [
+       0.1052,
+       0.0791,
+       0.2497,
+       0.0885
+      ],
+      "id": "e6",
+      "page": 0,
+      "text": "3003 Bern-Wabern"
+     },
+     {
+      "bbox": [
+       0.2037,
+       0.3617,
+       0.3071,
+       0.3711
+      ],
+      "id": "e7",
+      "page": 0,
+      "text": "SEM-81793-F"
+     },
+     {
+      "bbox": [
+       0.5345,
+       0.4515,
+       0.6276,
+       0.4609
+      ],
+      "id": "e8",
+      "page": 0,
+      "text": "CHF 359.80"
+     },
+     {
+      "bbox": [
+       0.4317,
+       0.5092,
+       0.6421,
+       0.5186
+      ],
+      "id": "e9",
+      "page": 0,
+      "text": "LT04 9999 9819 4821 9935"
+     },
+     {
+      "bbox": [
+       0.3561,
+       0.5622,
+       0.4879,
+       0.5716
+      ],
+      "id": "e10",
+      "page": 0,
+      "text": "+41 99 555 01 42"
+     },
+     {
+      "bbox": [
+       0.1058,
+       0.5071,
+       0.6421,
+       0.5186
+      ],
+      "id": "e11",
+      "page": 0,
+      "text": "Überweisen Sie CHF 359.80 auf das Konto LT04 9999 9819 4821 9935."
+     },
+     {
+      "bbox": [
+       0.1058,
+       0.5357,
+       0.477,
+       0.5477
+      ],
+      "id": "e12",
+      "page": 0,
+      "text": "Die Zahlung muss bis 12. Oktober 2026 eingehen."
+     },
+     {
+      "bbox": [
+       0.1058,
+       0.5071,
+       0.318,
+       0.5186
+      ],
+      "id": "e13",
+      "page": 0,
+      "text": "Überweisen Sie CHF 359.80"
+     },
+     {
+      "bbox": [
+       0.1058,
+       0.5622,
+       0.4879,
+       0.5742
+      ],
+      "id": "e14",
+      "page": 0,
+      "text": "Rückfragen nur telefonisch unter +41 99 555 01 42"
+     }
+    ],
+    "iban": "LT049999981948219935",
+    "letter_date": "2026-10-07",
+    "letter_type": "unknown",
+    "recipient_address": "Lindenrain 14, 3012 Bern",
+    "recipient_name": "Arta Krasniqi-Berisha",
+    "reference_numbers": [
+     "SEM-81793-F"
+    ],
+    "sender_address": "3003 Bern-Wabern",
+    "sender_contact": "+41 99 555 01 42",
+    "sender_name": "Staatssekretariat für Migration SEM",
+    "source_language": "de",
+    "stated_options": [
+     "Überweisen Sie CHF 359.80",
+     "Rückfragen nur telefonisch unter +41 99 555 01 42"
+    ]
+   },
+   "id": "demo-04.CASE",
+   "label": "demo-04",
+   "letter_date_display": "Wed 7 Oct 2026",
+   "page_ids": [
+    "demo-04-p0.CASE"
+   ],
+   "pages": [
+    {
+     "height": 2339,
+     "id": "demo-04-p0.CASE",
+     "url": "/api/cases/CASE/pages/demo-04-p0.CASE.jpg",
+     "width": 1654
+    }
+   ],
+   "priority_reason": "warning signs: look at this first",
+   "reply_templates": [],
+   "stage": null,
+   "status": "done",
+   "type_label": "Letter",
+   "type_label_de": "Brief",
+   "verification": {
+    "authority_contact": {
+     "address": null,
+     "email": null,
+     "id": "sem",
+     "name": "Staatssekretariat für Migration",
+     "phone": null,
+     "retrieved": null,
+     "source_url": null,
+     "sourced": false,
+     "web": null
+    },
+    "authority_id": "sem",
+    "deadline": {
+     "days_left": 2,
+     "due_date": "2026-10-12",
+     "needs_delivery_date": false,
+     "period_unit": null,
+     "period_value": null,
+     "rule_family": "generic_admin",
+     "start_date": "2026-10-12",
+     "start_event": "fixed_date",
+     "trace": [
+      "Date printed on the letter: Mon 12 Oct 2026",
+      "Rule unverified: check the counting against the procedural law of canton BE (source required)."
+     ],
+     "verified_rule": false
+    },
+    "field_checks": {
+     "amounts": "match",
+     "deadline_fixed_date": "match",
+     "iban": "ocr_missing",
+     "letter_date": "match",
+     "reference_numbers": "match"
+    },
+    "iban_country": "LT",
+    "iban_valid": true,
+    "model_tool_calls": [
+     "compute_deadline",
+     "validate_iban",
+     "lookup_authority",
+     "match_scam_patterns"
+    ],
+    "orchestrator_forced_tools": [],
+    "qr": null,
+    "red_flags": [
+     {
+      "code": "FOREIGN_IBAN_FOR_AUTHORITY",
+      "evidence": "The sender presents itself as a Swiss authority, but the IBAN printed on the letter is from LT (LT049999981948219935).",
+      "severity": "high",
+      "source_url": null,
+      "span_ids": [
+       "e9"
+      ]
+     },
+     {
+      "code": "LEGAL_BASIS_INCONSISTENT",
+      "evidence": "The letter cites the \"valve clause\" to end a residence. Public warnings about letters that claim to come from SEM note that this clause concerns new immigration only. On the letter: \"…Ihres Aufenthalts Personal-Nr. SEM-81793-F Gestützt auf die Ventilklausel des Freizügigkeitsabkommens wird Ihr Aufenthalt in der Schw…\"",
+      "severity": "high",
+      "source_url": "https://www.iamexpat.ch/expat-info/swiss-news/fake-deportation-letters-being-sent-expats-switzerland-sem-warns",
+      "span_ids": [
+       "e11",
+       "e12"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "amount_display": "CHF 153.60",
+   "delivery_date": "2026-10-03",
+   "due_display": "Sat 31 Oct 2026",
+   "due_display_client": "e shtunë, 31 tetor 2026",
+   "error": null,
+   "explanation": {
+    "backtranslation_chrf": 100.0,
+    "deadline": [
+     {
+      "support": [
+       "e11"
+      ],
+      "text": "Dita e fundit: e shtunë, 31 tetor 2026."
+     }
+    ],
+    "failed_field_checks": [],
+    "language": "sq",
+    "low_confidence": false,
+    "what_they_want": [
+     {
+      "support": [
+       "e8",
+       "e10"
+      ],
+      "text": "Ju kërkojnë të paguani CHF 153.60."
+     }
+    ],
+    "what_this_is": [
+     {
+      "support": [
+       "e1",
+       "e2"
+      ],
+      "text": "Kjo është një faturë për tarifën e radios dhe televizionit. Letra vjen nga Serafe AG."
+     }
+    ],
+    "what_you_can_do": [
+     {
+      "support": [
+       "e12"
+      ],
+      "text": "Mund të paguani."
+     }
+    ],
+    "who_to_contact": [
+     {
+      "support": [
+       "e2"
+      ],
+      "text": "Pyetni këshilltarin se kë të kontaktoni."
+     }
+    ]
+   },
+   "explanation_de": {
+    "backtranslation_chrf": null,
+    "deadline": [
+     {
+      "support": [
+       "e11"
+      ],
+      "text": "Letzter Tag: Samstag, 31. Oktober 2026."
+     }
+    ],
+    "failed_field_checks": [],
+    "language": "de",
+    "low_confidence": false,
+    "what_they_want": [
+     {
+      "support": [
+       "e8",
+       "e10"
+      ],
+      "text": "Sie sollen CHF 153.60 bezahlen."
+     }
+    ],
+    "what_this_is": [
+     {
+      "support": [
+       "e1",
+       "e2"
+      ],
+      "text": "Das ist eine Rechnung für die Radio- und Fernsehabgabe. Der Brief kommt von Serafe AG."
+     }
+    ],
+    "what_you_can_do": [
+     {
+      "support": [
+       "e12"
+      ],
+      "text": "Sie können bezahlen."
+     }
+    ],
+    "who_to_contact": [
+     {
+      "support": [
+       "e2"
+      ],
+      "text": "Fragen Sie die Beratungsperson, an wen Sie sich wenden können."
+     }
+    ]
+   },
+   "facts": {
+    "amount_due": {
+     "amount": "153.60",
+     "currency": "CHF"
+    },
+    "amounts": [
+     {
+      "amount": "153.60",
+      "currency": "CHF"
+     }
+    ],
+    "creditor_name": null,
+    "deadline_fixed_date": "2026-10-31",
+    "deadline_period_unit": null,
+    "deadline_period_value": null,
+    "deadline_start_event": "fixed_date",
+    "deadline_text": "Zahlbar bis 31. Oktober 2026.",
+    "demanded_action": "Bitte bezahlen Sie den Betrag von CHF 153.60 mit dem Zahlteil unten.",
+    "evidence": {
+     "amount_due": [
+      "e8"
+     ],
+     "deadline_text": [
+      "e11"
+     ],
+     "demanded_action": [
+      "e10"
+     ],
+     "iban": [
+      "e9"
+     ],
+     "letter_date": [
+      "e5"
+     ],
+     "letter_type": [
+      "e1"
+     ],
+     "recipient_address": [
+      "e4"
+     ],
+     "recipient_name": [
+      "e3"
+     ],
+     "reference_numbers": [
+      "e7"
+     ],
+     "sender_address": [
+      "e6"
+     ],
+     "sender_name": [
+      "e2"
+     ],
+     "stated_options": [
+      "e12"
+     ]
+    },
+    "evidence_items": [
+     {
+      "bbox": [
+       0.1058,
+       0.3339,
+       0.5744,
+       0.3501
+      ],
+      "id": "e1",
+      "page": 0,
+      "text": "Rechnung für die Radio- und Fernsehabgabe"
+     },
+     {
+      "bbox": [
+       0.1052,
+       0.0581,
+       0.1983,
+       0.0697
+      ],
+      "id": "e2",
+      "page": 0,
+      "text": "Serafe AG"
+     },
+     {
+      "bbox": [
+       0.1046,
+       0.1655,
+       0.2636,
+       0.1774
+      ],
+      "id": "e3",
+      "page": 0,
+      "text": "Arta Krasniqi-Berisha"
+     },
+     {
+      "bbox": [
+       0.1058,
+       0.1834,
+       0.2031,
+       0.1928
+      ],
+      "id": "e4",
+      "page": 0,
+      "text": "Lindenrain 14"
+     },
+     {
+      "bbox": [
+       0.1487,
+       0.2937,
+       0.2684,
+       0.3031
+      ],
+      "id": "e5",
+      "page": 0,
+      "text": "1. Oktober 2026"
+     },
+     {
+      "bbox": [
+       0.1058,
+       0.0791,
+       0.1705,
+       0.0885
+      ],
+      "id": "e6",
+      "page": 0,
+      "text": "Postfach"
+     },
+     {
+      "bbox": [
+       0.2116,
+       0.3617,
+       0.2993,
+       0.3711
+      ],
+      "id": "e7",
+      "page": 0,
+      "text": "850539557"
+     },
+     {
+      "bbox": [
+       0.5345,
+       0.4515,
+       0.6276,
+       0.4609
+      ],
+      "id": "e8",
+      "page": 0,
+      "text": "CHF 153.60"
+     },
+     {
+      "bbox": [
+       0.029,
+       0.7046,
+       0.2062,
+       0.7114
+      ],
+      "id": "e9",
+      "page": 0,
+      "text": "CH62 9999 9937 8657 9754 3"
+     },
+     {
+      "bbox": [
+       0.1058,
+       0.5092,
+       0.6252,
+       0.5212
+      ],
+      "id": "e10",
+      "page": 0,
+      "text": "Bitte bezahlen Sie den Betrag von CHF 153.60 mit dem Zahlteil unten."
+     },
+     {
+      "bbox": [
+       0.1052,
+       0.5357,
+       0.3247,
+       0.5451
+      ],
+      "id": "e11",
+      "page": 0,
+      "text": "Zahlbar bis 31. Oktober 2026."
+     },
+     {
+      "bbox": [
+       0.1439,
+       0.5092,
+       0.4504,
+       0.5212
+      ],
+      "id": "e12",
+      "page": 0,
+      "text": "bezahlen Sie den Betrag von CHF 153.60"
+     }
+    ],
+    "iban": "CH6299999937865797543",
+    "letter_date": "2026-10-01",
+    "letter_type": "serafe_invoice",
+    "recipient_address": "Lindenrain 14, 3012 Bern",
+    "recipient_name": "Arta Krasniqi-Berisha",
+    "reference_numbers": [
+     "850539557"
+    ],
+    "sender_address": "Postfach",
+    "sender_contact": null,
+    "sender_name": "Serafe AG",
+    "source_language": "de",
+    "stated_options": [
+     "bezahlen Sie den Betrag von CHF 153.60"
+    ]
+   },
+   "id": "demo-05.CASE",
+   "label": "demo-05",
+   "letter_date_display": "Thu 1 Oct 2026",
+   "page_ids": [
+    "demo-05-p0.CASE"
+   ],
+   "pages": [
+    {
+     "height": 2339,
+     "id": "demo-05-p0.CASE",
+     "url": "/api/cases/CASE/pages/demo-05-p0.CASE.jpg",
+     "width": 1654
+    }
+   ],
+   "priority_reason": "deadline 2026-10-31",
+   "reply_templates": [
+    {
+     "id": "extension_request",
+     "title": "Gesuch um Fristverlängerung",
+     "unsourced": []
+    },
+    {
+     "id": "instalment_request",
+     "title": "Gesuch um Ratenzahlung",
+     "unsourced": []
+    }
+   ],
+   "stage": null,
+   "status": "done",
+   "type_label": "Serafe invoice",
+   "type_label_de": "Serafe-Rechnung",
+   "verification": {
+    "authority_contact": {
+     "address": null,
+     "email": null,
+     "id": "serafe",
+     "name": "Serafe AG",
+     "phone": null,
+     "retrieved": null,
+     "source_url": null,
+     "sourced": false,
+     "web": null
+    },
+    "authority_id": "serafe",
+    "deadline": {
+     "days_left": 21,
+     "due_date": "2026-10-31",
+     "needs_delivery_date": false,
+     "period_unit": null,
+     "period_value": null,
+     "rule_family": "contract",
+     "start_date": "2026-10-31",
+     "start_event": "fixed_date",
+     "trace": [
+      "Date printed on the letter: Sat 31 Oct 2026",
+      "Contractual date: no roll-over applied."
+     ],
+     "verified_rule": true
+    },
+    "field_checks": {
+     "amounts": "match",
+     "deadline_fixed_date": "match",
+     "iban": "match",
+     "letter_date": "match",
+     "reference_numbers": "match"
+    },
+    "iban_country": "CH",
+    "iban_valid": true,
+    "model_tool_calls": [
+     "compute_deadline",
+     "validate_iban",
+     "decode_qr_bill",
+     "lookup_authority",
+     "match_scam_patterns"
+    ],
+    "orchestrator_forced_tools": [],
+    "qr": {
+     "amount": "153.60",
+     "creditor": {
+      "address_type": "S",
+      "country": "CH",
+      "line1": "Postfach",
+      "line2": "",
+      "name": "Serafe AG",
+      "postal_code": "8000",
+      "town": "Zürich"
+     },
+     "currency": "CHF",
+     "debtor": {
+      "address_type": "K",
+      "country": "CH",
+      "line1": "Lindenrain 14",
+      "line2": "3012 Bern",
+      "name": "Arta Krasniqi-Berisha",
+      "postal_code": "",
+      "town": ""
+     },
+     "iban": "CH6299999937865797543",
+     "message": "Rechnung für die Radio- und Fernsehabgabe",
+     "reference": null,
+     "reference_type": "NON",
+     "trailer": "EPD",
+     "ultimate_creditor": null,
+     "version": "0200"
+    },
+    "red_flags": []
+   }
+  },
+  {
+   "amount_display": "CHF 2’521.70",
+   "delivery_date": "2026-10-01",
+   "due_display": "Fri 13 Nov 2026",
+   "due_display_client": "e premte, 13 nëntor 2026",
+   "error": null,
+   "explanation": {
+    "backtranslation_chrf": 100.0,
+    "deadline": [
+     {
+      "support": [
+       "e11"
+      ],
+      "text": "Dita e fundit: e premte, 13 nëntor 2026."
+     }
+    ],
+    "failed_field_checks": [],
+    "language": "sq",
+    "low_confidence": false,
+    "what_they_want": [
+     {
+      "support": [
+       "e8",
+       "e10"
+      ],
+      "text": "Ju kërkojnë të paguani CHF 2’521.70."
+     }
+    ],
+    "what_this_is": [
+     {
+      "support": [
+       "e1",
+       "e2"
+      ],
+      "text": "Kjo është një vendim tatimor. Letra vjen nga Steuerverwaltung des Kantons Bern."
+     }
+    ],
+    "what_you_can_do": [
+     {
+      "support": [
+       "e12"
+      ],
+      "text": "Mund të paguani."
+     }
+    ],
+    "who_to_contact": [
+     {
+      "support": [
+       "e2"
+      ],
+      "text": "Pyetni këshilltarin se kë të kontaktoni."
+     }
+    ]
+   },
+   "explanation_de": {
+    "backtranslation_chrf": null,
+    "deadline": [
+     {
+      "support": [
+       "e11"
+      ],
+      "text": "Letzter Tag: Freitag, 13. November 2026."
+     }
+    ],
+    "failed_field_checks": [],
+    "language": "de",
+    "low_confidence": false,
+    "what_they_want": [
+     {
+      "support": [
+       "e8",
+       "e10"
+      ],
+      "text": "Sie sollen CHF 2’521.70 bezahlen."
+     }
+    ],
+    "what_this_is": [
+     {
+      "support": [
+       "e1",
+       "e2"
+      ],
+      "text": "Das ist eine Steuerveranlagung. Der Brief kommt von Steuerverwaltung des Kantons Bern."
+     }
+    ],
+    "what_you_can_do": [
+     {
+      "support": [
+       "e12"
+      ],
+      "text": "Sie können bezahlen."
+     }
+    ],
+    "who_to_contact": [
+     {
+      "support": [
+       "e2"
+      ],
+      "text": "Fragen Sie die Beratungsperson, an wen Sie sich wenden können."
+     }
+    ]
+   },
+   "facts": {
+    "amount_due": {
+     "amount": "2521.70",
+     "currency": "CHF"
+    },
+    "amounts": [
+     {
+      "amount": "3962.15",
+      "currency": "CHF"
+     },
+     {
+      "amount": "1440.45",
+      "currency": "CHF"
+     },
+     {
+      "amount": "2521.70",
+      "currency": "CHF"
+     }
+    ],
+    "creditor_name": null,
+    "deadline_fixed_date": "2026-11-13",
+    "deadline_period_unit": null,
+    "deadline_period_value": null,
+    "deadline_start_event": "fixed_date",
+    "deadline_text": "Zahlbar bis 13. November 2026.",
+    "demanded_action": "Bitte überweisen Sie den Betrag von CHF 2'521.70 auf das Konto CH81 9999 9948 7574 9118 6.",
+    "evidence": {
+     "amount_due": [
+      "e8"
+     ],
+     "deadline_text": [
+      "e11"
+     ],
+     "demanded_action": [
+      "e10"
+     ],
+     "iban": [
+      "e9"
+     ],
+     "letter_date": [
+      "e5"
+     ],
+     "letter_type": [
+      "e1"
+     ],
+     "recipient_address": [
+      "e4"
+     ],
+     "recipient_name": [
+      "e3"
+     ],
+     "reference_numbers": [
+      "e7"
+     ],
+     "sender_address": [
+      "e6"
+     ],
+     "sender_name": [
+      "e2"
+     ],
+     "stated_options": [
+      "e12"
+     ]
+    },
+    "evidence_items": [
+     {
+      "bbox": [
+       0.1046,
+       0.3339,
+       0.766,
+       0.3506
+      ],
+      "id": "e1",
+      "page": 0,
+      "text": "Veranlagungsverfügung Kantons- und Gemeindesteuern 2025"
+     },
+     {
+      "bbox": [
+       0.1052,
+       0.0586,
+       0.4444,
+       0.0731
+      ],
+      "id": "e2",
+      "page": 0,
+      "text": "Steuerverwaltung des Kantons Bern"
+     },
+     {
+      "bbox": [
+       0.1046,
+       0.1655,
+       0.2636,
+       0.1774
+      ],
+      "id": "e3",
+      "page": 0,
+      "text": "Arta Krasniqi-Berisha"
+     },
+     {
+      "bbox": [
+       0.1058,
+       0.1834,
+       0.2031,
+       0.1928
+      ],
+      "id": "e4",
+      "page": 0,
+      "text": "Lindenrain 14"
+     },
+     {
+      "bbox": [
+       0.1493,
+       0.2937,
+       0.3041,
+       0.3057
+      ],
+      "id": "e5",
+      "page": 0,
+      "text": "29. September 2026"
+     },
+     {
+      "bbox": [
+       0.1052,
+       0.0791,
+       0.1844,
+       0.0885
+      ],
+      "id": "e6",
+      "page": 0,
+      "text": "3000 Bern"
+     },
+     {
+      "bbox": [
+       0.1995,
+       0.3617,
+       0.2956,
+       0.3711
+      ],
+      "id": "e7",
+      "page": 0,
+      "text": "450.255.600"
+     },
+     {
+      "bbox": [
+       0.5145,
+       0.472,
+       0.6282,
+       0.4814
+      ],
+      "id": "e8",
+      "page": 0,
+      "text": "CHF 2'521.70"
+     },
+     {
+      "bbox": [
+       0.5961,
+       0.5058,
+       0.8198,
+       0.5152
+      ],
+      "id": "e9",
+      "page": 0,
+      "text": "CH81 9999 9948 7574 9118 6"
+     },
+     {
+      "bbox": [
+       0.1058,
+       0.5058,
+       0.8198,
+       0.5177
+      ],
+      "id": "e10",
+      "page": 0,
+      "text": "Bitte überweisen Sie den Betrag von CHF 2'521.70 auf das Konto CH81 9999 9948 7574 9118 6."
+     },
+     {
+      "bbox": [
+       0.1052,
+       0.5323,
+       0.3422,
+       0.5417
+      ],
+      "id": "e11",
+      "page": 0,
+      "text": "Zahlbar bis 13. November 2026."
+     },
+     {
+      "bbox": [
+       0.1439,
+       0.5058,
+       0.4825,
+       0.5177
+      ],
+      "id": "e12",
+      "page": 0,
+      "text": "überweisen Sie den Betrag von CHF 2'521.70"
+     }
+    ],
+    "iban": "CH8199999948757491186",
+    "letter_date": "2026-09-29",
+    "letter_type": "tax_assessment",
+    "recipient_address": "Lindenrain 14, 3012 Bern",
+    "recipient_name": "Arta Krasniqi-Berisha",
+    "reference_numbers": [
+     "450.255.600"
+    ],
+    "sender_address": "3000 Bern",
+    "sender_contact": null,
+    "sender_name": "Steuerverwaltung des Kantons Bern",
+    "source_language": "de",
+    "stated_options": [
+     "überweisen Sie den Betrag von CHF 2'521.70"
+    ]
+   },
+   "id": "demo-06.CASE",
+   "label": "demo-06",
+   "letter_date_display": "Tue 29 Sept 2026",
+   "page_ids": [
+    "demo-06-p0.CASE"
+   ],
+   "pages": [
+    {
+     "height": 2339,
+     "id": "demo-06-p0.CASE",
+     "url": "/api/cases/CASE/pages/demo-06-p0.CASE.jpg",
+     "width": 1654
+    }
+   ],
+   "priority_reason": "deadline 2026-11-13",
+   "reply_templates": [
+    {
+     "id": "extension_request",
+     "title": "Gesuch um Fristverlängerung",
+     "unsourced": []
+    },
+    {
+     "id": "instalment_request",
+     "title": "Gesuch um Ratenzahlung",
+     "unsourced": []
+    }
+   ],
+   "stage": null,
+   "status": "done",
+   "type_label": "Tax assessment",
+   "type_label_de": "Steuerveranlagung",
+   "verification": {
+    "authority_contact": {
+     "address": null,
+     "email": null,
+     "id": "be_tax",
+     "name": "Steuerverwaltung des Kantons Bern",
+     "phone": null,
+     "retrieved": null,
+     "source_url": null,
+     "sourced": false,
+     "web": null
+    },
+    "authority_id": "be_tax",
+    "deadline": {
+     "days_left": 34,
+     "due_date": "2026-11-13",
+     "needs_delivery_date": false,
+     "period_unit": null,
+     "period_value": null,
+     "rule_family": "generic_admin",
+     "start_date": "2026-11-13",
+     "start_event": "fixed_date",
+     "trace": [
+      "Date printed on the letter: Fri 13 Nov 2026",
+      "Rule unverified: check the counting against the procedural law of canton BE (source required)."
+     ],
+     "verified_rule": false
+    },
+    "field_checks": {
+     "amounts": "match",
+     "deadline_fixed_date": "match",
+     "iban": "match",
+     "letter_date": "match",
+     "reference_numbers": "match"
+    },
+    "iban_country": "CH",
+    "iban_valid": true,
+    "model_tool_calls": [
+     "compute_deadline",
+     "validate_iban",
+     "lookup_authority",
+     "match_scam_patterns"
+    ],
+    "orchestrator_forced_tools": [],
+    "qr": null,
+    "red_flags": []
+   }
+  },
+  {
+   "delivery_date": "2026-10-07",
+   "due_display": "Fri 23 Oct 2026",
+   "due_display_client": "e premte, 23 tetor 2026",
+   "error": null,
+   "explanation": {
+    "backtranslation_chrf": 100.0,
+    "deadline": [
+     {
+      "support": [
+       "e8"
+      ],
+      "text": "Dita e fundit: e premte, 23 tetor 2026."
+     }
+    ],
+    "failed_field_checks": [],
+    "language": "sq",
+    "low_confidence": false,
+    "what_they_want": [
+     {
+      "support": [
+       "e7"
+      ],
+      "text": "Letra ju kërkon të bëni diçka."
+     }
+    ],
+    "what_this_is": [
+     {
+      "support": [
+       "e1",
+       "e2"
+      ],
+      "text": "Kjo është një njoftim nga shkolla. Letra vjen nga Sekundarschule Rebacker."
+     }
+    ],
+    "what_you_can_do": [
+     {
+      "support": [
+       "e9"
+      ],
+      "text": "Mund ta ktheni fletën e përgjigjes."
+     }
+    ],
+    "who_to_contact": [
+     {
+      "support": [
+       "e2"
+      ],
+      "text": "Pyetni këshilltarin se kë të kontaktoni."
+     }
+    ]
+   },
+   "explanation_de": {
+    "backtranslation_chrf": null,
+    "deadline": [
+     {
+      "support": [
+       "e8"
+      ],
+      "text": "Letzter Tag: Freitag, 23. Oktober 2026."
+     }
+    ],
+    "failed_field_checks": [],
+    "language": "de",
+    "low_confidence": false,
+    "what_they_want": [
+     {
+      "support": [
+       "e7"
+      ],
+      "text": "Der Brief verlangt etwas von Ihnen."
+     }
+    ],
+    "what_this_is": [
+     {
+      "support": [
+       "e1",
+       "e2"
+      ],
+      "text": "Das ist eine Mitteilung der Schule. Der Brief kommt von Sekundarschule Rebacker."
+     }
+    ],
+    "what_you_can_do": [
+     {
+      "support": [
+       "e9"
+      ],
+      "text": "Sie können den Talon zurückgeben."
+     }
+    ],
+    "who_to_contact": [
+     {
+      "support": [
+       "e2"
+      ],
+      "text": "Fragen Sie die Beratungsperson, an wen Sie sich wenden können."
+     }
+    ]
+   },
+   "facts": {
+    "amount_due": null,
+    "amounts": [],
+    "creditor_name": null,
+    "deadline_fixed_date": "2026-10-23",
+    "deadline_period_unit": null,
+    "deadline_period_value": null,
+    "deadline_start_event": "fixed_date",
+    "deadline_text": "Wir brauchen den Talon bis 23. Oktober 2026.",
+    "demanded_action": "Bitte geben Sie den Anmeldetalon Ihrem Kind mit.",
+    "evidence": {
+     "deadline_text": [
+      "e8"
+     ],
+     "demanded_action": [
+      "e7"
+     ],
+     "letter_date": [
+      "e5"
+     ],
+     "letter_type": [
+      "e1"
+     ],
+     "recipient_address": [
+      "e4"
+     ],
+     "recipient_name": [
+      "e3"
+     ],
+     "sender_address": [
+      "e6"
+     ],
+     "sender_name": [
+      "e2"
+     ],
+     "stated_options": [
+      "e9"
+     ]
+    },
+    "evidence_items": [
+     {
+      "bbox": [
+       0.1058,
+       0.3339,
+       0.3924,
+       0.3501
+      ],
+      "id": "e1",
+      "page": 0,
+      "text": "Einladung zum Elternabend"
+     },
+     {
+      "bbox": [
+       0.1052,
+       0.0586,
+       0.3519,
+       0.0701
+      ],
+      "id": "e2",
+      "page": 0,
+      "text": "Sekundarschule Rebacker"
+     },
+     {
+      "bbox": [
+       0.1046,
+       0.1655,
+       0.2636,
+       0.1774
+      ],
+      "id": "e3",
+      "page": 0,
+      "text": "Arta Krasniqi-Berisha"
+     },
+     {
+      "bbox": [
+       0.1058,
+       0.1834,
+       0.2031,
+       0.1928
+      ],
+      "id": "e4",
+      "page": 0,
+      "text": "Lindenrain 14"
+     },
+     {
+      "bbox": [
+       0.1493,
+       0.2937,
+       0.2715,
+       0.3031
+      ],
+      "id": "e5",
+      "page": 0,
+      "text": "5. Oktober 2026"
+     },
+     {
+      "bbox": [
+       0.1052,
+       0.0791,
+       0.1802,
+       0.0885
+      ],
+      "id": "e6",
+      "page": 0,
+      "text": "3012 Bern"
+     },
+     {
+      "bbox": [
+       0.1058,
+       0.4143,
+       0.4764,
+       0.4263
+      ],
+      "id": "e7",
+      "page": 0,
+      "text": "Bitte geben Sie den Anmeldetalon Ihrem Kind mit."
+     },
+     {
+      "bbox": [
+       0.1046,
+       0.4408,
+       0.4498,
+       0.4502
+      ],
+      "id": "e8",
+      "page": 0,
+      "text": "Wir brauchen den Talon bis 23. Oktober 2026."
+     },
+     {
+      "bbox": [
+       0.1439,
+       0.4143,
+       0.4764,
+       0.4263
+      ],
+      "id": "e9",
+      "page": 0,
+      "text": "geben Sie den Anmeldetalon Ihrem Kind mit"
+     }
+    ],
+    "iban": null,
+    "letter_date": "2026-10-05",
+    "letter_type": "school_notice",
+    "recipient_address": "Lindenrain 14, 3012 Bern",
+    "recipient_name": "Arta Krasniqi-Berisha",
+    "reference_numbers": [],
+    "sender_address": "3012 Bern",
+    "sender_contact": null,
+    "sender_name": "Sekundarschule Rebacker",
+    "source_language": "de",
+    "stated_options": [
+     "geben Sie den Anmeldetalon Ihrem Kind mit"
+    ]
+   },
+   "id": "demo-07.CASE",
+   "label": "demo-07",
+   "letter_date_display": "Mon 5 Oct 2026",
+   "page_ids": [
+    "demo-07-p0.CASE"
+   ],
+   "pages": [
+    {
+     "height": 2339,
+     "id": "demo-07-p0.CASE",
+     "url": "/api/cases/CASE/pages/demo-07-p0.CASE.jpg",
+     "width": 1654
+    }
+   ],
+   "priority_reason": "deadline 2026-10-23",
+   "reply_templates": [
+    {
+     "id": "extension_request",
+     "title": "Gesuch um Fristverlängerung",
+     "unsourced": []
+    }
+   ],
+   "stage": null,
+   "status": "done",
+   "type_label": "School notice",
+   "type_label_de": "Mitteilung der Schule",
+   "verification": {
+    "authority_contact": null,
+    "authority_id": null,
+    "deadline": {
+     "days_left": 13,
+     "due_date": "2026-10-23",
+     "needs_delivery_date": false,
+     "period_unit": null,
+     "period_value": null,
+     "rule_family": "generic_admin",
+     "start_date": "2026-10-23",
+     "start_event": "fixed_date",
+     "trace": [
+      "Date printed on the letter: Fri 23 Oct 2026",
+      "Rule unverified: check the counting against the procedural law of canton BE (source required)."
+     ],
+     "verified_rule": false
+    },
+    "field_checks": {
+     "deadline_fixed_date": "match",
+     "letter_date": "match"
+    },
+    "iban_country": null,
+    "iban_valid": null,
+    "model_tool_calls": [
+     "compute_deadline",
+     "lookup_authority",
+     "match_scam_patterns"
+    ],
+    "orchestrator_forced_tools": [],
+    "qr": null,
+    "red_flags": []
+   }
+  },
+  {
+   "delivery_date": "2026-09-26",
+   "error": null,
+   "explanation": {
+    "backtranslation_chrf": 100.0,
+    "deadline": [
+     {
+      "support": [
+       "e1"
+      ],
+      "text": "Letra nuk cakton afat."
+     }
+    ],
+    "failed_field_checks": [],
+    "language": "sq",
+    "low_confidence": false,
+    "what_they_want": [
+     {
+      "support": [
+       "e1"
+      ],
+      "text": "Letra ju informon. Nuk kërkon asgjë."
+     }
+    ],
+    "what_this_is": [
+     {
+      "support": [
+       "e1",
+       "e2"
+      ],
+      "text": "Kjo është një vendim për uljen e primeve të sigurimit shëndetësor. Letra vjen nga Amt für Sozialversicherungen des Kantons Bern."
+     }
+    ],
+    "what_you_can_do": [
+     {
+      "support": [
+       "e1"
+      ],
+      "text": "Letra nuk përmend mundësi."
+     }
+    ],
+    "who_to_contact": [
+     {
+      "support": [
+       "e2"
+      ],
+      "text": "Pyetni këshilltarin se kë të kontaktoni."
+     }
+    ]
+   },
+   "explanation_de": {
+    "backtranslation_chrf": null,
+    "deadline": [
+     {
+      "support": [
+       "e1"
+      ],
+      "text": "Im Brief steht keine Frist."
+     }
+    ],
+    "failed_field_checks": [],
+    "language": "de",
+    "low_confidence": false,
+    "what_they_want": [
+     {
+      "support": [
+       "e1"
+      ],
+      "text": "Der Brief informiert Sie. Er verlangt nichts."
+     }
+    ],
+    "what_this_is": [
+     {
+      "support": [
+       "e1",
+       "e2"
+      ],
+      "text": "Das ist ein Entscheid zur Prämienverbilligung. Der Brief kommt von Amt für Sozialversicherungen des Kantons Bern."
+     }
+    ],
+    "what_you_can_do": [
+     {
+      "support": [
+       "e1"
+      ],
+      "text": "Der Brief nennt keine Möglichkeiten."
+     }
+    ],
+    "who_to_contact": [
+     {
+      "support": [
+       "e2"
+      ],
+      "text": "Fragen Sie die Beratungsperson, an wen Sie sich wenden können."
+     }
+    ]
+   },
+   "facts": {
+    "amount_due": null,
+    "amounts": [
+     {
+      "amount": "202.35",
+      "currency": "CHF"
+     }
+    ],
+    "creditor_name": null,
+    "deadline_fixed_date": null,
+    "deadline_period_unit": null,
+    "deadline_period_value": null,
+    "deadline_start_event": null,
+    "deadline_text": null,
+    "demanded_action": null,
+    "evidence": {
+     "letter_date": [
+      "e5"
+     ],
+     "letter_type": [
+      "e1"
+     ],
+     "recipient_address": [
+      "e4"
+     ],
+     "recipient_name": [
+      "e3"
+     ],
+     "reference_numbers": [
+      "e7"
+     ],
+     "sender_address": [
+      "e6"
+     ],
+     "sender_name": [
+      "e2"
+     ]
+    },
+    "evidence_items": [
+     {
+      "bbox": [
+       0.1046,
+       0.3339,
+       0.4915,
+       0.3501
+      ],
+      "id": "e1",
+      "page": 0,
+      "text": "Verfügung Prämienverbilligung 2027"
+     },
+     {
+      "bbox": [
+       0.1046,
+       0.0581,
+       0.5544,
+       0.0731
+      ],
+      "id": "e2",
+      "page": 0,
+      "text": "Amt für Sozialversicherungen des Kantons Bern"
+     },
+     {
+      "bbox": [
+       0.1046,
+       0.1655,
+       0.2636,
+       0.1774
+      ],
+      "id": "e3",
+      "page": 0,
+      "text": "Arta Krasniqi-Berisha"
+     },
+     {
+      "bbox": [
+       0.1058,
+       0.1834,
+       0.2031,
+       0.1928
+      ],
+      "id": "e4",
+      "page": 0,
+      "text": "Lindenrain 14"
+     },
+     {
+      "bbox": [
+       0.1493,
+       0.2937,
+       0.3041,
+       0.3057
+      ],
+      "id": "e5",
+      "page": 0,
+      "text": "24. September 2026"
+     },
+     {
+      "bbox": [
+       0.1052,
+       0.0791,
+       0.1844,
+       0.0885
+      ],
+      "id": "e6",
+      "page": 0,
+      "text": "3000 Bern"
+     },
+     {
+      "bbox": [
+       0.1947,
+       0.3617,
+       0.2769,
+       0.3711
+      ],
+      "id": "e7",
+      "page": 0,
+      "text": "PV-467188"
+     }
+    ],
+    "iban": null,
+    "letter_date": "2026-09-24",
+    "letter_type": "premium_reduction",
+    "recipient_address": "Lindenrain 14, 3012 Bern",
+    "recipient_name": "Arta Krasniqi-Berisha",
+    "reference_numbers": [
+     "PV-467188"
+    ],
+    "sender_address": "3000 Bern",
+    "sender_contact": null,
+    "sender_name": "Amt für Sozialversicherungen des Kantons Bern",
+    "source_language": "de",
+    "stated_options": []
+   },
+   "id": "demo-08.CASE",
+   "label": "demo-08",
+   "letter_date_display": "Thu 24 Sept 2026",
+   "page_ids": [
+    "demo-08-p0.CASE"
+   ],
+   "pages": [
+    {
+     "height": 2339,
+     "id": "demo-08-p0.CASE",
+     "url": "/api/cases/CASE/pages/demo-08-p0.CASE.jpg",
+     "width": 1654
+    }
+   ],
+   "priority_reason": "no deadline",
+   "reply_templates": [
+    {
+     "id": "extension_request",
+     "title": "Gesuch um Fristverlängerung",
+     "unsourced": []
+    }
+   ],
+   "stage": null,
+   "status": "done",
+   "type_label": "Premium reduction decision",
+   "type_label_de": "Verfügung Prämienverbilligung",
+   "verification": {
+    "authority_contact": {
+     "address": null,
+     "email": null,
+     "id": "be_premium_reduction",
+     "name": "Amt für Sozialversicherungen des Kantons Bern",
+     "phone": null,
+     "retrieved": null,
+     "source_url": null,
+     "sourced": false,
+     "web": null
+    },
+    "authority_id": "be_premium_reduction",
+    "deadline": null,
+    "field_checks": {
+     "amounts": "match",
+     "letter_date": "match",
+     "reference_numbers": "match"
+    },
+    "iban_country": null,
+    "iban_valid": null,
+    "model_tool_calls": [
+     "lookup_authority",
+     "match_scam_patterns"
+    ],
+    "orchestrator_forced_tools": [],
+    "qr": null,
+    "red_flags": []
+   }
+  }
+ ],
+ "model_misses": 0,
+ "order": [
+  "demo-04.CASE",
+  "demo-03.CASE",
+  "demo-02.CASE",
+  "demo-01.CASE",
+  "demo-07.CASE",
+  "demo-05.CASE",
+  "demo-06.CASE",
+  "demo-08.CASE"
+ ],
+ "replies": [],
+ "status": "ready",
+ "strings": {
+  "be_careful": "Kujdes: kjo letër ka shenja paralajmëruese.",
+  "date_needed": "data ende e hapur: varet nga dita kur e keni marrë letrën",
+  "disclaimer": "Briefklar shpjegon letrat. Nuk jep këshilla ligjore. Pyetni këshilltarin.",
+  "flagged_wait": "Mos paguani dhe mos telefononi para se këshilltari ta ketë kontrolluar këtë letër.",
+  "handout_done": "Çfarë u bë sot",
+  "handout_explained": "Letra ju u shpjegua.",
+  "handout_last_day": "Dita e fundit",
+  "handout_letter": "Letër",
+  "handout_next_dates": "Datat e ardhshme",
+  "handout_no_deadline": "Pa afat",
+  "handout_reply_prepared": "U përgatit një përgjigje. Nënshkruajeni dhe dërgojeni.",
+  "handout_title": "Letrat tuaja",
+  "section_deadline": "Afati",
+  "section_what_they_want": "Çfarë kërkojnë",
+  "section_what_this_is": "Çfarë është kjo",
+  "section_what_you_can_do": "Çfarë mund të bëni",
+  "section_who_to_contact": "Kë të kontaktoni",
+  "step_dates": "Duke kontrolluar datat",
+  "step_reading": "Duke lexuar faqen",
+  "step_sender": "Duke gjetur dërguesin",
+  "step_warnings": "Duke kontrolluar shenjat paralajmëruese",
+  "step_writing": "Duke shkruar në {language}",
+  "warning_heading": "Shenja paralajmëruese"
+ },
+ "strings_de": {
+  "be_careful": "Vorsicht: Dieser Brief zeigt Warnsignale.",
+  "date_needed": "Datum noch offen: Es hängt vom Tag ab, an dem Sie den Brief bekommen haben",
+  "disclaimer": "Briefklar erklärt Briefe. Es gibt keine Rechtsberatung. Fragen Sie die Beratungsperson.",
+  "flagged_wait": "Zahlen Sie nicht und rufen Sie nicht an, bevor die Beratungsperson den Brief geprüft hat.",
+  "handout_done": "Was heute gemacht wurde",
+  "handout_explained": "Der Brief wurde Ihnen erklärt.",
+  "handout_last_day": "Letzter Tag",
+  "handout_letter": "Brief",
+  "handout_next_dates": "Nächste Termine",
+  "handout_no_deadline": "Keine Frist",
+  "handout_reply_prepared": "Eine Antwort wurde vorbereitet. Unterschreiben und abschicken.",
+  "handout_title": "Ihre Briefe",
+  "section_deadline": "Frist",
+  "section_what_they_want": "Was wollen sie?",
+  "section_what_this_is": "Was ist das?",
+  "section_what_you_can_do": "Was können Sie tun?",
+  "section_who_to_contact": "Wen können Sie fragen?",
+  "step_dates": "Daten werden geprüft",
+  "step_reading": "Seite wird gelesen",
+  "step_sender": "Absender wird gesucht",
+  "step_warnings": "Warnsignale werden geprüft",
+  "step_writing": "Text wird geschrieben: {language}",
+  "warning_heading": "Warnsignale"
+ },
+ "threads": [
+  {
+   "confirmed": true,
+   "id": "t1",
+   "letter_ids": [
+    "demo-01.CASE",
+    "demo-02.CASE",
+    "demo-03.CASE"
+   ],
+   "origin": "both",
+   "reason": "same reference number (202608965)",
+   "rejected": false
+  }
+ ],
+ "today": "2026-10-10",
+ "today_display": "Sat 10 Oct 2026",
+ "unassigned_pages": []
+}

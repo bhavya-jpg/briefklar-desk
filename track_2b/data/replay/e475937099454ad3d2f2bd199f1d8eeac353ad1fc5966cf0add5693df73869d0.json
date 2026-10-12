@@ -1,0 +1,13 @@
+{
+ "key": "e475937099454ad3d2f2bd199f1d8eeac353ad1fc5966cf0add5693df73869d0",
+ "pass": "explain:en",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"This is a decision on health-insurance premium reduction. The letter is from Amt für Sozialversicherungen des Kantons Bern.\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"The letter informs you. It asks for nothing.\", \"support\": [\"e1\"]}], \"deadline\": [{\"text\": \"The letter sets no deadline.\", \"support\": [\"e1\"]}], \"what_you_can_do\": [{\"text\": \"The letter states no options.\", \"support\": [\"e1\"]}], \"who_to_contact\": [{\"text\": \"Ask the counsellor who to contact.\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

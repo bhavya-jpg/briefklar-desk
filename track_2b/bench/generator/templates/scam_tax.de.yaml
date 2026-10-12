@@ -1,0 +1,21 @@
+type: scam_tax
+letter_type: unknown
+scam: true
+lang: de
+rule_family: generic_admin
+period: null
+source: "Team-written synthetic example of a refund lure paid through prepaid cards."
+next_step: beware
+red_flags: [URGENCY_PAYMENT_UNUSUAL_CHANNEL]
+title: "Steuerrückerstattung {{ tax_year }}"
+ref_label: "Vorgangs-Nr."
+intro:
+  - "Sie haben Anspruch auf eine Rückerstattung von {{ refund_text }}."
+  - "Für die Auszahlung ist eine Bearbeitungsgebühr fällig."
+labels: {principal: "Bearbeitungsgebühr", total: "Total"}
+demand: "Bezahlen Sie die Gebühr von {{ amount_text }} mit Paysafecard Guthabenkarten und senden Sie uns die Codes per E-Mail."
+deadline: "Die Rückerstattung verfällt am {{ due_date_text }}."
+options:
+  pay: "Bezahlen Sie die Gebühr von {{ amount_text }} mit Paysafecard Guthabenkarten"
+closing: []
+greeting: "Freundliche Grüsse"

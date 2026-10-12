@@ -1,0 +1,54 @@
+{
+ "key": "8d69a26fc16b0948d20f5853fa5d246e554876abbeb1da03d9cb38578552dc95",
+ "pass": "verify",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": null,
+  "tool_calls": [
+   {
+    "id": "call_1",
+    "name": "compute_deadline",
+    "arguments": {
+     "rule_family": "contract",
+     "period_value": 0,
+     "period_unit": "days",
+     "start_event": "fixed_date",
+     "letter_date": "2026-10-01",
+     "fixed_date": "2026-10-31",
+     "canton": "BE"
+    }
+   },
+   {
+    "id": "call_2",
+    "name": "validate_iban",
+    "arguments": {
+     "iban": "CH6299999937865797543"
+    }
+   },
+   {
+    "id": "call_3",
+    "name": "decode_qr_bill",
+    "arguments": {}
+   },
+   {
+    "id": "call_4",
+    "name": "lookup_authority",
+    "arguments": {
+     "sender_name": "Serafe AG",
+     "sender_address": "Postfach"
+    }
+   },
+   {
+    "id": "call_5",
+    "name": "match_scam_patterns",
+    "arguments": {
+     "letter_id": "letter"
+    }
+   }
+  ],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

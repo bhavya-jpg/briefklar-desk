@@ -1,0 +1,232 @@
+# Authority directory (spec section 9.4).
+#
+# SOURCE REQUIRED for every entry: phone, email, web and address must be copied by a human from the
+# authority's official website, with `source_url` (the page it was copied from) and `retrieved` (date).
+# Nothing here may be typed from memory. Until an entry is sourced:
+#   - the app shows "official contact not yet sourced" instead of a contact,
+#   - the CONTACT_MISMATCH red-flag check is skipped for it,
+#   - tests/test_sources_required.py fails for it.
+# Names are used for matching only. TODO(source): confirm each official name on the same page.
+authorities:
+  - id: sem
+    names: ["Staatssekretariat für Migration", "Secrétariat d'Etat aux migrations", "Segreteria di Stato della migrazione", "SEM"]
+    level: federal
+    phone: null        # TODO(source): official sem.admin.ch contact page
+    email: null        # TODO(source)
+    web: null          # TODO(source)
+    address: null      # TODO(source)
+    source_url: null
+    retrieved: null
+
+  - id: serafe
+    names: ["Serafe AG", "SERAFE"]
+    level: federal_mandate
+    phone: null        # TODO(source)
+    email: null
+    web: null
+    address: null
+    source_url: null
+    retrieved: null
+
+  # --- Canton of Bern (demo canton) ---
+  - id: be_debt_bern_mittelland
+    names: ["Betreibungsamt Bern-Mittelland", "Office des poursuites Berne-Mittelland"]
+    level: district
+    canton: BE
+    phone: null        # TODO(source)
+    email: null
+    web: null
+    address: null
+    source_url: null
+    retrieved: null
+
+  - id: be_tax
+    names: ["Steuerverwaltung des Kantons Bern", "Intendance des impôts du canton de Berne"]
+    level: cantonal
+    canton: BE
+    phone: null        # TODO(source)
+    email: null
+    web: null
+    address: null
+    source_url: null
+    retrieved: null
+
+  - id: be_migration
+    names: ["Amt für Bevölkerungsdienste des Kantons Bern", "Migrationsdienst des Kantons Bern"]
+    level: cantonal
+    canton: BE
+    phone: null        # TODO(source)
+    email: null
+    web: null
+    address: null
+    source_url: null
+    retrieved: null
+
+  - id: be_premium_reduction
+    names: ["Amt für Sozialversicherungen des Kantons Bern"]
+    level: cantonal
+    canton: BE
+    phone: null        # TODO(source)
+    email: null
+    web: null
+    address: null
+    source_url: null
+    retrieved: null
+
+  # --- Canton of Zürich ---
+  - id: zh_debt_zurich_4
+    names: ["Betreibungsamt Zürich 4"]
+    level: district
+    canton: ZH
+    phone: null        # TODO(source)
+    email: null
+    web: null
+    address: null
+    source_url: null
+    retrieved: null
+
+  - id: zh_tax
+    names: ["Kantonales Steueramt Zürich"]
+    level: cantonal
+    canton: ZH
+    phone: null        # TODO(source)
+    email: null
+    web: null
+    address: null
+    source_url: null
+    retrieved: null
+
+  - id: zh_migration
+    names: ["Migrationsamt des Kantons Zürich"]
+    level: cantonal
+    canton: ZH
+    phone: null        # TODO(source)
+    email: null
+    web: null
+    address: null
+    source_url: null
+    retrieved: null
+
+  - id: zh_premium_reduction
+    names: ["SVA Zürich", "Sozialversicherungsanstalt des Kantons Zürich"]
+    level: cantonal
+    canton: ZH
+    phone: null        # TODO(source)
+    email: null
+    web: null
+    address: null
+    source_url: null
+    retrieved: null
+
+  # --- Canton of Vaud ---
+  - id: vd_debt_lausanne
+    names: ["Office des poursuites du district de Lausanne"]
+    level: district
+    canton: VD
+    phone: null        # TODO(source)
+    email: null
+    web: null
+    address: null
+    source_url: null
+    retrieved: null
+
+  - id: vd_tax
+    names: ["Administration cantonale des impôts du canton de Vaud", "Administration cantonale des impôts"]
+    level: cantonal
+    canton: VD
+    phone: null        # TODO(source)
+    email: null
+    web: null
+    address: null
+    source_url: null
+    retrieved: null
+
+  - id: vd_migration
+    names: ["Service de la population du canton de Vaud", "Service de la population"]
+    level: cantonal
+    canton: VD
+    phone: null        # TODO(source)
+    email: null
+    web: null
+    address: null
+    source_url: null
+    retrieved: null
+
+  # --- Canton of Ticino ---
+  - id: ti_debt_lugano
+    names: ["Ufficio di esecuzione di Lugano"]
+    level: district
+    canton: TI
+    phone: null        # TODO(source)
+    email: null
+    web: null
+    address: null
+    source_url: null
+    retrieved: null
+
+  - id: ti_tax
+    names: ["Divisione delle contribuzioni del Cantone Ticino", "Divisione delle contribuzioni"]
+    level: cantonal
+    canton: TI
+    phone: null        # TODO(source)
+    email: null
+    web: null
+    address: null
+    source_url: null
+    retrieved: null
+
+  - id: ti_migration
+    names: ["Sezione della popolazione del Cantone Ticino", "Sezione della popolazione"]
+    level: cantonal
+    canton: TI
+    phone: null        # TODO(source)
+    email: null
+    web: null
+    address: null
+    source_url: null
+    retrieved: null
+
+  # --- Cantonal police (senders of fines in the bench) ---
+  - id: be_police
+    names: ["Kantonspolizei Bern", "Police cantonale bernoise"]
+    level: cantonal
+    canton: BE
+    phone: null        # TODO(source)
+    email: null
+    web: null
+    address: null
+    source_url: null
+    retrieved: null
+
+  - id: zh_police
+    names: ["Kantonspolizei Zürich"]
+    level: cantonal
+    canton: ZH
+    phone: null        # TODO(source)
+    email: null
+    web: null
+    address: null
+    source_url: null
+    retrieved: null
+
+  - id: vd_police
+    names: ["Police cantonale vaudoise"]
+    level: cantonal
+    canton: VD
+    phone: null        # TODO(source)
+    email: null
+    web: null
+    address: null
+    source_url: null
+    retrieved: null
+
+  - id: ti_police
+    names: ["Polizia cantonale del Cantone Ticino", "Polizia cantonale"]
+    level: cantonal
+    canton: TI
+    phone: null        # TODO(source)
+    email: null
+    web: null
+    address: null
+    source_url: null
+    retrieved: null

@@ -1,0 +1,13 @@
+{
+ "key": "e8d5202c4dee941e8c82781e87f3270379dcec942446a3a78b1d772cde9d2159",
+ "pass": "explain:de",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"Das ist eine Rechnung. Der Brief kommt von Télécom Rive-Bleue SA.\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"Sie sollen CHF 1’071.00 bezahlen.\", \"support\": [\"e9\", \"e11\"]}], \"deadline\": [{\"text\": \"Letzter Tag: [[DUE_DATE]].\", \"support\": [\"e12\"]}], \"what_you_can_do\": [{\"text\": \"Sie können bezahlen.\", \"support\": [\"e13\"]}], \"who_to_contact\": [{\"text\": \"Fragen Sie die Beratungsperson, an wen Sie sich wenden können.\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

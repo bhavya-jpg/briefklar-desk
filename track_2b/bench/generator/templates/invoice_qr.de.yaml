@@ -1,0 +1,20 @@
+type: invoice_qr
+letter_type: invoice_qr
+lang: de
+rule_family: contract
+period: null   # the letter prints a due date
+source: "Team-written invoice. No legal wording."
+next_step: pay
+qr: true
+title: "Rechnung"
+ref_label: "Rechnung Nr."
+intro:
+  - "Guten Tag {{ recipient_name }}"
+  - "Wir stellen Ihnen folgende Leistung in Rechnung: {{ service }}."
+labels: {principal: "Betrag", total: "Total"}
+demand: "Bitte bezahlen Sie den Betrag von {{ amount_text }} mit dem Zahlteil unten."
+deadline: "Zahlbar bis {{ due_date_text }}."
+options:
+  pay: "bezahlen Sie den Betrag von {{ amount_text }}"
+closing: []
+greeting: "Freundliche Grüsse"

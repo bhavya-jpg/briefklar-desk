@@ -1,0 +1,13 @@
+{
+ "key": "388775794a06be5584bf6a43b99fcc4b4408ac0289335679f8c9233d16eba155",
+ "pass": "explain:tr",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"Bu bir vergi tahakkuku. Mektubu gönderen: Steuerverwaltung des Kantons Bern.\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"CHF 2’521.70 ödemenizi istiyorlar.\", \"support\": [\"e8\", \"e10\"]}], \"deadline\": [{\"text\": \"Son gün: [[DUE_DATE]].\", \"support\": [\"e11\"]}], \"what_you_can_do\": [{\"text\": \"Ödeyebilirsiniz.\", \"support\": [\"e12\"]}], \"who_to_contact\": [{\"text\": \"Kime başvuracağınızı danışmanınıza sorun.\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

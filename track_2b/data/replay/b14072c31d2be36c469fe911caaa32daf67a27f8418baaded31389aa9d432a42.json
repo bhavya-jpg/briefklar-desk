@@ -1,0 +1,13 @@
+{
+ "key": "b14072c31d2be36c469fe911caaa32daf67a27f8418baaded31389aa9d432a42",
+ "pass": "explain:bcs",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"Ovo je: obavijest iz škole. Pismo šalje Sekundarschule Rebacker.\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"Pismo traži da nešto učinite.\", \"support\": [\"e7\"]}], \"deadline\": [{\"text\": \"Posljednji dan: [[DUE_DATE]].\", \"support\": [\"e8\"]}], \"what_you_can_do\": [{\"text\": \"Možete vratiti obrazac za odgovor.\", \"support\": [\"e9\"]}], \"who_to_contact\": [{\"text\": \"Pitajte savjetnika kome da se obratite.\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

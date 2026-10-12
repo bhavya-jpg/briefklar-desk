@@ -1,0 +1,13 @@
+{
+ "key": "030e4e7da6a7a7635b23a59dfbe6d6a8da6f723fcf276796ef82b491127126d3",
+ "pass": "check:pt",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "Das ist eine Rechnung. Der Brief kommt von Seerose Telecom AG.\nSie sollen CHF 690.85 bezahlen.\nLetzter Tag: [[DUE_DATE]].\nSie können bezahlen.\nFragen Sie die Beratungsperson, an wen Sie sich wenden können.",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

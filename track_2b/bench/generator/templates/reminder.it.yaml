@@ -1,0 +1,22 @@
+type: reminder
+letter_type: reminder
+lang: it
+rule_family: contract
+period: {value: 10, unit: days, start_event: letter_date}
+source: "Team-written commercial reminder. No legal wording."
+next_step: pay
+title: "{{ level }}° sollecito"
+ref_label: "Fattura n."
+intro:
+  - "Buongiorno {{ recipient_name }}"
+  - "La nostra fattura n. {{ invoice_no }} del {{ invoice_date_text }} non è ancora stata pagata."
+labels: {principal: "Importo della fattura", fees: "Spese di sollecito", total: "Importo aperto"}
+demand: "La preghiamo di versare l'importo aperto di {{ amount_text }} sul conto {{ iban_text }} con il riferimento {{ creditor_ref }}."
+deadline: "Il pagamento deve pervenirci entro 10 giorni dalla data di questa lettera."
+options:
+  pay: "versare l'importo aperto di {{ amount_text }}"
+  contact_office: "Per domande si rivolga alla nostra contabilità"
+closing:
+  - "{% if level >= 2 %}Senza pagamento ci riserviamo di avviare un'esecuzione.{% endif %}"
+  - "Per domande si rivolga alla nostra contabilità."
+greeting: "Distinti saluti"

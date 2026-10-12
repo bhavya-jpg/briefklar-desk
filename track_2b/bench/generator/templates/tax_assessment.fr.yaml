@@ -1,0 +1,20 @@
+type: tax_assessment
+letter_type: tax_assessment
+lang: fr
+rule_family: generic_admin
+period: null
+# TODO(source): SOURCE REQUIRED. Instructions on appeal are left out until sourced from an official sample form.
+period_source: null
+source: "Team-written. TODO(source): official sample assessment."
+next_step: pay
+title: "Décision de taxation, impôt cantonal et communal {{ tax_year }}"
+ref_label: "N° de contribuable"
+intro:
+  - "Sur la base de votre déclaration, nous avons fixé l'impôt pour l'année {{ tax_year }}."
+labels: {principal: "Impôt dû", paid: "Déjà payé", total: "Solde à payer"}
+demand: "Veuillez verser le montant de {{ amount_text }} sur le compte {{ iban_text }}."
+deadline: "Payable jusqu'au {{ due_date_text }}."
+options:
+  pay: "verser le montant de {{ amount_text }}"
+closing: []
+greeting: "Meilleures salutations"

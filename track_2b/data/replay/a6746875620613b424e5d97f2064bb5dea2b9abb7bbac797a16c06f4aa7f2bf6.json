@@ -1,0 +1,54 @@
+{
+ "key": "a6746875620613b424e5d97f2064bb5dea2b9abb7bbac797a16c06f4aa7f2bf6",
+ "pass": "verify",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": null,
+  "tool_calls": [
+   {
+    "id": "call_1",
+    "name": "compute_deadline",
+    "arguments": {
+     "rule_family": "contract",
+     "period_value": 0,
+     "period_unit": "days",
+     "start_event": "fixed_date",
+     "letter_date": "2026-10-02",
+     "fixed_date": "2026-11-01",
+     "canton": "VD"
+    }
+   },
+   {
+    "id": "call_2",
+    "name": "validate_iban",
+    "arguments": {
+     "iban": "CH4199999656355150587"
+    }
+   },
+   {
+    "id": "call_3",
+    "name": "decode_qr_bill",
+    "arguments": {}
+   },
+   {
+    "id": "call_4",
+    "name": "lookup_authority",
+    "arguments": {
+     "sender_name": "Télécom Rive-Bleue SA",
+     "sender_address": "chemin de Boichat 66, 2696 Bernasconi"
+    }
+   },
+   {
+    "id": "call_5",
+    "name": "match_scam_patterns",
+    "arguments": {
+     "letter_id": "letter"
+    }
+   }
+  ],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

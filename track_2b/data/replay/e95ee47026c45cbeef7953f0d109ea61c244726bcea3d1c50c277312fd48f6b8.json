@@ -1,0 +1,13 @@
+{
+ "key": "e95ee47026c45cbeef7953f0d109ea61c244726bcea3d1c50c277312fd48f6b8",
+ "pass": "explain:fr",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"C'est un rappel de paiement. La lettre vient de Alpenblick Versand AG.\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"On vous demande de payer CHF 1’166.70.\", \"support\": [\"e9\", \"e11\"]}], \"deadline\": [{\"text\": \"Dernier jour : [[DUE_DATE]].\", \"support\": [\"e12\"]}], \"what_you_can_do\": [{\"text\": \"Vous pouvez payer.\", \"support\": [\"e13\"]}, {\"text\": \"Vous pouvez contacter l'expéditeur.\", \"support\": [\"e14\"]}], \"who_to_contact\": [{\"text\": \"Demandez à la conseillère ou au conseiller à qui vous adresser.\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

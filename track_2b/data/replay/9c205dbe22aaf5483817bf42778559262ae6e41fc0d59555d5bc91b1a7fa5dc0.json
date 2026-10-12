@@ -1,0 +1,13 @@
+{
+ "key": "9c205dbe22aaf5483817bf42778559262ae6e41fc0d59555d5bc91b1a7fa5dc0",
+ "pass": "explain:it",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"È una decisione di tassazione. La lettera viene da Steuerverwaltung des Kantons Bern.\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"Le chiedono di pagare CHF 2’521.70.\", \"support\": [\"e8\", \"e10\"]}], \"deadline\": [{\"text\": \"Ultimo giorno: [[DUE_DATE]].\", \"support\": [\"e11\"]}], \"what_you_can_do\": [{\"text\": \"Può pagare.\", \"support\": [\"e12\"]}], \"who_to_contact\": [{\"text\": \"Chieda alla consulente o al consulente a chi rivolgersi.\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

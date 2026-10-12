@@ -1,0 +1,13 @@
+{
+ "key": "bce560c537aa8b2cb2d7449f2c7dce810ea1d63d7988d548f93171d6c81eb276",
+ "pass": "check:ta",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "Das ist eine Rechnung. Der Brief kommt von Lumière du Léman Énergie SA.\nSie sollen CHF 1’640.40 bezahlen.\nLetzter Tag: [[DUE_DATE]].\nSie können bezahlen.\nFragen Sie die Beratungsperson, an wen Sie sich wenden können.",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

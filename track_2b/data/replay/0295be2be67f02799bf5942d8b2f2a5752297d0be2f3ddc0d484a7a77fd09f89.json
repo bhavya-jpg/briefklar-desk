@@ -1,0 +1,13 @@
+{
+ "key": "0295be2be67f02799bf5942d8b2f2a5752297d0be2f3ddc0d484a7a77fd09f89",
+ "pass": "check:tr",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "Das ist eine Rechnung für die Radio- und Fernsehabgabe. Der Brief kommt von Serafe AG.\nSie sollen CHF 153.60 bezahlen.\nLetzter Tag: [[DUE_DATE]].\nSie können bezahlen.\nFragen Sie die Beratungsperson, an wen Sie sich wenden können.",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

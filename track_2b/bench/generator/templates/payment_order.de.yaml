@@ -1,0 +1,21 @@
+type: payment_order
+letter_type: payment_order
+lang: de
+rule_family: schkg
+period: {value: 10, unit: days, start_event: delivery}
+period_source: https://betreibungsamt.tg.ch/public/upload/assets/92744/Informationsblatt%20zum%20Zahlungsbefehl%20de.pdf
+source: https://betreibungsamt.tg.ch/public/upload/assets/92744/Informationsblatt%20zum%20Zahlungsbefehl%20de.pdf
+next_step: object
+title: "Zahlungsbefehl"
+ref_label: "Betreibung Nr."
+intro:
+  - "Gläubiger: {{ creditor_name }}, {{ creditor_city }}"
+  - "Forderungsgrund: Rechnung Nr. {{ invoice_no }} vom {{ invoice_date_text }}, Referenz {{ creditor_ref }}"
+labels: {principal: "Forderung", fees: "Mahngebühren", costs: "Kosten des Zahlungsbefehls", total: "Total"}
+demand: "Der Schuldner wird aufgefordert, den Betrag von {{ amount_text }} samt Betreibungskosten zu bezahlen."
+deadline: "Will der Schuldner die Forderung bestreiten, so hat er dies innert 10 Tagen seit der Zustellung dem Betreibungsamt mündlich oder schriftlich zu erklären (Rechtsvorschlag)."
+options:
+  pay: "den Betrag von {{ amount_text }} samt Betreibungskosten zu bezahlen"
+  object: "innert 10 Tagen seit der Zustellung dem Betreibungsamt mündlich oder schriftlich zu erklären"
+closing: ["Der Rechtsvorschlag muss nicht begründet werden."]
+greeting: null

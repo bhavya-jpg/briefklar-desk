@@ -1,0 +1,13 @@
+{
+ "key": "c75a947bdc6a46d99a6e0ceb7a67bb176049c72ad873f484a320b713f1367266",
+ "pass": "explain:uk",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"Це нагадування про оплату. Лист надіслав Alpenblick Versand AG.\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"Вас просять сплатити CHF 1’146.70.\", \"support\": [\"e9\", \"e11\"]}], \"deadline\": [{\"text\": \"Останній день: [[DUE_DATE]].\", \"support\": [\"e12\"]}], \"what_you_can_do\": [{\"text\": \"Ви можете сплатити.\", \"support\": [\"e13\"]}, {\"text\": \"Ви можете звернутися до відправника.\", \"support\": [\"e14\"]}], \"who_to_contact\": [{\"text\": \"Запитайте консультанта, до кого звернутися.\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

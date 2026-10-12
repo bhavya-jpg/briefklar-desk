@@ -1,0 +1,23 @@
+{
+ "backend": "fixture",
+ "demo_languages": [
+  "de",
+  "fr",
+  "it",
+  "en",
+  "sq",
+  "pt",
+  "bcs",
+  "es",
+  "ta",
+  "ti",
+  "ar",
+  "uk",
+  "tr"
+ ],
+ "model": null,
+ "note": "FIXTURE responses: written by bench/fixtures from gold data, NOT produced by Apertus. They exercise the pipeline and the UI only. Record real ones with `make record-live`.",
+ "recorded_at": "2026-10-11T16:11:30+00:00",
+ "responses": 380,
+ "schema_retries": 0
+}

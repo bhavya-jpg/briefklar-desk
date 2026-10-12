@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 324" font-family="Inter Tight, sans-serif">
+<rect width="720" height="324" fill="#FFFFFF"/>
+<text x="24" y="34" font-size="18" font-weight="600" fill="#14161A">Deadline: exact date</text>
+<text x="24" y="56" font-size="12" fill="#4A4F57">bench_small: 23 letters, 3 cases</text>
+<text x="24" y="97" font-size="13" fill="#14161A">B0 · Tesseract + regex rules</text>
+<rect x="250" y="82" width="186.5" height="22" rx="3" fill="#A9AEB6"/>
+<text x="444.5" y="98" font-size="13" font-weight="600" fill="#14161A">0.48</text>
+<text x="24" y="141" font-size="13" fill="#14161A">B1 · OCR + Apertus translation only</text>
+<text x="250" y="141" font-size="13" fill="#4A4F57">not run</text>
+<text x="24" y="185" font-size="13" fill="#14161A">B2 · OCR text + Apertus explanation</text>
+<text x="250" y="185" font-size="13" fill="#4A4F57">not run</text>
+<text x="24" y="229" font-size="13" fill="#14161A">B3 · Apertus vision, no tools</text>
+<text x="250" y="229" font-size="13" fill="#4A4F57">not run</text>
+<text x="24" y="273" font-size="13" fill="#14161A">BK · Briefklar full pipeline</text>
+<rect x="250" y="258" width="390.0" height="22" rx="3" fill="#0F6E6A"/>
+<text x="648.0" y="274" font-size="13" font-weight="600" fill="#14161A">1.00</text>
+<text x="24" y="310" font-size="12" font-weight="600" fill="#8F5D00">BK bar uses FIXTURE responses, not Apertus output. Not a result.</text>
+</svg>

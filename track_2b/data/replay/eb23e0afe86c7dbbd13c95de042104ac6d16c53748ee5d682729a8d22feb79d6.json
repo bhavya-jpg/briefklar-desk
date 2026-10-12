@@ -1,0 +1,13 @@
+{
+ "key": "eb23e0afe86c7dbbd13c95de042104ac6d16c53748ee5d682729a8d22feb79d6",
+ "pass": "explain:de",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"Das ist ein Entscheid zur Prämienverbilligung. Der Brief kommt von SVA Zürich.\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"Der Brief informiert Sie. Er verlangt nichts.\", \"support\": [\"e1\"]}], \"deadline\": [{\"text\": \"Im Brief steht keine Frist.\", \"support\": [\"e1\"]}], \"what_you_can_do\": [{\"text\": \"Der Brief nennt keine Möglichkeiten.\", \"support\": [\"e1\"]}], \"who_to_contact\": [{\"text\": \"Fragen Sie die Beratungsperson, an wen Sie sich wenden können.\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

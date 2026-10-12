@@ -1,0 +1,13 @@
+{
+ "key": "89f879c77f96e61e23b3dcec31ce6d7d8ea612fb95cfa5c65bdcb064d5800a26",
+ "pass": "explain:ta",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"இது: சுகாதாரக் காப்பீட்டு கட்டணக் குறைப்பு முடிவு. கடிதம் அனுப்பியவர்: Amt für Sozialversicherungen des Kantons Bern.\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"கடிதம் உங்களுக்குத் தகவல் தருகிறது. எதையும் கேட்கவில்லை.\", \"support\": [\"e1\"]}], \"deadline\": [{\"text\": \"கடிதத்தில் கடைசி தேதி இல்லை.\", \"support\": [\"e1\"]}], \"what_you_can_do\": [{\"text\": \"கடிதத்தில் வழிகள் எதுவும் குறிப்பிடப்படவில்லை.\", \"support\": [\"e1\"]}], \"who_to_contact\": [{\"text\": \"யாரைத் தொடர்பு கொள்வது என்று ஆலோசகரிடம் கேளுங்கள்.\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

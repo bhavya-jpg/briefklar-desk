@@ -1,0 +1,179 @@
+{
+ "canton": "VD",
+ "case_id": "case-03",
+ "delivered_on": "2026-10-01",
+ "facts": {
+  "amount_due": {
+   "amount": "6021.70",
+   "currency": "CHF"
+  },
+  "amounts": [
+   {
+    "amount": "7020.00",
+    "currency": "CHF"
+   },
+   {
+    "amount": "998.30",
+    "currency": "CHF"
+   },
+   {
+    "amount": "6021.70",
+    "currency": "CHF"
+   }
+  ],
+  "creditor_name": null,
+  "deadline_fixed_date": "2026-10-25",
+  "deadline_period_unit": null,
+  "deadline_period_value": null,
+  "deadline_start_event": "fixed_date",
+  "deadline_text": "Payable jusqu'au 25 octobre 2026.",
+  "demanded_action": "Veuillez verser le montant de CHF 6'021.70 sur le compte CH79 9999 9134 1252 4273 1.",
+  "evidence": {
+   "amount_due": [
+    "e8"
+   ],
+   "deadline_text": [
+    "e11"
+   ],
+   "demanded_action": [
+    "e10"
+   ],
+   "iban": [
+    "e9"
+   ],
+   "letter_date": [
+    "e5"
+   ],
+   "letter_type": [
+    "e1"
+   ],
+   "recipient_address": [
+    "e4"
+   ],
+   "recipient_name": [
+    "e3"
+   ],
+   "reference_numbers": [
+    "e7"
+   ],
+   "sender_address": [
+    "e6"
+   ],
+   "sender_name": [
+    "e2"
+   ],
+   "stated_options": [
+    "e12"
+   ]
+  },
+  "evidence_items": [
+   {
+    "bbox": null,
+    "id": "e1",
+    "page": 0,
+    "text": "Décision de taxation, impôt cantonal et communal 2025"
+   },
+   {
+    "bbox": null,
+    "id": "e2",
+    "page": 0,
+    "text": "Administration cantonale des impôts"
+   },
+   {
+    "bbox": null,
+    "id": "e3",
+    "page": 0,
+    "text": "Raymond Gubéran"
+   },
+   {
+    "bbox": null,
+    "id": "e4",
+    "page": 0,
+    "text": "rue Nicolas Bavaud 70"
+   },
+   {
+    "bbox": null,
+    "id": "e5",
+    "page": 0,
+    "text": "30 septembre 2026"
+   },
+   {
+    "bbox": null,
+    "id": "e6",
+    "page": 0,
+    "text": "1000 Lausanne"
+   },
+   {
+    "bbox": null,
+    "id": "e7",
+    "page": 0,
+    "text": "266.783.952"
+   },
+   {
+    "bbox": null,
+    "id": "e8",
+    "page": 0,
+    "text": "CHF 6'021.70"
+   },
+   {
+    "bbox": null,
+    "id": "e9",
+    "page": 0,
+    "text": "CH79 9999 9134 1252 4273 1"
+   },
+   {
+    "bbox": null,
+    "id": "e10",
+    "page": 0,
+    "text": "Veuillez verser le montant de CHF 6'021.70 sur le compte CH79 9999 9134 1252 4273 1."
+   },
+   {
+    "bbox": null,
+    "id": "e11",
+    "page": 0,
+    "text": "Payable jusqu'au 25 octobre 2026."
+   },
+   {
+    "bbox": null,
+    "id": "e12",
+    "page": 0,
+    "text": "verser le montant de CHF 6'021.70"
+   }
+  ],
+  "iban": "CH7999999134125242731",
+  "letter_date": "2026-09-30",
+  "letter_type": "tax_assessment",
+  "recipient_address": "rue Nicolas Bavaud 70, 2238 Julliard",
+  "recipient_name": "Raymond Gubéran",
+  "reference_numbers": [
+   "266.783.952"
+  ],
+  "sender_address": "1000 Lausanne",
+  "sender_contact": null,
+  "sender_name": "Administration cantonale des impôts",
+  "source_language": "fr",
+  "stated_options": [
+   "verser le montant de CHF 6'021.70"
+  ]
+ },
+ "gold_due_date": "2026-10-26",
+ "gold_next_step": "pay",
+ "gold_red_flags": [],
+ "gold_scam": false,
+ "gold_thread_id": null,
+ "id": "SLB-0020",
+ "images": {
+  "phone": "images/phone/SLB-0020_p1.jpg"
+ },
+ "lang": "fr",
+ "option_keys": [
+  "pay"
+ ],
+ "period_source": null,
+ "rule_family": "generic_admin",
+ "sha256": {
+  "phone": "50e8745deb38b8570813e96a6ee90740689a9ce9bfe5038b34ba3c77fc55f9e2"
+ },
+ "template": "tax_assessment.fr",
+ "template_source": "Team-written. TODO(source): official sample assessment."
+}

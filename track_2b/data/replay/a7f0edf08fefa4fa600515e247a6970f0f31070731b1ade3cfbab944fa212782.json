@@ -1,0 +1,13 @@
+{
+ "key": "a7f0edf08fefa4fa600515e247a6970f0f31070731b1ade3cfbab944fa212782",
+ "pass": "check:fr",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "Das ist eine Mahnung. Der Brief kommt von Alpenblick Versand AG.\nSie sollen CHF 1’166.70 bezahlen.\nLetzter Tag: [[DUE_DATE]].\nSie können bezahlen.\nSie können sich beim Absender melden.\nFragen Sie die Beratungsperson, an wen Sie sich wenden können.",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

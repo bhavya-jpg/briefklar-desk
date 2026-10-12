@@ -1,0 +1,13 @@
+{
+ "key": "a58b5942865b09ae2e52ba668037a499f9b3905ccf39637ac0f952e7271cc16f",
+ "pass": "check:es",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "Das ist eine Steuerveranlagung. Der Brief kommt von Steuerverwaltung des Kantons Bern.\nSie sollen CHF 2’521.70 bezahlen.\nLetzter Tag: [[DUE_DATE]].\nSie können bezahlen.\nFragen Sie die Beratungsperson, an wen Sie sich wenden können.",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

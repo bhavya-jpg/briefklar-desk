@@ -1,0 +1,44 @@
+[project]
+name = "briefklar"
+version = "0.1.0"
+description = "Briefklar Desk: Swiss official letters to a deadline-ordered case plan, on Apertus 1.5 8B, offline."
+requires-python = ">=3.12,<3.13"
+license = { text = "Apache-2.0" }
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "pydantic>=2",
+    "python-multipart",
+    "openai",
+    "httpx",
+    "numpy",
+    "pillow",
+    "opencv-python-headless",
+    "pytesseract",
+    "zxing-cpp",
+    "pypdfium2",
+    "python-stdnum",
+    "holidays",
+    "weasyprint",
+    "brotli",
+    "jinja2",
+    "markdown",
+    "pyyaml",
+    "babel",
+    "sacrebleu",
+    "rapidfuzz",
+    "faker",
+    "qrbill",
+    # pytest ships in the image so `make test` runs inside the container (spec 16.2)
+    "pytest",
+]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+pythonpath = ["src", "."]
+testpaths = ["tests"]
+markers = [
+    "source_required: fails until a human fills an official source (spec section 0, rule 3)",
+]

@@ -1,0 +1,13 @@
+{
+ "key": "e6b0612ecd0c0e5dd7fe7dcf8d1df2af560bd05774313580421141582a5e948c",
+ "pass": "check:ta",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "Das ist eine Mahnung. Der Brief kommt von Télécom Rive-Bleue SA.\nSie sollen CHF 1’898.50 bezahlen.\nLetzter Tag: [[DUE_DATE]].\nSie können bezahlen.\nSie können sich beim Absender melden.\nFragen Sie die Beratungsperson, an wen Sie sich wenden können.",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "key": "2177e0ca08f5e700fa5f925c310ab98bec1522e07922168b8bf969faf353159e",
+ "pass": "explain:tr",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"Bu bir ödeme hatırlatması. Mektubu gönderen: Alpenblick Versand AG.\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"CHF 1’166.70 ödemenizi istiyorlar.\", \"support\": [\"e9\", \"e11\"]}], \"deadline\": [{\"text\": \"Son gün: [[DUE_DATE]].\", \"support\": [\"e12\"]}], \"what_you_can_do\": [{\"text\": \"Ödeyebilirsiniz.\", \"support\": [\"e13\"]}, {\"text\": \"Gönderenle iletişime geçebilirsiniz.\", \"support\": [\"e14\"]}], \"who_to_contact\": [{\"text\": \"Kime başvuracağınızı danışmanınıza sorun.\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

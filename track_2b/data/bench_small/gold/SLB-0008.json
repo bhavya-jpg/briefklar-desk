@@ -1,0 +1,179 @@
+{
+ "canton": "BE",
+ "case_id": "case-01",
+ "delivered_on": "2026-10-08",
+ "facts": {
+  "amount_due": {
+   "amount": "2046.85",
+   "currency": "CHF"
+  },
+  "amounts": [
+   {
+    "amount": "1959.85",
+    "currency": "CHF"
+   },
+   {
+    "amount": "87.00",
+    "currency": "CHF"
+   },
+   {
+    "amount": "2046.85",
+    "currency": "CHF"
+   }
+  ],
+  "creditor_name": "Lindenhof Dental AG",
+  "deadline_fixed_date": "2026-10-21",
+  "deadline_period_unit": null,
+  "deadline_period_value": null,
+  "deadline_start_event": "fixed_date",
+  "deadline_text": "Die Pfändung wird am 21. Oktober 2026 vollzogen.",
+  "demanded_action": "Bitte melden Sie sich vorher beim Betreibungsamt.",
+  "evidence": {
+   "amount_due": [
+    "e9"
+   ],
+   "creditor_name": [
+    "e7"
+   ],
+   "deadline_text": [
+    "e11"
+   ],
+   "demanded_action": [
+    "e10"
+   ],
+   "letter_date": [
+    "e5"
+   ],
+   "letter_type": [
+    "e1"
+   ],
+   "recipient_address": [
+    "e4"
+   ],
+   "recipient_name": [
+    "e3"
+   ],
+   "reference_numbers": [
+    "e8"
+   ],
+   "sender_address": [
+    "e6"
+   ],
+   "sender_name": [
+    "e2"
+   ],
+   "stated_options": [
+    "e12"
+   ]
+  },
+  "evidence_items": [
+   {
+    "bbox": null,
+    "id": "e1",
+    "page": 0,
+    "text": "Pfändungsankündigung"
+   },
+   {
+    "bbox": null,
+    "id": "e2",
+    "page": 0,
+    "text": "Betreibungsamt Bern-Mittelland"
+   },
+   {
+    "bbox": null,
+    "id": "e3",
+    "page": 0,
+    "text": "Ali Ott"
+   },
+   {
+    "bbox": null,
+    "id": "e4",
+    "page": 0,
+    "text": "Bättigstrasse 64"
+   },
+   {
+    "bbox": null,
+    "id": "e5",
+    "page": 0,
+    "text": "5. Oktober 2026"
+   },
+   {
+    "bbox": null,
+    "id": "e6",
+    "page": 0,
+    "text": "3000 Bern"
+   },
+   {
+    "bbox": null,
+    "id": "e7",
+    "page": 0,
+    "text": "Lindenhof Dental AG"
+   },
+   {
+    "bbox": null,
+    "id": "e8",
+    "page": 0,
+    "text": "20894970"
+   },
+   {
+    "bbox": null,
+    "id": "e9",
+    "page": 0,
+    "text": "CHF 2'046.85"
+   },
+   {
+    "bbox": null,
+    "id": "e10",
+    "page": 0,
+    "text": "Bitte melden Sie sich vorher beim Betreibungsamt."
+   },
+   {
+    "bbox": null,
+    "id": "e11",
+    "page": 0,
+    "text": "Die Pfändung wird am 21. Oktober 2026 vollzogen."
+   },
+   {
+    "bbox": null,
+    "id": "e12",
+    "page": 0,
+    "text": "melden Sie sich vorher beim Betreibungsamt"
+   }
+  ],
+  "iban": null,
+  "letter_date": "2026-10-05",
+  "letter_type": "continuation_notice",
+  "recipient_address": "Bättigstrasse 64, 7613 Versoix",
+  "recipient_name": "Ali Ott",
+  "reference_numbers": [
+   "20894970"
+  ],
+  "sender_address": "3000 Bern",
+  "sender_contact": null,
+  "sender_name": "Betreibungsamt Bern-Mittelland",
+  "source_language": "de",
+  "stated_options": [
+   "melden Sie sich vorher beim Betreibungsamt"
+  ]
+ },
+ "gold_due_date": "2026-10-21",
+ "gold_next_step": "contact_office",
+ "gold_red_flags": [],
+ "gold_scam": false,
+ "gold_thread_id": "SLB-0008-claim",
+ "id": "SLB-0008",
+ "images": {
+  "phone": "images/phone/SLB-0008_p1.jpg"
+ },
+ "lang": "de",
+ "option_keys": [
+  "contact_office"
+ ],
+ "period_source": null,
+ "rule_family": "schkg",
+ "sha256": {
+  "phone": "41e5da068903841e147844308523d0505bf04fa027f5dd4d70d4e70d67bc24ec"
+ },
+ "template": "continuation_notice.de",
+ "template_source": "Team-written. TODO(source): official sample."
+}

@@ -1,0 +1,21 @@
+type: continuation_notice
+letter_type: continuation_notice
+lang: de
+rule_family: schkg
+period: null   # the letter prints the date of the seizure
+# TODO(source): official sample of a Pfändungsankündigung, including the debtor's duties on that day.
+period_source: null
+source: "Team-written. TODO(source): official sample."
+next_step: contact_office
+title: "Pfändungsankündigung"
+ref_label: "Betreibung Nr."
+intro:
+  - "Gläubiger: {{ creditor_name }}, {{ creditor_city }}"
+  - "Der Gläubiger hat die Fortsetzung der Betreibung verlangt."
+labels: {principal: "Forderung", costs: "Kosten", total: "Total"}
+demand: "Bitte melden Sie sich vorher beim Betreibungsamt."
+deadline: "Die Pfändung wird am {{ due_date_text }} vollzogen."
+options:
+  contact_office: "melden Sie sich vorher beim Betreibungsamt"
+closing: []
+greeting: null

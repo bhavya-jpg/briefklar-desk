@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="{{ reply.language }}">
+<head>
+<meta charset="utf-8">
+<title>{{ reply.template_id }}</title>
+<style>
+{{ font_css|safe }}
+@page { size: A4; margin: 25mm 22mm 25mm 25mm; }
+html { font-family: {{ font_stack|safe }}; font-size: 11.5pt; line-height: 1.45; color: #000; }
+body { margin: 0; white-space: pre-wrap; }
+</style>
+</head>
+<body>{{ reply.rendered_text }}</body>
+</html>

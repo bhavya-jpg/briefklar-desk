@@ -1,0 +1,13 @@
+{
+ "key": "d037b9511bcbf3a8244fd47fcc15bbf50744f084c656e33eb92c3fedb9ec798f",
+ "pass": "check:sq",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "Das ist eine Rechnung. Der Brief kommt von Morgentau Energie AG.\nSie sollen CHF 1’484.35 bezahlen.\nLetzter Tag: [[DUE_DATE]].\nSie können bezahlen.\nFragen Sie die Beratungsperson, an wen Sie sich wenden können.",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

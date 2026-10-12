@@ -1,0 +1,196 @@
+{
+ "canton": "ZH",
+ "case_id": "case-02",
+ "delivered_on": "2026-08-31",
+ "facts": {
+  "amount_due": {
+   "amount": "1328.10",
+   "currency": "CHF"
+  },
+  "amounts": [
+   {
+    "amount": "1308.10",
+    "currency": "CHF"
+   },
+   {
+    "amount": "20.00",
+    "currency": "CHF"
+   },
+   {
+    "amount": "1328.10",
+    "currency": "CHF"
+   }
+  ],
+  "creditor_name": null,
+  "deadline_fixed_date": null,
+  "deadline_period_unit": "days",
+  "deadline_period_value": 10,
+  "deadline_start_event": "letter_date",
+  "deadline_text": "Die Zahlung muss innert 10 Tagen ab dem Datum dieses Schreibens bei uns eingehen.",
+  "demanded_action": "Bitte überweisen Sie den offenen Betrag von CHF 1'328.10 auf das Konto CH45 9999 9525 3888 5393 3 mit der Referenz RF94338750047439.",
+  "evidence": {
+   "amount_due": [
+    "e9"
+   ],
+   "deadline_text": [
+    "e12"
+   ],
+   "demanded_action": [
+    "e11"
+   ],
+   "iban": [
+    "e10"
+   ],
+   "letter_date": [
+    "e5"
+   ],
+   "letter_type": [
+    "e1"
+   ],
+   "recipient_address": [
+    "e4"
+   ],
+   "recipient_name": [
+    "e3"
+   ],
+   "reference_numbers": [
+    "e7",
+    "e8"
+   ],
+   "sender_address": [
+    "e6"
+   ],
+   "sender_name": [
+    "e2"
+   ],
+   "stated_options": [
+    "e13",
+    "e14"
+   ]
+  },
+  "evidence_items": [
+   {
+    "bbox": null,
+    "id": "e1",
+    "page": 0,
+    "text": "1. Mahnung"
+   },
+   {
+    "bbox": null,
+    "id": "e2",
+    "page": 0,
+    "text": "Seerose Telecom AG"
+   },
+   {
+    "bbox": null,
+    "id": "e3",
+    "page": 0,
+    "text": "Nadja Thommen"
+   },
+   {
+    "bbox": null,
+    "id": "e4",
+    "page": 0,
+    "text": "Scheideggerstrasse 12"
+   },
+   {
+    "bbox": null,
+    "id": "e5",
+    "page": 0,
+    "text": "30. August 2026"
+   },
+   {
+    "bbox": null,
+    "id": "e6",
+    "page": 0,
+    "text": "4231 Thun"
+   },
+   {
+    "bbox": null,
+    "id": "e7",
+    "page": 0,
+    "text": "2026838-61"
+   },
+   {
+    "bbox": null,
+    "id": "e8",
+    "page": 0,
+    "text": "RF94338750047439"
+   },
+   {
+    "bbox": null,
+    "id": "e9",
+    "page": 0,
+    "text": "CHF 1'328.10"
+   },
+   {
+    "bbox": null,
+    "id": "e10",
+    "page": 0,
+    "text": "CH45 9999 9525 3888 5393 3"
+   },
+   {
+    "bbox": null,
+    "id": "e11",
+    "page": 0,
+    "text": "Bitte überweisen Sie den offenen Betrag von CHF 1'328.10 auf das Konto CH45 9999 9525 3888 5393 3 mit der Referenz RF94338750047439."
+   },
+   {
+    "bbox": null,
+    "id": "e12",
+    "page": 0,
+    "text": "Die Zahlung muss innert 10 Tagen ab dem Datum dieses Schreibens bei uns eingehen."
+   },
+   {
+    "bbox": null,
+    "id": "e13",
+    "page": 0,
+    "text": "überweisen Sie den offenen Betrag von CHF 1'328.10"
+   },
+   {
+    "bbox": null,
+    "id": "e14",
+    "page": 0,
+    "text": "Bei Fragen wenden Sie sich an unsere Buchhaltung"
+   }
+  ],
+  "iban": "CH4599999525388853933",
+  "letter_date": "2026-08-30",
+  "letter_type": "reminder",
+  "recipient_address": "Scheideggerstrasse 12, 4786 Schlieren",
+  "recipient_name": "Nadja Thommen",
+  "reference_numbers": [
+   "2026838-61",
+   "RF94338750047439"
+  ],
+  "sender_address": "Kälinstrasse 67, 4231 Thun",
+  "sender_contact": null,
+  "sender_name": "Seerose Telecom AG",
+  "source_language": "de",
+  "stated_options": [
+   "überweisen Sie den offenen Betrag von CHF 1'328.10",
+   "Bei Fragen wenden Sie sich an unsere Buchhaltung"
+  ]
+ },
+ "gold_due_date": "2026-09-09",
+ "gold_next_step": "pay",
+ "gold_red_flags": [],
+ "gold_scam": false,
+ "gold_thread_id": "case-02-t1",
+ "id": "SLB-0009",
+ "images": {
+  "phone": "images/phone/SLB-0009_p1.jpg"
+ },
+ "lang": "de",
+ "option_keys": [
+  "pay",
+  "contact_office"
+ ],
+ "period_source": null,
+ "rule_family": "contract",
+ "sha256": {
+  "phone": "251452d4e31c554c2526b99f61d6e8559802f4bab5c31e44d9550866b1b4d757"
+ },
+ "template": "reminder.de",
+ "template_source": "Team-written commercial reminder. No legal wording."
+}
