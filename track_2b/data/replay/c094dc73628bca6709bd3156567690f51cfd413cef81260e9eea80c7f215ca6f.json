@@ -1,0 +1,13 @@
+{
+ "key": "c094dc73628bca6709bd3156567690f51cfd413cef81260e9eea80c7f215ca6f",
+ "pass": "explain:ti",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"እዚ፦ ናይ ግብሪ ውሳነ እዩ። ደብዳበ ካብ Steuerverwaltung des Kantons Bern እዩ።\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"CHF 2’521.70 ክትከፍሉ ይሓቱ ኣለዉ።\", \"support\": [\"e8\", \"e10\"]}], \"deadline\": [{\"text\": \"መወዳእታ መዓልቲ፦ [[DUE_DATE]]።\", \"support\": [\"e11\"]}], \"what_you_can_do\": [{\"text\": \"ክትከፍሉ ትኽእሉ።\", \"support\": [\"e12\"]}], \"who_to_contact\": [{\"text\": \"ወግዓዊ ቤት ጽሕፈት፦ Steuerverwaltung des Kantons Bern, +41 31 633 60 01, https://www.sv.fin.be.ch, Postfach, 3001 Bern።\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

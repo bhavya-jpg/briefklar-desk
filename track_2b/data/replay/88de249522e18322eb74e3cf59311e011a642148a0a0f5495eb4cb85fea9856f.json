@@ -1,0 +1,13 @@
+{
+ "key": "88de249522e18322eb74e3cf59311e011a642148a0a0f5495eb4cb85fea9856f",
+ "pass": "explain:de",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"Das ist ein Schreiben zur Verlängerung der Aufenthaltsbewilligung. Der Brief kommt von Migrationsamt des Kantons Zürich.\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"Der Brief verlangt etwas von Ihnen.\", \"support\": [\"e8\"]}], \"deadline\": [{\"text\": \"Letzter Tag: [[DUE_DATE]].\", \"support\": [\"e9\"]}], \"what_you_can_do\": [{\"text\": \"Sie können das Gesuch einreichen.\", \"support\": [\"e10\"]}], \"who_to_contact\": [{\"text\": \"Offizielle Stelle: Migrationsamt des Kantons Zürich, +41 43 259 88 00, https://www.zh.ch, Berninastrasse 45, Postfach, 8090 Zürich.\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

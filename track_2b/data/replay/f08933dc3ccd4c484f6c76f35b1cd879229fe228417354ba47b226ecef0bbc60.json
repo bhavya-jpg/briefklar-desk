@@ -1,0 +1,13 @@
+{
+ "key": "f08933dc3ccd4c484f6c76f35b1cd879229fe228417354ba47b226ecef0bbc60",
+ "pass": "explain:bcs",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"Ovo je: račun za radio i TV pretplatu. Pismo šalje Serafe AG.\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"Traže da platite CHF 153.60.\", \"support\": [\"e8\", \"e10\"]}], \"deadline\": [{\"text\": \"Posljednji dan: [[DUE_DATE]].\", \"support\": [\"e11\"]}], \"what_you_can_do\": [{\"text\": \"Možete platiti.\", \"support\": [\"e12\"]}], \"who_to_contact\": [{\"text\": \"Službeni ured: Serafe AG, 058 201 31 67, https://www.serafe.ch, Postfach, 8010 Zürich.\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

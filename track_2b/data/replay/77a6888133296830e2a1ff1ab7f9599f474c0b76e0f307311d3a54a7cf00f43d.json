@@ -1,0 +1,13 @@
+{
+ "key": "77a6888133296830e2a1ff1ab7f9599f474c0b76e0f307311d3a54a7cf00f43d",
+ "pass": "explain:en",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"This is a decision on health-insurance premium reduction. The letter is from Amt für Sozialversicherungen des Kantons Bern.\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"The letter informs you. It asks for nothing.\", \"support\": [\"e1\"]}], \"deadline\": [{\"text\": \"The letter sets no deadline.\", \"support\": [\"e1\"]}], \"what_you_can_do\": [{\"text\": \"The letter states no options.\", \"support\": [\"e1\"]}], \"who_to_contact\": [{\"text\": \"Official office: Amt für Sozialversicherungen des Kantons Bern, +41 31 636 45 00, asv.pvo@be.ch, https://www.asv.dij.be.ch, Forelstrasse 1, 3072 Ostermundigen.\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

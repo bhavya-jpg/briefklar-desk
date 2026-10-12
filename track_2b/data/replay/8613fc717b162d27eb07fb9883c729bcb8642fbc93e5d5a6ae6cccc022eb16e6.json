@@ -1,0 +1,13 @@
+{
+ "key": "8613fc717b162d27eb07fb9883c729bcb8642fbc93e5d5a6ae6cccc022eb16e6",
+ "pass": "verify",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "done",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

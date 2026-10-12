@@ -1,0 +1,13 @@
+{
+ "key": "73962cc89691f381e5008eae491ddc619c96d5cedf4d537973c652572aa7ecbc",
+ "pass": "explain:en",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"This is a tax assessment. The letter is from Steuerverwaltung des Kantons Bern.\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"They ask you to pay CHF 2’521.70.\", \"support\": [\"e8\", \"e10\"]}], \"deadline\": [{\"text\": \"Last day: [[DUE_DATE]].\", \"support\": [\"e11\"]}], \"what_you_can_do\": [{\"text\": \"You can pay.\", \"support\": [\"e12\"]}], \"who_to_contact\": [{\"text\": \"Official office: Steuerverwaltung des Kantons Bern, +41 31 633 60 01, https://www.sv.fin.be.ch, Postfach, 3001 Bern.\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

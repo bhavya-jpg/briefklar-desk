@@ -1,0 +1,13 @@
+{
+ "key": "8420cfa55e889b3fc1f9d90fd9759822182374b06f72a9fe4f49a41f9a0af0e3",
+ "pass": "explain:ar",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"هذه قرار ضريبي. الرسالة من Steuerverwaltung des Kantons Bern.\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"يطلبون منك دفع CHF 2’521.70.\", \"support\": [\"e8\", \"e10\"]}], \"deadline\": [{\"text\": \"آخر يوم: [[DUE_DATE]].\", \"support\": [\"e11\"]}], \"what_you_can_do\": [{\"text\": \"يمكنك الدفع.\", \"support\": [\"e12\"]}], \"who_to_contact\": [{\"text\": \"الجهة الرسمية: Steuerverwaltung des Kantons Bern, +41 31 633 60 01, https://www.sv.fin.be.ch, Postfach, 3001 Bern.\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

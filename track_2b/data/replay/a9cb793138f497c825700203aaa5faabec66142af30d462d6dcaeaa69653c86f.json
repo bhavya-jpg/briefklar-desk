@@ -1,0 +1,13 @@
+{
+ "key": "a9cb793138f497c825700203aaa5faabec66142af30d462d6dcaeaa69653c86f",
+ "pass": "explain:es",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"Esto es una factura de la tasa de radio y televisión. La carta viene de Serafe AG.\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"Le piden que pague CHF 153.60.\", \"support\": [\"e8\", \"e10\"]}], \"deadline\": [{\"text\": \"Último día: [[DUE_DATE]].\", \"support\": [\"e11\"]}], \"what_you_can_do\": [{\"text\": \"Puede pagar.\", \"support\": [\"e12\"]}], \"who_to_contact\": [{\"text\": \"Oficina oficial: Serafe AG, 058 201 31 67, https://www.serafe.ch, Postfach, 8010 Zürich.\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

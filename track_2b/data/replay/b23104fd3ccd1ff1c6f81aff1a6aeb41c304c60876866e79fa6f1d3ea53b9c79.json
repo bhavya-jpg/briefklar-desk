@@ -1,0 +1,13 @@
+{
+ "key": "b23104fd3ccd1ff1c6f81aff1a6aeb41c304c60876866e79fa6f1d3ea53b9c79",
+ "pass": "explain:de",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"Vorsicht: Dieser Brief zeigt Warnsignale.\", \"support\": [\"flags\"]}, {\"text\": \"Das ist ein Brief. Der Brief kommt von Staatssekretariat für Migration SEM.\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"Sie sollen CHF 719.55 bezahlen.\", \"support\": [\"e8\", \"e11\"]}], \"deadline\": [{\"text\": \"Letzter Tag: [[DUE_DATE]].\", \"support\": [\"e12\"]}], \"what_you_can_do\": [{\"text\": \"Zahlen Sie nicht und rufen Sie nicht an, bevor die Beratungsperson den Brief geprüft hat.\", \"support\": [\"flags\"]}], \"who_to_contact\": [{\"text\": \"Offizielle Stelle: Staatssekretariat für Migration, +41 58 465 11 11, https://www.sem.admin.ch, Quellenweg 6, 3003 Bern.\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

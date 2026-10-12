@@ -1,0 +1,13 @@
+{
+ "key": "c0d21ed29c52d9f112d5f6dcdaabfeeb78244a6259803afdf686bbb35408ba41",
+ "pass": "explain:fr",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"Attention : cette lettre présente des signes d'alerte.\", \"support\": [\"flags\"]}, {\"text\": \"C'est une lettre. La lettre vient de Staatssekretariat für Migration SEM.\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"On vous demande de payer CHF 359.80.\", \"support\": [\"e8\", \"e11\"]}], \"deadline\": [{\"text\": \"Dernier jour : [[DUE_DATE]].\", \"support\": [\"e12\"]}], \"what_you_can_do\": [{\"text\": \"Ne payez pas et n'appelez pas avant que la conseillère ou le conseiller ait vérifié cette lettre.\", \"support\": [\"flags\"]}], \"who_to_contact\": [{\"text\": \"Service officiel : Staatssekretariat für Migration, +41 58 465 11 11, https://www.sem.admin.ch, Quellenweg 6, 3003 Bern.\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

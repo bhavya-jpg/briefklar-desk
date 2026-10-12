@@ -1,0 +1,13 @@
+{
+ "key": "17729e73fb97c441ada4d7b27788e48e073c8542d1b27292ef769eb0253974e3",
+ "pass": "check:pt",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "Das ist ein Entscheid zur Prämienverbilligung. Der Brief kommt von SVA Zürich.\nDer Brief informiert Sie. Er verlangt nichts.\nIm Brief steht keine Frist.\nDer Brief nennt keine Möglichkeiten.\nOffizielle Stelle: SVA Zürich, 044 448 53 75, https://www.svazurich.ch, Röntgenstrasse 17, Postfach, 8087 Zürich.",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

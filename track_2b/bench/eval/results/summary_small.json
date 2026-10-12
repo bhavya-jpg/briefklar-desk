@@ -83,7 +83,7 @@
     "median_backtranslation_chrf": 100.0,
     "next_step_accuracy": 1.0,
     "open_total_accuracy": 1.0,
-    "red_flag_code_precision": 1.0,
+    "red_flag_code_precision": 0.6667,
     "red_flag_code_recall": 1.0,
     "red_flag_precision": 1.0,
     "red_flag_recall": 1.0,

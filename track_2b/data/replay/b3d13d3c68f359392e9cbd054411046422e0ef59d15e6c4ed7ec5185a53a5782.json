@@ -1,0 +1,13 @@
+{
+ "key": "b3d13d3c68f359392e9cbd054411046422e0ef59d15e6c4ed7ec5185a53a5782",
+ "pass": "check:sq",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "Das ist eine Pfändungsankündigung. Der Brief kommt von Betreibungsamt Bern-Mittelland.\nSie sollen CHF 2’046.85 bezahlen.\nLetzter Tag: [[DUE_DATE]].\nSie können sich beim Absender melden.\nOffizielle Stelle: Betreibungsamt Bern-Mittelland, +41 31 635 90 00, ba.mittelland@be.ch, https://www.baka.dij.be.ch, Poststrasse 25, 3072 Ostermundigen.",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}
