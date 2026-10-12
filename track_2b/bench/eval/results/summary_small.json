@@ -37,7 +37,7 @@
      "reference_numbers": 0.4151,
      "sender_name": 0.0
     },
-    "letter_type_accuracy": 0.8696,
+    "letter_type_accuracy": 0.8261,
     "next_step_accuracy": 0.8696,
     "red_flag_code_precision": null,
     "red_flag_code_recall": 0.0,

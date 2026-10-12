@@ -1,145 +1,124 @@
 # Authority directory (spec section 9.4).
 #
-# SOURCE REQUIRED for every entry: phone, email, web and address must be copied from the authority's
-# official website (or an official federal/cantonal publication), with `source_url` (the page it was
-# copied from) and `retrieved` (date). Nothing here may be typed from memory. Until an entry is sourced:
+# SOURCE REQUIRED for every entry: phone, email, web and address must be copied by a human from the
+# authority's official website, with `source_url` (the page it was copied from) and `retrieved` (date).
+# Nothing here may be typed from memory. Until an entry is sourced:
 #   - the app shows "official contact not yet sourced" instead of a contact,
 #   - the CONTACT_MISMATCH red-flag check is skipped for it,
 #   - tests/test_sources_required.py fails for it.
-# Names are used for matching only; names[0] is the one shown to the counsellor.
-#
-# State on 2026-10-12: 17 entries are sourced (each value was read on the page in `source_url` that day).
-# A human should look at them once before they are relied on. Three Vaud entries are still open because
-# www.vd.ch could not be reached from the machine that did the sourcing.
-# `email: null` on a sourced entry means the source page gives no e-mail address (contact form only).
+# Names are used for matching only. TODO(source): confirm each official name on the same page.
 authorities:
   - id: sem
-    # Names as on the DE, FR and IT contact pages (the FR pages use both "Etat" and "État").
-    names: ["Staatssekretariat für Migration", "Secrétariat d'Etat aux migrations", "Secrétariat d'État aux migrations",
-            "Segreteria di Stato della migrazione", "SEM"]
+    names: ["Staatssekretariat für Migration", "Secrétariat d'Etat aux migrations", "Segreteria di Stato della migrazione", "SEM"]
     level: federal
-    phone: "+41 58 465 11 11"   # "Loge", switchboard
-    email: null                 # none on the page: contact forms per topic
-    web: "https://www.sem.admin.ch"
-    address: "Quellenweg 6, 3003 Bern"   # postal address on the same page: "CH-3003 Bern"
-    source_url: https://www.sem.admin.ch/sem/de/home/sem/kontakt.html
-    retrieved: 2026-10-12
+    phone: null        # TODO(source): official sem.admin.ch contact page
+    email: null        # TODO(source)
+    web: null          # TODO(source)
+    address: null      # TODO(source)
+    source_url: null
+    retrieved: null
 
   - id: serafe
-    # The site uses "SERAFE AG" in German, French and Italian.
     names: ["Serafe AG", "SERAFE"]
     level: federal_mandate
-    phone: "058 201 31 67"
-    email: null                 # none on the page: contact form
-    web: "https://www.serafe.ch"
-    address: "Postfach, 8010 Zürich"
-    source_url: https://www.serafe.ch/de/kontakt/
-    retrieved: 2026-10-12
+    phone: null        # TODO(source)
+    email: null
+    web: null
+    address: null
+    source_url: null
+    retrieved: null
 
   # --- Canton of Bern (demo canton) ---
   - id: be_debt_bern_mittelland
-    # Full names on the site: "Betreibungsamt Bern-Mittelland, Dienststelle Mittelland" and
-    # "Office des poursuites de Berne – Mittelland, agence du Mittelland". The French name in this file
-    # was "Office des poursuites Berne-Mittelland" before; corrected to the form on the site.
-    names: ["Betreibungsamt Bern-Mittelland", "Office des poursuites de Berne – Mittelland"]
+    names: ["Betreibungsamt Bern-Mittelland", "Office des poursuites Berne-Mittelland"]
     level: district
     canton: BE
-    phone: "+41 31 635 90 00"
-    email: "ba.mittelland@be.ch"
-    web: "https://www.baka.dij.be.ch"
-    address: "Poststrasse 25, 3072 Ostermundigen"
-    source_url: https://www.baka.dij.be.ch/de/start/ueber-uns/Standort/BA_Mittelland.html
-    retrieved: 2026-10-12
+    phone: null        # TODO(source)
+    email: null
+    web: null
+    address: null
+    source_url: null
+    retrieved: null
 
   - id: be_tax
     names: ["Steuerverwaltung des Kantons Bern", "Intendance des impôts du canton de Berne"]
     level: cantonal
     canton: BE
-    phone: "+41 31 633 60 01"   # "Allgemeine Fragen"
-    email: null                 # none on the page: contact form
-    web: "https://www.sv.fin.be.ch"
-    address: "Postfach, 3001 Bern"   # postal address; counters: Brünnenstrasse 66, 3018 Bern
-    source_url: https://www.sv.fin.be.ch/de/start/ueber-uns/adressen-regionen-staedte.html
-    retrieved: 2026-10-12
+    phone: null        # TODO(source)
+    email: null
+    web: null
+    address: null
+    source_url: null
+    retrieved: null
 
   - id: be_migration
-    # The page lists "Amt für Bevölkerungsdienste, Migrationsdienst" for residents outside the cities of
-    # Bern, Biel and Thun, which have their own offices (not in this directory).
     names: ["Amt für Bevölkerungsdienste des Kantons Bern", "Migrationsdienst des Kantons Bern"]
     level: cantonal
     canton: BE
-    phone: "+41 31 633 53 15"
-    email: "midi.info@be.ch"
-    web: "https://www.migration.sid.be.ch"
-    address: "Ostermundigenstrasse 99B, 3006 Bern"
-    source_url: https://www.migration.sid.be.ch/de/start/ueber-uns/zustaendige-behoerden.html
-    retrieved: 2026-10-12
+    phone: null        # TODO(source)
+    email: null
+    web: null
+    address: null
+    source_url: null
+    retrieved: null
 
   - id: be_premium_reduction
-    # Contact block on the page: "Amt für Sozialversicherungen, Prämienverbilligung".
     names: ["Amt für Sozialversicherungen des Kantons Bern"]
     level: cantonal
     canton: BE
-    phone: "+41 31 636 45 00"
-    email: "asv.pvo@be.ch"
-    web: "https://www.asv.dij.be.ch"
-    address: "Forelstrasse 1, 3072 Ostermundigen"
-    source_url: https://www.asv.dij.be.ch/de/start/themen/pv.html
-    retrieved: 2026-10-12
+    phone: null        # TODO(source)
+    email: null
+    web: null
+    address: null
+    source_url: null
+    retrieved: null
 
   # --- Canton of Zürich ---
   - id: zh_debt_zurich_4
-    # The office is run by the city. Its page is headed "Stadtammann- und Betreibungsamt Zürich 4" and
-    # also calls it "Betreibungsamt Zürich 4".
-    names: ["Betreibungsamt Zürich 4", "Stadtammann- und Betreibungsamt Zürich 4",
-            "Stadtammann- und Betreibungsamt Zürich Kreis 4"]
+    names: ["Betreibungsamt Zürich 4"]
     level: district
     canton: ZH
-    phone: "+41 44 413 69 70"
-    email: null                 # none on the page: contact form
-    web: "https://www.stadt-zuerich.ch"
-    address: "Hohlstrasse 35, 8004 Zürich"
-    source_url: https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/betreibungen/betreibungsaemter/zuerich-04.html
-    retrieved: 2026-10-12
+    phone: null        # TODO(source)
+    email: null
+    web: null
+    address: null
+    source_url: null
+    retrieved: null
 
   - id: zh_tax
-    # Contact block on the page: "Kanton Zürich - Steueramt".
     names: ["Kantonales Steueramt Zürich"]
     level: cantonal
     canton: ZH
-    phone: "+41 43 259 40 50"
-    email: null                 # none on the page: contact form
-    web: "https://www.zh.ch"
-    address: "Bändliweg 21, 8090 Zürich"
-    source_url: https://www.zh.ch/de/finanzdirektion/steueramt.html
-    retrieved: 2026-10-12
+    phone: null        # TODO(source)
+    email: null
+    web: null
+    address: null
+    source_url: null
+    retrieved: null
 
   - id: zh_migration
     names: ["Migrationsamt des Kantons Zürich"]
     level: cantonal
     canton: ZH
-    phone: "+41 43 259 88 00"
-    email: null                 # the page says the office has no e-mail address: contact form
-    web: "https://www.zh.ch"
-    address: "Berninastrasse 45, Postfach, 8090 Zürich"
-    source_url: https://www.zh.ch/de/sicherheitsdirektion/migrationsamt.html
-    retrieved: 2026-10-12
+    phone: null        # TODO(source)
+    email: null
+    web: null
+    address: null
+    source_url: null
+    retrieved: null
 
   - id: zh_premium_reduction
-    # TODO(source): the long form "Sozialversicherungsanstalt des Kantons Zürich" was not on the pages read.
     names: ["SVA Zürich", "Sozialversicherungsanstalt des Kantons Zürich"]
     level: cantonal
     canton: ZH
-    phone: "044 448 53 75"      # the line listed for "Prämienverbilligung"
-    email: null                 # none on the page: contact forms
-    web: "https://www.svazurich.ch"
-    address: "Röntgenstrasse 17, Postfach, 8087 Zürich"
-    source_url: https://svazurich.ch/ueber-uns/sva-zuerich/kontakt/telefon.html
-    retrieved: 2026-10-12
+    phone: null        # TODO(source)
+    email: null
+    web: null
+    address: null
+    source_url: null
+    retrieved: null
 
   # --- Canton of Vaud ---
-  # www.vd.ch could not be reached on 2026-10-12 (connection refused from the sourcing machine), so the
-  # canton's own pages were not read. Nothing below is taken from search results.
   - id: vd_debt_lausanne
     names: ["Office des poursuites du district de Lausanne"]
     level: district
@@ -152,7 +131,6 @@ authorities:
     retrieved: null
 
   - id: vd_tax
-    # TODO(source): also confirm the current official name on vd.ch.
     names: ["Administration cantonale des impôts du canton de Vaud", "Administration cantonale des impôts"]
     level: cantonal
     canton: VD
@@ -164,78 +142,72 @@ authorities:
     retrieved: null
 
   - id: vd_migration
-    # Copied from the SEM's list of cantonal migration authorities (official federal publication), entry
-    # "VD - Canton de Vaud". TODO(source): compare with the canton's own page once vd.ch can be read.
     names: ["Service de la population du canton de Vaud", "Service de la population"]
     level: cantonal
     canton: VD
-    phone: "+41 21 316 46 46"
-    email: null                 # none in the list
-    web: "http://www.vd.ch/spop"
-    address: "Avenue de Beaulieu 19, Case postale, 1014 Lausanne"
-    source_url: https://www.sem.admin.ch/sem/fr/home/sem/kontakt/kantonale_behoerden/adressen_kantone_und.html
-    retrieved: 2026-10-12
+    phone: null        # TODO(source)
+    email: null
+    web: null
+    address: null
+    source_url: null
+    retrieved: null
 
   # --- Canton of Ticino ---
   - id: ti_debt_lugano
-    # Listed on the page as "Ufficio di esecuzione, Lugano". The phone number is the same for every
-    # enforcement office of the canton (contact center).
-    names: ["Ufficio di esecuzione di Lugano", "Ufficio di esecuzione, Lugano"]
+    names: ["Ufficio di esecuzione di Lugano"]
     level: district
     canton: TI
-    phone: "+41 91 816 63 00"
-    email: null                 # none on the page: contact form
-    web: "www.ti.ch/sef"
-    address: "Via Bossi 2A, 6901 Lugano"
-    source_url: https://www4.ti.ch/di/dg/sezione-di-esecuzione-e-fallimento/chi-siamo/uffici-esecuzione
-    retrieved: 2026-10-12
+    phone: null        # TODO(source)
+    email: null
+    web: null
+    address: null
+    source_url: null
+    retrieved: null
 
   - id: ti_tax
     names: ["Divisione delle contribuzioni del Cantone Ticino", "Divisione delle contribuzioni"]
     level: cantonal
     canton: TI
-    phone: "+41 91 814 39 58"   # "Segreteria"
-    email: "dfe-dc@ti.ch"
-    web: "www.ti.ch/fisco"
-    address: "Viale Stefano Franscini 6, 6501 Bellinzona"
-    source_url: https://www4.ti.ch/dfe/dc/chi-siamo/contatti
-    retrieved: 2026-10-12
+    phone: null        # TODO(source)
+    email: null
+    web: null
+    address: null
+    source_url: null
+    retrieved: null
 
   - id: ti_migration
-    # Contact block on the page: "Ufficio della migrazione", an office of the Sezione della popolazione.
-    names: ["Sezione della popolazione del Cantone Ticino", "Sezione della popolazione", "Ufficio della migrazione"]
+    names: ["Sezione della popolazione del Cantone Ticino", "Sezione della popolazione"]
     level: cantonal
     canton: TI
-    phone: "+41 91 814 55 00"
-    email: "migrazione@ti.ch"
-    web: "www.ti.ch/popolazione"
-    address: "Via Lugano 4, 6501 Bellinzona"
-    source_url: https://www4.ti.ch/di/spop/chi-siamo/ufficio-della-migrazione/
-    retrieved: 2026-10-12
+    phone: null        # TODO(source)
+    email: null
+    web: null
+    address: null
+    source_url: null
+    retrieved: null
 
   # --- Cantonal police (senders of fines in the bench) ---
   - id: be_police
-    # Contact block on the page: "Kantonspolizei Bern, Kommando".
     names: ["Kantonspolizei Bern", "Police cantonale bernoise"]
     level: cantonal
     canton: BE
-    phone: "+41 31 638 81 11"
-    email: null                 # none on the page: contact form
-    web: "https://www.police.be.ch"
-    address: "Waisenhausplatz 32, Postfach, 3001 Bern"
-    source_url: https://www.police.be.ch/de/start/ueber-uns/kontaktformular.html
-    retrieved: 2026-10-12
+    phone: null        # TODO(source)
+    email: null
+    web: null
+    address: null
+    source_url: null
+    retrieved: null
 
   - id: zh_police
     names: ["Kantonspolizei Zürich"]
     level: cantonal
     canton: ZH
-    phone: "+41 58 648 48 48"
-    email: null                 # none on the page: contact form
-    web: "https://www.zh.ch"
-    address: "Güterstrasse 33, Postfach, 8010 Zürich"
-    source_url: https://www.zh.ch/de/sicherheitsdirektion/kantonspolizei-zuerich.html
-    retrieved: 2026-10-12
+    phone: null        # TODO(source)
+    email: null
+    web: null
+    address: null
+    source_url: null
+    retrieved: null
 
   - id: vd_police
     names: ["Police cantonale vaudoise"]
@@ -249,13 +221,12 @@ authorities:
     retrieved: null
 
   - id: ti_police
-    # The page says "Polizia cantonale"; the long form below was not on the page.
     names: ["Polizia cantonale del Cantone Ticino", "Polizia cantonale"]
     level: cantonal
     canton: TI
-    phone: "0848 25 55 55"      # "Centrale"; emergencies 117/112
-    email: "polizia@polca.ti.ch"
-    web: "www.polizia.ti.ch"
-    address: "Viale Officina 10, 6500 Bellinzona"   # "Indirizzo postale"; site: Via Chicherio 20, 6501 Bellinzona
-    source_url: https://www4.ti.ch/di/pol-new/home
-    retrieved: 2026-10-12
+    phone: null        # TODO(source)
+    email: null
+    web: null
+    address: null
+    source_url: null
+    retrieved: null

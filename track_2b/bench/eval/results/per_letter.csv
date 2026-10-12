@@ -8,7 +8,7 @@ SLB-0006,case-01,reminder,de,reminder,2026-10-11,2026-10-11,1,1,1,,,2026-10-12,0
 SLB-0007,case-01,unknown,de,unknown,2026-10-06,2026-10-06,1,1,1,FOREIGN_IBAN_FOR_AUTHORITY LEGAL_BASIS_INCONSISTENT,FOREIGN_IBAN_FOR_AUTHORITY LEGAL_BASIS_INCONSISTENT,2026-10-06,1,1
 SLB-0008,case-01,continuation_notice,de,continuation_notice,2026-10-21,2026-10-21,1,1,1,,,2026-10-21,1,1
 SLB-0009,case-02,reminder,de,reminder,2026-09-09,2026-09-09,1,1,1,,,2026-09-10,0,1
-SLB-0010,case-02,reminder,de,reminder,2026-10-01,2026-10-01,1,1,1,,,2026-10-03,0,1
+SLB-0010,case-02,reminder,de,reminder,2026-10-01,2026-10-01,1,1,1,,,2026-10-03,0,0
 SLB-0011,case-02,payment_order,de,payment_order,2026-10-19,2026-10-19,1,1,1,,,2026-10-18,0,1
 SLB-0012,case-02,invoice_qr,de,invoice_qr,2026-11-01,2026-11-01,1,1,1,,,2026-11-01,1,1
 SLB-0013,case-02,permit_renewal,de,permit_renewal,2026-10-23,2026-10-23,1,1,1,,,2026-11-22,0,1
