@@ -1,0 +1,13 @@
+{
+ "key": "50bc78181e01a056c46a743118c0a3d47f5c310e5d98154113a85b2d9582c87a",
+ "pass": "explain:de",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"Das ist ein Zahlungsbefehl. Der Brief kommt von Office des poursuites du district de Lausanne.\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"Sie sollen CHF 1’983.50 bezahlen.\", \"support\": [\"e11\", \"e12\"]}], \"deadline\": [{\"text\": \"Letzter Tag: [[DUE_DATE]].\", \"support\": [\"e13\"]}], \"what_you_can_do\": [{\"text\": \"Sie können bezahlen.\", \"support\": [\"e14\"]}, {\"text\": \"Sie können beim Amt erklären, dass Sie nicht einverstanden sind.\", \"support\": [\"e15\"]}], \"who_to_contact\": [{\"text\": \"Offizielle Stelle: Office des poursuites du district de Lausanne, +41 21 316 66 00, info.opln@vd.ch, https://www.vd.ch/ojv/offices-des-poursuites/lausanne, Ch. du Trabandan 28 (entrée A), 1014 Lausanne.\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

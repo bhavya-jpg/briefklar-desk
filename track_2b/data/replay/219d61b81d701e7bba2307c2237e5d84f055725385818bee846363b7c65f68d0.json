@@ -1,0 +1,13 @@
+{
+ "key": "219d61b81d701e7bba2307c2237e5d84f055725385818bee846363b7c65f68d0",
+ "pass": "check:it",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "Das ist ein Entscheid zur Prämienverbilligung. Der Brief kommt von Amt für Sozialversicherungen des Kantons Bern.\nDer Brief informiert Sie. Er verlangt nichts.\nIm Brief steht keine Frist.\nDer Brief nennt keine Möglichkeiten.\nOffizielle Stelle: Amt für Sozialversicherungen des Kantons Bern, +41 31 636 45 00, asv.pvo@be.ch, https://www.asv.dij.be.ch, Forelstrasse 1, 3072 Ostermundigen.",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "key": "aefd5e6649e430fb024eaeaef3ea8aed1c5320c07eed047a5e6541607e82446f",
+ "pass": "check:ar",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "Das ist eine Rechnung für die Radio- und Fernsehabgabe. Der Brief kommt von Serafe AG.\nSie sollen CHF 153.60 bezahlen.\nLetzter Tag: [[DUE_DATE]].\nSie können bezahlen.\nOffizielle Stelle: Serafe AG, 058 201 31 67, https://www.serafe.ch, Postfach, 8010 Zürich.",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

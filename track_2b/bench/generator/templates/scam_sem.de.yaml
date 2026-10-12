@@ -7,7 +7,7 @@ period: null
 # Modelled on the reported fake SEM letters (valve clause cited to end a residence). Synthetic text.
 source: https://www.iamexpat.ch/expat-info/swiss-news/fake-deportation-letters-being-sent-expats-switzerland-sem-warns
 next_step: beware
-red_flags: [FOREIGN_IBAN_FOR_AUTHORITY, LEGAL_BASIS_INCONSISTENT]
+red_flags: [CONTACT_MISMATCH, FOREIGN_IBAN_FOR_AUTHORITY, LEGAL_BASIS_INCONSISTENT]
 title: "Verfügung: Beendigung Ihres Aufenthalts"
 ref_label: "Personal-Nr."
 intro:

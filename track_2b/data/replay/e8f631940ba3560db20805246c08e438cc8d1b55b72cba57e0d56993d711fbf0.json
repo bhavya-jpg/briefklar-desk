@@ -1,0 +1,13 @@
+{
+ "key": "e8f631940ba3560db20805246c08e438cc8d1b55b72cba57e0d56993d711fbf0",
+ "pass": "explain:en",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"Be careful: this letter shows warning signs.\", \"support\": [\"flags\"]}, {\"text\": \"This is a letter. The letter is from Staatssekretariat für Migration SEM.\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"They ask you to pay CHF 359.80.\", \"support\": [\"e8\", \"e11\"]}], \"deadline\": [{\"text\": \"Last day: [[DUE_DATE]].\", \"support\": [\"e12\"]}], \"what_you_can_do\": [{\"text\": \"Do not pay and do not call before the counsellor has checked this letter.\", \"support\": [\"flags\"]}], \"who_to_contact\": [{\"text\": \"Official office: Staatssekretariat für Migration, +41 58 465 11 11, https://www.sem.admin.ch, Quellenweg 6, 3003 Bern.\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "key": "e96ba5df3e1a870af2dd60445bda7a42668d1d1dc5b16d6d6d6ea0b8a9682d94",
+ "pass": "explain:tr",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"Bu bir ödeme emri. Mektubu gönderen: Betreibungsamt Bern-Mittelland.\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"CHF 1’240.00 ödemenizi istiyorlar.\", \"support\": [\"e11\", \"e12\"]}], \"deadline\": [{\"text\": \"Son gün: [[DUE_DATE]].\", \"support\": [\"e13\"]}], \"what_you_can_do\": [{\"text\": \"Ödeyebilirsiniz.\", \"support\": [\"e14\"]}, {\"text\": \"Daireye kabul etmediğinizi bildirebilirsiniz.\", \"support\": [\"e15\"]}], \"who_to_contact\": [{\"text\": \"Resmî daire: Betreibungsamt Bern-Mittelland, +41 31 635 90 00, ba.mittelland@be.ch, https://www.baka.dij.be.ch, Poststrasse 25, 3072 Ostermundigen.\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

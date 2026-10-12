@@ -1,0 +1,13 @@
+{
+ "key": "1ab9e43fc671125003a83c453936e34ad17a7d5b31edf8aba5fb9c2e8e60578b",
+ "pass": "check:ta",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "Das ist eine Steuerveranlagung. Der Brief kommt von Administration cantonale des impôts.\nSie sollen CHF 6’021.70 bezahlen.\nLetzter Tag: [[DUE_DATE]].\nSie können bezahlen.\nOffizielle Stelle: Administration cantonale des impôts du canton de Vaud, 021 316 00 00, https://www.vd.ch/etat-droit-finances/impots, Route de Berne 46, 1014 Lausanne.",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

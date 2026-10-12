@@ -110,20 +110,20 @@ Subset `data/bench_small` (23 letters, 3 cases, phone-photo quality):
 | --- | --- | --- | --- | --- | --- | --- |
 | Action correctness | 0.39 | not run | not run | not run | not measured | 1.00 |
 | Deadline, exact date | 0.48 | — | — | not run | not measured | 1.00 |
-| Letter type | 0.87 | — | — | not run | not measured | 1.00 |
+| Letter type | 0.83 | — | — | not run | not measured | 1.00 |
 | Field F1 | 0.65 | — | — | not run | not measured | 1.00 |
 | Warning signs, recall | 0.00 | — | — | not run | not measured | 1.00 |
 | Triage order, Kendall τ | — | — | — | not run | not measured | 1.00 |
 | Thread linking F1 | — | — | — | not run | not measured | 1.00 |
 | Open total per creditor | — | — | — | — | not measured | 1.00 |
-| Reply completeness | — | — | — | — | not measured | 0.96 |
+| Reply completeness | — | — | — | — | not measured | 1.00 |
 
 \* *Fixture responses built from gold, not Apertus output.* This column only shows that, given correct
 extraction, the deadline engine, red-flag checks, linker and ordering reproduce the gold. It is an upper
-bound by construction and must not be quoted as a result. Reply completeness is below 1 because the fixed
-objection sentence in French has no official source yet and is therefore left out.
+bound by construction and must not be quoted as a result. The French and Italian objection sentences use only the
+terms of the official sheets (vd.ch, ti.ch, federal sheet) and still await a lawyer's confirmation.
 
-What B0 tells us already: regular expressions find the letter type (0.87) but get
+What B0 tells us already: regular expressions find the letter type (0.83) but get
 the exact deadline right in only 0.48 of letters, because the date depends on delivery,
 weekends and holidays, and they see no warning signs at all.
 

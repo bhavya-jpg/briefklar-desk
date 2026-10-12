@@ -1,0 +1,13 @@
+{
+ "key": "86e987735ba89f790c7c743a26684fa600f2272be6ed4784025fa4617062a47b",
+ "pass": "explain:ar",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"انتبه: في هذه الرسالة علامات تحذيرية.\", \"support\": [\"flags\"]}, {\"text\": \"هذه رسالة. الرسالة من Staatssekretariat für Migration SEM.\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"يطلبون منك دفع CHF 359.80.\", \"support\": [\"e8\", \"e11\"]}], \"deadline\": [{\"text\": \"آخر يوم: [[DUE_DATE]].\", \"support\": [\"e12\"]}], \"what_you_can_do\": [{\"text\": \"لا تدفع ولا تتصل قبل أن يراجع المستشار هذه الرسالة.\", \"support\": [\"flags\"]}], \"who_to_contact\": [{\"text\": \"الجهة الرسمية: Staatssekretariat für Migration, +41 58 465 11 11, https://www.sem.admin.ch, Quellenweg 6, 3003 Bern.\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

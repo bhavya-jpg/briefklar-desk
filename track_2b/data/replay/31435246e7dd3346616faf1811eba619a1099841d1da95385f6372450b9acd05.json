@@ -1,0 +1,13 @@
+{
+ "key": "31435246e7dd3346616faf1811eba619a1099841d1da95385f6372450b9acd05",
+ "pass": "check:sq",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "Das ist ein Zahlungsbefehl. Der Brief kommt von Betreibungsamt Bern-Mittelland.\nSie sollen CHF 1’952.20 bezahlen.\nLetzter Tag: [[DUE_DATE]].\nSie können bezahlen.\nSie können beim Amt erklären, dass Sie nicht einverstanden sind.\nOffizielle Stelle: Betreibungsamt Bern-Mittelland, +41 31 635 90 00, ba.mittelland@be.ch, https://www.baka.dij.be.ch, Poststrasse 25, 3072 Ostermundigen.",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

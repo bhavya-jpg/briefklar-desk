@@ -945,7 +945,7 @@
       "support": [
        "e2"
       ],
-      "text": "Pyetni këshilltarin se kë të kontaktoni."
+      "text": "Zyra zyrtare: Betreibungsamt Bern-Mittelland, +41 31 635 90 00, ba.mittelland@be.ch, https://www.baka.dij.be.ch, Poststrasse 25, 3072 Ostermundigen."
      }
     ]
    },
@@ -999,7 +999,7 @@
       "support": [
        "e2"
       ],
-      "text": "Fragen Sie die Beratungsperson, an wen Sie sich wenden können."
+      "text": "Offizielle Stelle: Betreibungsamt Bern-Mittelland, +41 31 635 90 00, ba.mittelland@be.ch, https://www.baka.dij.be.ch, Poststrasse 25, 3072 Ostermundigen."
      }
     ]
    },
@@ -1288,15 +1288,15 @@
    "type_label_de": "Zahlungsbefehl",
    "verification": {
     "authority_contact": {
-     "address": null,
-     "email": null,
+     "address": "Poststrasse 25, 3072 Ostermundigen",
+     "email": "ba.mittelland@be.ch",
      "id": "be_debt_bern_mittelland",
      "name": "Betreibungsamt Bern-Mittelland",
-     "phone": null,
-     "retrieved": null,
-     "source_url": null,
-     "sourced": false,
-     "web": null
+     "phone": "+41 31 635 90 00",
+     "retrieved": "2026-10-12",
+     "source_url": "https://www.baka.dij.be.ch/de/start/ueber-uns/Standort/BA_Mittelland.html",
+     "sourced": true,
+     "web": "https://www.baka.dij.be.ch"
     },
     "authority_id": "be_debt_bern_mittelland",
     "deadline": {
@@ -1388,7 +1388,7 @@
       "support": [
        "e2"
       ],
-      "text": "Pyetni këshilltarin se kë të kontaktoni."
+      "text": "Zyra zyrtare: Staatssekretariat für Migration, +41 58 465 11 11, https://www.sem.admin.ch, Quellenweg 6, 3003 Bern."
      }
     ]
    },
@@ -1442,7 +1442,7 @@
       "support": [
        "e2"
       ],
-      "text": "Fragen Sie die Beratungsperson, an wen Sie sich wenden können."
+      "text": "Offizielle Stelle: Staatssekretariat für Migration, +41 58 465 11 11, https://www.sem.admin.ch, Quellenweg 6, 3003 Bern."
      }
     ]
    },
@@ -1701,15 +1701,15 @@
    "type_label_de": "Brief",
    "verification": {
     "authority_contact": {
-     "address": null,
+     "address": "Quellenweg 6, 3003 Bern",
      "email": null,
      "id": "sem",
      "name": "Staatssekretariat für Migration",
-     "phone": null,
-     "retrieved": null,
-     "source_url": null,
-     "sourced": false,
-     "web": null
+     "phone": "+41 58 465 11 11",
+     "retrieved": "2026-10-12",
+     "source_url": "https://www.sem.admin.ch/sem/de/home/sem/kontakt.html",
+     "sourced": true,
+     "web": "https://www.sem.admin.ch"
     },
     "authority_id": "sem",
     "deadline": {
@@ -1745,6 +1745,15 @@
     "orchestrator_forced_tools": [],
     "qr": null,
     "red_flags": [
+     {
+      "code": "CONTACT_MISMATCH",
+      "evidence": "The phone number on the letter (\"+41 99 555 01 42\") differs from the directory entry (\"+41 58 465 11 11\").",
+      "severity": "high",
+      "source_url": null,
+      "span_ids": [
+       "e10"
+      ]
+     },
      {
       "code": "FOREIGN_IBAN_FOR_AUTHORITY",
       "evidence": "The sender presents itself as a Swiss authority, but the IBAN printed on the letter is from LT (LT049999981948219935).",
@@ -1817,7 +1826,7 @@
       "support": [
        "e2"
       ],
-      "text": "Pyetni këshilltarin se kë të kontaktoni."
+      "text": "Zyra zyrtare: Serafe AG, 058 201 31 67, https://www.serafe.ch, Postfach, 8010 Zürich."
      }
     ]
    },
@@ -1865,7 +1874,7 @@
       "support": [
        "e2"
       ],
-      "text": "Fragen Sie die Beratungsperson, an wen Sie sich wenden können."
+      "text": "Offizielle Stelle: Serafe AG, 058 201 31 67, https://www.serafe.ch, Postfach, 8010 Zürich."
      }
     ]
    },
@@ -2108,15 +2117,15 @@
    "type_label_de": "Serafe-Rechnung",
    "verification": {
     "authority_contact": {
-     "address": null,
+     "address": "Postfach, 8010 Zürich",
      "email": null,
      "id": "serafe",
      "name": "Serafe AG",
-     "phone": null,
-     "retrieved": null,
-     "source_url": null,
-     "sourced": false,
-     "web": null
+     "phone": "058 201 31 67",
+     "retrieved": "2026-10-12",
+     "source_url": "https://www.serafe.ch/de/kontakt/",
+     "sourced": true,
+     "web": "https://www.serafe.ch"
     },
     "authority_id": "serafe",
     "deadline": {
@@ -2233,7 +2242,7 @@
       "support": [
        "e2"
       ],
-      "text": "Pyetni këshilltarin se kë të kontaktoni."
+      "text": "Zyra zyrtare: Steuerverwaltung des Kantons Bern, +41 31 633 60 01, https://www.sv.fin.be.ch, Postfach, 3001 Bern."
      }
     ]
    },
@@ -2281,7 +2290,7 @@
       "support": [
        "e2"
       ],
-      "text": "Fragen Sie die Beratungsperson, an wen Sie sich wenden können."
+      "text": "Offizielle Stelle: Steuerverwaltung des Kantons Bern, +41 31 633 60 01, https://www.sv.fin.be.ch, Postfach, 3001 Bern."
      }
     ]
    },
@@ -2532,15 +2541,15 @@
    "type_label_de": "Steuerveranlagung",
    "verification": {
     "authority_contact": {
-     "address": null,
+     "address": "Postfach, 3001 Bern",
      "email": null,
      "id": "be_tax",
      "name": "Steuerverwaltung des Kantons Bern",
-     "phone": null,
-     "retrieved": null,
-     "source_url": null,
-     "sourced": false,
-     "web": null
+     "phone": "+41 31 633 60 01",
+     "retrieved": "2026-10-12",
+     "source_url": "https://www.sv.fin.be.ch/de/start/ueber-uns/adressen-regionen-staedte.html",
+     "sourced": true,
+     "web": "https://www.sv.fin.be.ch"
     },
     "authority_id": "be_tax",
     "deadline": {
@@ -2937,7 +2946,7 @@
       "support": [
        "e2"
       ],
-      "text": "Pyetni këshilltarin se kë të kontaktoni."
+      "text": "Zyra zyrtare: Amt für Sozialversicherungen des Kantons Bern, +41 31 636 45 00, asv.pvo@be.ch, https://www.asv.dij.be.ch, Forelstrasse 1, 3072 Ostermundigen."
      }
     ]
    },
@@ -2984,7 +2993,7 @@
       "support": [
        "e2"
       ],
-      "text": "Fragen Sie die Beratungsperson, an wen Sie sich wenden können."
+      "text": "Offizielle Stelle: Amt für Sozialversicherungen des Kantons Bern, +41 31 636 45 00, asv.pvo@be.ch, https://www.asv.dij.be.ch, Forelstrasse 1, 3072 Ostermundigen."
      }
     ]
    },
@@ -3147,15 +3156,15 @@
    "type_label_de": "Verfügung Prämienverbilligung",
    "verification": {
     "authority_contact": {
-     "address": null,
-     "email": null,
+     "address": "Forelstrasse 1, 3072 Ostermundigen",
+     "email": "asv.pvo@be.ch",
      "id": "be_premium_reduction",
      "name": "Amt für Sozialversicherungen des Kantons Bern",
-     "phone": null,
-     "retrieved": null,
-     "source_url": null,
-     "sourced": false,
-     "web": null
+     "phone": "+41 31 636 45 00",
+     "retrieved": "2026-10-12",
+     "source_url": "https://www.asv.dij.be.ch/de/start/themen/pv.html",
+     "sourced": true,
+     "web": "https://www.asv.dij.be.ch"
     },
     "authority_id": "be_premium_reduction",
     "deadline": null,

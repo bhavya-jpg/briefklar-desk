@@ -1,0 +1,13 @@
+{
+ "key": "bc51ffb51b5aca167cf0bcf040398bb045ad33d8455c35608b4d003fea253bb3",
+ "pass": "explain:fr",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"C'est une décision de réduction des primes. La lettre vient de Amt für Sozialversicherungen des Kantons Bern.\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"La lettre vous informe. Elle ne demande rien.\", \"support\": [\"e1\"]}], \"deadline\": [{\"text\": \"La lettre ne fixe pas de délai.\", \"support\": [\"e1\"]}], \"what_you_can_do\": [{\"text\": \"La lettre n'indique aucune possibilité.\", \"support\": [\"e1\"]}], \"who_to_contact\": [{\"text\": \"Service officiel : Amt für Sozialversicherungen des Kantons Bern, +41 31 636 45 00, asv.pvo@be.ch, https://www.asv.dij.be.ch, Forelstrasse 1, 3072 Ostermundigen.\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

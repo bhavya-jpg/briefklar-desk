@@ -50,7 +50,7 @@ def test_demo_case_headline_facts(demo_case):
     assert (deadline["due_date"], deadline["days_left"], deadline["verified_rule"]) == ("2026-10-19", 9, True)
     assert payment_order["amount_display"] == "CHF 1’240.00"
     flags = {f["code"] for f in by_label["demo-04"]["verification"]["red_flags"]}
-    assert flags == {"FOREIGN_IBAN_FOR_AUTHORITY", "LEGAL_BASIS_INCONSISTENT"}
+    assert flags == {"CONTACT_MISMATCH", "FOREIGN_IBAN_FOR_AUTHORITY", "LEGAL_BASIS_INCONSISTENT"}
     assert by_label["demo-04"]["reply_templates"] == [], "no reply is offered for a letter with warning signs"
     thread = demo_case["threads"][0]
     assert thread["confirmed"] and len(thread["letter_ids"]) == 3

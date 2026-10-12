@@ -1,0 +1,13 @@
+{
+ "key": "03ab4b748bbb7d2c781e743b779ca8977709df53dab2ca0f01330bf9bde542e8",
+ "pass": "check:bcs",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "Das ist eine Steuerveranlagung. Der Brief kommt von Steuerverwaltung des Kantons Bern.\nSie sollen CHF 2’521.70 bezahlen.\nLetzter Tag: [[DUE_DATE]].\nSie können bezahlen.\nOffizielle Stelle: Steuerverwaltung des Kantons Bern, +41 31 633 60 01, https://www.sv.fin.be.ch, Postfach, 3001 Bern.",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "key": "d226b0ceb64093dbf1eee63e562ec9cd87cb7e97ff016dd09d8b7a1dcc0186a3",
+ "pass": "check:ta",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "Vorsicht: Dieser Brief zeigt Warnsignale.\nDas ist ein Brief. Der Brief kommt von Staatssekretariat für Migration SEM.\nSie sollen CHF 359.80 bezahlen.\nLetzter Tag: [[DUE_DATE]].\nZahlen Sie nicht und rufen Sie nicht an, bevor die Beratungsperson den Brief geprüft hat.\nOffizielle Stelle: Staatssekretariat für Migration, +41 58 465 11 11, https://www.sem.admin.ch, Quellenweg 6, 3003 Bern.",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

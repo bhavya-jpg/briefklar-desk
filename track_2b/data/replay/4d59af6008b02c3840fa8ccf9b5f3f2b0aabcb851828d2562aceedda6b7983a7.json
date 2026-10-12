@@ -1,0 +1,13 @@
+{
+ "key": "4d59af6008b02c3840fa8ccf9b5f3f2b0aabcb851828d2562aceedda6b7983a7",
+ "pass": "explain:ta",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"இது: வரி மதிப்பீடு. கடிதம் அனுப்பியவர்: Administration cantonale des impôts.\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"நீங்கள் CHF 6’021.70 செலுத்த வேண்டும் என்று கேட்கிறார்கள்.\", \"support\": [\"e8\", \"e10\"]}], \"deadline\": [{\"text\": \"கடைசி நாள்: [[DUE_DATE]].\", \"support\": [\"e11\"]}], \"what_you_can_do\": [{\"text\": \"நீங்கள் பணம் செலுத்தலாம்.\", \"support\": [\"e12\"]}], \"who_to_contact\": [{\"text\": \"அதிகாரப்பூர்வ அலுவலகம்: Administration cantonale des impôts du canton de Vaud, 021 316 00 00, https://www.vd.ch/etat-droit-finances/impots, Route de Berne 46, 1014 Lausanne.\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

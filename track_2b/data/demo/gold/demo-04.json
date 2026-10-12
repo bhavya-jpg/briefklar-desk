@@ -168,6 +168,7 @@
  "gold_due_date": "2026-10-12",
  "gold_next_step": "beware",
  "gold_red_flags": [
+  "CONTACT_MISMATCH",
   "FOREIGN_IBAN_FOR_AUTHORITY",
   "LEGAL_BASIS_INCONSISTENT"
  ],

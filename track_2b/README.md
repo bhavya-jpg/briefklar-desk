@@ -80,10 +80,13 @@ make run
 The spec forbids inventing legal rules, deadlines or contact data. Wherever an official source is still
 needed there is a `TODO(source)` and a failing test in `tests/test_sources_required.py`:
 
-- Official contacts for the 20 authorities in `knowledge/authorities.yaml` (all still empty, so the
-  "contact differs from the directory" check is off).
-- Explainer cards for 11 letter types (only the payment order card is written, from the official Thurgau sheet).
-- The fixed objection sentence in French and Italian (German is in; without a source the reply cannot be printed).
+- Authority contacts: all 20 entries in `knowledge/authorities.yaml` are sourced (re-read on their pages on
+  2026-10-12), so the "contact differs from the directory" check is on. A person should still look at them once.
+- Explainer cards: written for payment order (de, fr, it), Serafe invoice (de, fr, it) and premium reduction
+  (de, Bern only). The other letter types, and the missing languages, still need a card from an official sheet.
+- The fixed objection sentence in French and Italian is filled with one plain sentence that uses only the terms
+  of the official pages (vd.ch, ti.ch, federal sheet). No sheet prescribes a formula, so a lawyer should confirm
+  both before real use (`TODO(source)` in the templates).
 - Legal appeal periods for tax, fine, premium-reduction, permit and rent letters (their bench letters carry a
   printed date only).
 - Inclusive bounds of the debt-enforcement holidays, and the counting rule for administrative deadlines

@@ -102,6 +102,7 @@ def test_template_with_missing_slot_raises(template_id, lang):
 
 def test_unsourced_fixed_wording_is_never_filled_in():
     template = reply_pass.load_template("objection_payment_order", "fr")
+    template = {**template, "fixed": {**template["fixed"], "objection_sentence": None}}   # a slot without an official source
     draft = reply_pass.assemble(template, dict(COMPLETE), {}, [], "letter")
     assert draft.slots["objection_sentence"] == reply_pass.SOURCE_REQUIRED
     assert "objection_sentence" in draft.missing

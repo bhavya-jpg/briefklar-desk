@@ -1,0 +1,13 @@
+{
+ "key": "ebdc87ea1c4205241bb9b54c3973ed4fbe59643f48e52e8bd7d8c26ba9c7bed2",
+ "pass": "explain:ta",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"இது: வரி மதிப்பீடு. கடிதம் அனுப்பியவர்: Steuerverwaltung des Kantons Bern.\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"நீங்கள் CHF 2’521.70 செலுத்த வேண்டும் என்று கேட்கிறார்கள்.\", \"support\": [\"e8\", \"e10\"]}], \"deadline\": [{\"text\": \"கடைசி நாள்: [[DUE_DATE]].\", \"support\": [\"e11\"]}], \"what_you_can_do\": [{\"text\": \"நீங்கள் பணம் செலுத்தலாம்.\", \"support\": [\"e12\"]}], \"who_to_contact\": [{\"text\": \"அதிகாரப்பூர்வ அலுவலகம்: Steuerverwaltung des Kantons Bern, +41 31 633 60 01, https://www.sv.fin.be.ch, Postfach, 3001 Bern.\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

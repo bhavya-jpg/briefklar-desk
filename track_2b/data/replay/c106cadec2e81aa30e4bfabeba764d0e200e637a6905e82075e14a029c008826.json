@@ -1,0 +1,13 @@
+{
+ "key": "c106cadec2e81aa30e4bfabeba764d0e200e637a6905e82075e14a029c008826",
+ "pass": "check:pt",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "Das ist ein Schreiben zur Verlängerung der Aufenthaltsbewilligung. Der Brief kommt von Migrationsamt des Kantons Zürich.\nDer Brief verlangt etwas von Ihnen.\nLetzter Tag: [[DUE_DATE]].\nSie können das Gesuch einreichen.\nOffizielle Stelle: Migrationsamt des Kantons Zürich, +41 43 259 88 00, https://www.zh.ch, Berninastrasse 45, Postfach, 8090 Zürich.",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

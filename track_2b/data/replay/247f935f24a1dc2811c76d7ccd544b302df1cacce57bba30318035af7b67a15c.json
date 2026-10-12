@@ -1,0 +1,13 @@
+{
+ "key": "247f935f24a1dc2811c76d7ccd544b302df1cacce57bba30318035af7b67a15c",
+ "pass": "explain:it",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"È una fattura del canone radiotelevisivo. La lettera viene da Serafe AG.\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"Le chiedono di pagare CHF 153.60.\", \"support\": [\"e8\", \"e10\"]}], \"deadline\": [{\"text\": \"Ultimo giorno: [[DUE_DATE]].\", \"support\": [\"e11\"]}], \"what_you_can_do\": [{\"text\": \"Può pagare.\", \"support\": [\"e12\"]}], \"who_to_contact\": [{\"text\": \"Servizio ufficiale: Serafe AG, 058 201 31 67, https://www.serafe.ch, Postfach, 8010 Zürich.\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

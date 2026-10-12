@@ -1,0 +1,13 @@
+{
+ "key": "66ecdb1ab0fce2412c5efc62135d632736b3c048f334d79c450287017b6e6abf",
+ "pass": "check:pt",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "Das ist ein Zahlungsbefehl. Der Brief kommt von Betreibungsamt Zürich 4.\nSie sollen CHF 1’432.80 bezahlen.\nLetzter Tag: [[DUE_DATE]].\nSie können bezahlen.\nSie können beim Amt erklären, dass Sie nicht einverstanden sind.\nOffizielle Stelle: Betreibungsamt Zürich 4, +41 44 413 69 70, https://www.stadt-zuerich.ch, Hohlstrasse 35, 8004 Zürich.",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "key": "c72431e2da910b6ba64814e6bfc24c04b0b923daa797ec47c152e88dd4f89466",
+ "pass": "explain:de",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"Das ist eine Steuerveranlagung. Der Brief kommt von Steuerverwaltung des Kantons Bern.\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"Sie sollen CHF 2’521.70 bezahlen.\", \"support\": [\"e8\", \"e10\"]}], \"deadline\": [{\"text\": \"Letzter Tag: [[DUE_DATE]].\", \"support\": [\"e11\"]}], \"what_you_can_do\": [{\"text\": \"Sie können bezahlen.\", \"support\": [\"e12\"]}], \"who_to_contact\": [{\"text\": \"Offizielle Stelle: Steuerverwaltung des Kantons Bern, +41 31 633 60 01, https://www.sv.fin.be.ch, Postfach, 3001 Bern.\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

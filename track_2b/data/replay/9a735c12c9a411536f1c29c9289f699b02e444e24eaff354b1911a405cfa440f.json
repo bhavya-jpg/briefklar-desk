@@ -1,0 +1,13 @@
+{
+ "key": "9a735c12c9a411536f1c29c9289f699b02e444e24eaff354b1911a405cfa440f",
+ "pass": "explain:pt",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"Isto é uma decisão sobre a redução dos prémios do seguro de saúde. A carta vem de SVA Zürich.\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"A carta informa-o. Não pede nada.\", \"support\": [\"e1\"]}], \"deadline\": [{\"text\": \"A carta não fixa prazo.\", \"support\": [\"e1\"]}], \"what_you_can_do\": [{\"text\": \"A carta não indica opções.\", \"support\": [\"e1\"]}], \"who_to_contact\": [{\"text\": \"Serviço oficial: SVA Zürich, 044 448 53 75, https://www.svazurich.ch, Röntgenstrasse 17, Postfach, 8087 Zürich.\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

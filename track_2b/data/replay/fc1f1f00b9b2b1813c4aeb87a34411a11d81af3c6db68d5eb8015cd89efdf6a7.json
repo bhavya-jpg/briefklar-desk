@@ -1,0 +1,13 @@
+{
+ "key": "fc1f1f00b9b2b1813c4aeb87a34411a11d81af3c6db68d5eb8015cd89efdf6a7",
+ "pass": "explain:ti",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"ተጠንቀቑ፦ እዚ ደብዳበ ምልክታት መጠንቀቕታ ኣለዎ።\", \"support\": [\"flags\"]}, {\"text\": \"እዚ፦ ደብዳበ እዩ። ደብዳበ ካብ Staatssekretariat für Migration SEM እዩ።\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"CHF 359.80 ክትከፍሉ ይሓቱ ኣለዉ።\", \"support\": [\"e8\", \"e11\"]}], \"deadline\": [{\"text\": \"መወዳእታ መዓልቲ፦ [[DUE_DATE]]።\", \"support\": [\"e12\"]}], \"what_you_can_do\": [{\"text\": \"ኣማኻሪ ነዚ ደብዳበ ክሳብ ዘረጋግጾ ኣይትኽፈሉ፣ ኣይትደውሉ።\", \"support\": [\"flags\"]}], \"who_to_contact\": [{\"text\": \"ወግዓዊ ቤት ጽሕፈት፦ Staatssekretariat für Migration, +41 58 465 11 11, https://www.sem.admin.ch, Quellenweg 6, 3003 Bern።\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

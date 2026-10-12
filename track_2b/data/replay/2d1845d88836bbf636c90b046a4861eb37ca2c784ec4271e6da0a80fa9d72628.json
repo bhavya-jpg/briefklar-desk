@@ -1,0 +1,13 @@
+{
+ "key": "2d1845d88836bbf636c90b046a4861eb37ca2c784ec4271e6da0a80fa9d72628",
+ "pass": "explain:pt",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"Isto é uma ordem de pagamento. A carta vem de Betreibungsamt Zürich 4.\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"Pedem-lhe que pague CHF 1’432.80.\", \"support\": [\"e11\", \"e12\"]}], \"deadline\": [{\"text\": \"Último dia: [[DUE_DATE]].\", \"support\": [\"e13\"]}], \"what_you_can_do\": [{\"text\": \"Pode pagar.\", \"support\": [\"e14\"]}, {\"text\": \"Pode declarar ao serviço que não concorda.\", \"support\": [\"e15\"]}], \"who_to_contact\": [{\"text\": \"Serviço oficial: Betreibungsamt Zürich 4, +41 44 413 69 70, https://www.stadt-zuerich.ch, Hohlstrasse 35, 8004 Zürich.\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

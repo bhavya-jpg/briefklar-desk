@@ -1,0 +1,13 @@
+{
+ "key": "c8f61e939f0e39989007367720a414152a124c53200dfe19ede5f3ae5eac88ab",
+ "pass": "explain:ta",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"இது: சுகாதாரக் காப்பீட்டு கட்டணக் குறைப்பு முடிவு. கடிதம் அனுப்பியவர்: Amt für Sozialversicherungen des Kantons Bern.\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"கடிதம் உங்களுக்குத் தகவல் தருகிறது. எதையும் கேட்கவில்லை.\", \"support\": [\"e1\"]}], \"deadline\": [{\"text\": \"கடிதத்தில் கடைசி தேதி இல்லை.\", \"support\": [\"e1\"]}], \"what_you_can_do\": [{\"text\": \"கடிதத்தில் வழிகள் எதுவும் குறிப்பிடப்படவில்லை.\", \"support\": [\"e1\"]}], \"who_to_contact\": [{\"text\": \"அதிகாரப்பூர்வ அலுவலகம்: Amt für Sozialversicherungen des Kantons Bern, +41 31 636 45 00, asv.pvo@be.ch, https://www.asv.dij.be.ch, Forelstrasse 1, 3072 Ostermundigen.\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

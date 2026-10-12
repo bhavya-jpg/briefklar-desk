@@ -1,0 +1,13 @@
+{
+ "key": "373a758cd312152346053e95f52e0b991c49d8c6e6ee51e65d4bb8169f574797",
+ "pass": "explain:ti",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"እዚ፦ ናይ ሬድዮን ተለቪዥንን ክፍሊት ሕሳብ እዩ። ደብዳበ ካብ Serafe AG እዩ።\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"CHF 153.60 ክትከፍሉ ይሓቱ ኣለዉ።\", \"support\": [\"e8\", \"e10\"]}], \"deadline\": [{\"text\": \"መወዳእታ መዓልቲ፦ [[DUE_DATE]]።\", \"support\": [\"e11\"]}], \"what_you_can_do\": [{\"text\": \"ክትከፍሉ ትኽእሉ።\", \"support\": [\"e12\"]}], \"who_to_contact\": [{\"text\": \"ወግዓዊ ቤት ጽሕፈት፦ Serafe AG, 058 201 31 67, https://www.serafe.ch, Postfach, 8010 Zürich።\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}

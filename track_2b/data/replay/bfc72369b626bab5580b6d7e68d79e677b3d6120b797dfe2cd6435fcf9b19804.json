@@ -1,0 +1,13 @@
+{
+ "key": "bfc72369b626bab5580b6d7e68d79e677b3d6120b797dfe2cd6435fcf9b19804",
+ "pass": "explain:ar",
+ "model": "apertus-8b",
+ "backend": "fixture",
+ "response": {
+  "content": "{\"what_this_is\": [{\"text\": \"هذه فاتورة رسوم الإذاعة والتلفزيون. الرسالة من Serafe AG.\", \"support\": [\"e1\", \"e2\"]}], \"what_they_want\": [{\"text\": \"يطلبون منك دفع CHF 153.60.\", \"support\": [\"e8\", \"e10\"]}], \"deadline\": [{\"text\": \"آخر يوم: [[DUE_DATE]].\", \"support\": [\"e11\"]}], \"what_you_can_do\": [{\"text\": \"يمكنك الدفع.\", \"support\": [\"e12\"]}], \"who_to_contact\": [{\"text\": \"الجهة الرسمية: Serafe AG, 058 201 31 67, https://www.serafe.ch, Postfach, 8010 Zürich.\", \"support\": [\"e2\"]}]}",
+  "tool_calls": [],
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "latency_s": 0.0
+ }
+}
