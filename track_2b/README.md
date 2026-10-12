@@ -84,8 +84,9 @@ needed there is a `TODO(source)` and a failing test in `tests/test_sources_requi
   2026-10-12), so the "contact differs from the directory" check is on. A person should still look at them once.
 - Explainer cards: written for payment order (de, fr, it), Serafe invoice (de, fr, it) and premium reduction
   (de, Bern only). The other letter types, and the missing languages, still need a card from an official sheet.
-- The fixed objection sentence in French and Italian (German is in). The federal sheet gives no sentence to copy,
-  so both stay empty and the reply cannot be printed in those languages.
+- The fixed objection sentence in French and Italian is filled with one plain sentence that uses only the terms
+  of the official pages (vd.ch, ti.ch, federal sheet). No sheet prescribes a formula, so a lawyer should confirm
+  both before real use (`TODO(source)` in the templates).
 - Legal appeal periods for tax, fine, premium-reduction, permit and rent letters (their bench letters carry a
   printed date only).
 - Inclusive bounds of the debt-enforcement holidays, and the counting rule for administrative deadlines

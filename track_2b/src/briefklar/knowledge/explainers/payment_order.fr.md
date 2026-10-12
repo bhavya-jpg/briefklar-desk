@@ -3,6 +3,7 @@ type: payment_order
 lang: fr
 sources:
   - https://www.betreibungsschalter.ch/wp-content/uploads/sites/84/2020/02/Informationsblatt_ZB_fr.pdf
+  - https://www.vd.ch/economie/poursuites-et-faillites/procedure-de-poursuite-ordinaire/vous-etes-poursuivi-debiteur
 retrieved: 2026-10-12
 ---
 Par le commandement de payer, le débiteur est sommé de payer les créances indiquées, frais de poursuite compris. Il est établi sur la base des indications du créancier, sans examen supplémentaire.

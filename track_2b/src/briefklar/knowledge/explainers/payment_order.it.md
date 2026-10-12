@@ -3,6 +3,8 @@ type: payment_order
 lang: it
 sources:
   - https://www.betreibungsschalter.ch/wp-content/uploads/sites/84/2020/02/Informationsblatt_ZB_it.pdf
+  - https://www4.ti.ch/index.php?id=21929
+  - https://www4.ti.ch/index.php?id=21937
 retrieved: 2026-10-12
 ---
 Con il precetto esecutivo s'ingiunge al debitore di pagare gli importi indicati e i costi d'esecuzione. Viene allestito sulla base delle indicazioni del creditore, senza che i crediti siano verificati.

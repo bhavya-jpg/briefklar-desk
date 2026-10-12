@@ -17,7 +17,7 @@
  ],
  "model": null,
  "note": "FIXTURE responses: written by bench/fixtures from gold data, NOT produced by Apertus. They exercise the pipeline and the UI only. Record real ones with `make record-live`.",
- "recorded_at": "2026-10-12T17:29:33+00:00",
+ "recorded_at": "2026-10-12T17:33:23+00:00",
  "responses": 380,
  "schema_retries": 0
 }

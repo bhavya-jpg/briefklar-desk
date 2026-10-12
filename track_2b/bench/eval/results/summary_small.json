@@ -87,7 +87,7 @@
     "red_flag_code_recall": 1.0,
     "red_flag_precision": 1.0,
     "red_flag_recall": 1.0,
-    "reply_completeness": 0.9583,
+    "reply_completeness": 1.0,
     "thread_f1": 1.0,
     "triage_tau": 1.0
    },
