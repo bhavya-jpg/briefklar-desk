@@ -6,7 +6,7 @@ rule_family: generic_admin
 period: null
 source: https://www.iamexpat.ch/expat-info/swiss-news/fake-deportation-letters-being-sent-expats-switzerland-sem-warns
 next_step: beware
-red_flags: [FOREIGN_IBAN_FOR_AUTHORITY, LEGAL_BASIS_INCONSISTENT]
+red_flags: [CONTACT_MISMATCH, FOREIGN_IBAN_FOR_AUTHORITY, LEGAL_BASIS_INCONSISTENT]
 title: "Décision : fin de votre séjour"
 ref_label: "N° personnel"
 intro:
