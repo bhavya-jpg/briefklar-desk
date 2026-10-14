@@ -68,7 +68,10 @@ def run_briefklar(set_dir: Path, settings, client) -> tuple[dict[str, dict], dic
             if letter.status != "done":
                 stats["letters_failed"] += 1
                 letters[letter.id] = {"letter_type": None, "facts": {}, "due_date": None, "next_step": "unknown",
-                                      "red_flags": [], "flagged": False, "ocr_text": "", "chrf": None,
+                                      "red_flags": [], "flagged": False,
+                                      # B0 reads the OCR text and must not depend on the model run succeeding
+                                      "ocr_text": "\n".join(p.ocr_text for p in session.pages_of(letter)),
+                                      "chrf": None,
                                       "low_confidence": None, "reply": None}
                 continue
             letter.delivery_date = date.fromisoformat(row["delivered_on"]) if row["delivered_on"] else None
@@ -294,9 +297,11 @@ def bar_figure(path: Path, title: str, metric: str, summary: dict) -> None:
 
 
 def main() -> None:
+    global RESULTS_DIR
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--mode", choices=["replay", "live"], default="replay")
     parser.add_argument("--set", default=str(DATA_DIR / "bench_small"), help="bench directory with letters.jsonl")
+    parser.add_argument("--results-dir", default=str(RESULTS_DIR), help="where to write the summary, CSVs and figures")
     args = parser.parse_args()
     os.environ["BRIEFKLAR_MODE"] = args.mode
     if args.mode == "live":
@@ -309,6 +314,7 @@ def main() -> None:
     set_dir = Path(args.set)
     result = evaluate(set_dir, settings, LLMClient(settings))
     summary = result["summary"]
+    RESULTS_DIR = Path(args.results_dir)
     name = "summary_small.json" if set_dir.name == "bench_small" else "summary.json"
     write_json(RESULTS_DIR / name, summary)
     write_csv(RESULTS_DIR / "per_letter.csv", result["per_letter"])

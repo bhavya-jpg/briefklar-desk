@@ -29,7 +29,7 @@ from briefklar.config import Settings, get_settings
 
 log = logging.getLogger("briefklar.llm")
 
-TIMEOUT_S = 120
+TIMEOUT_S = int(os.environ.get("BRIEFKLAR_LLM_TIMEOUT", "120"))
 T = TypeVar("T", bound=BaseModel)
 
 
@@ -78,20 +78,28 @@ def _for_key(messages: list[dict]) -> list[dict]:
     return out
 
 
-def _for_wire(messages: list[dict]) -> list[dict]:
-    """OpenAI-style content parts with base64 data URLs (verify against the fork in the gate test)."""
+def _for_wire(messages: list[dict], vision: bool = True) -> list[dict]:
+    """OpenAI-style content parts with base64 data URLs (verify against the fork in the gate test).
+
+    With vision off (BRIEFKLAR_VISION=0, for text-only servers) images are left out and the model reads
+    the OCR text only: the fallback named in the build spec. The replay key does not change.
+    """
     out = []
     for message in messages:
         content = message.get("content")
         if isinstance(content, list):
             parts = []
             for part in content:
+                if part.get("type") == "image" and not vision:
+                    continue
                 if part.get("type") == "image":
                     data = base64.b64encode(Path(part["path"]).read_bytes()).decode("ascii")
                     parts.append({"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{data}"}})
                 else:
                     parts.append(part)
             content = parts
+            if not vision:
+                content = "\n".join(p["text"] for p in parts if p.get("type") == "text")
         out.append({**message, "content": content})
     return out
 
@@ -107,11 +115,22 @@ def request_key(model: str, messages: list[dict], schema: dict | None, tools: li
 
 
 def extract_json(text: str) -> Any:
-    text = re.sub(r"^```(?:json)?\s*|\s*```$", "", (text or "").strip())
-    start, end = text.find("{"), text.rfind("}")
-    if start < 0 or end < start:
-        raise ValueError("no JSON object in the model output")
-    return json.loads(text[start : end + 1])
+    """The first complete JSON object in the text. Tolerates code fences and prose around it."""
+    text = text or ""
+    decoder = json.JSONDecoder()
+    start = text.find("{")
+    while start >= 0:
+        try:
+            value, _ = decoder.raw_decode(text, start)
+            if isinstance(value, dict):
+                return value
+        except json.JSONDecodeError:
+            pass
+        start = text.find("{", start + 1)
+    raise ValueError("no JSON object in the model output")
+
+
+JSON_ONLY = "Reply with exactly one JSON object and nothing else. Start with { and end with }. No prose, no code fence."
 
 
 class LLMClient:
@@ -119,6 +138,11 @@ class LLMClient:
         self.settings = settings or get_settings()
         self.record = os.environ.get("BRIEFKLAR_RECORD", "0") == "1"
         self.guided_json = os.environ.get("BRIEFKLAR_GUIDED_JSON", "1") == "1"
+        self.vision = os.environ.get("BRIEFKLAR_VISION", "1") == "1"
+        self.send_thinking = os.environ.get("BRIEFKLAR_THINKING", "1") == "1"
+        # BRIEFKLAR_TOOLS=0: the server cannot take tool definitions. The model then calls no tool and the
+        # orchestrator runs every required tool itself (recorded as orchestrator_forced_tools).
+        self.send_tools = os.environ.get("BRIEFKLAR_TOOLS", "1") == "1"
         self.stats = {"calls": 0, "cached": 0, "schema_retries": 0, "tokens_in": 0, "tokens_out": 0}
         self._backend = backend
         self._openai = None
@@ -179,19 +203,27 @@ class LLMClient:
                 timeout=TIMEOUT_S, max_retries=1,  # one retry on transport error
             )
         kwargs: dict[str, Any] = dict(
-            model=self.settings.llm_name, messages=_for_wire(messages),
+            model=self.settings.llm_name, messages=_for_wire(messages, self.vision),
             temperature=temperature, max_tokens=max_tokens, seed=seed,
         )
-        if tools:
+        if tools and self.send_tools:
             kwargs["tools"] = tools
             kwargs["tool_choice"] = "auto"
         if schema and self.guided_json and not tools:
             kwargs["response_format"] = {
                 "type": "json_schema", "json_schema": {"name": "output", "schema": schema, "strict": True},
             }
-        if thinking:  # tool calling is not supported in thinking mode
+        if thinking and self.send_thinking:  # tool calling is not supported in thinking mode
             kwargs["extra_body"] = {"chat_template_kwargs": {"enable_thinking": True}}
-        completion = self._openai.chat.completions.create(**kwargs)
+        from openai import BadRequestError
+
+        try:
+            completion = self._openai.chat.completions.create(**kwargs)
+        except BadRequestError:
+            if "response_format" not in kwargs:
+                raise
+            kwargs.pop("response_format")  # the server cannot constrain this schema; the prompt still states it
+            completion = self._openai.chat.completions.create(**kwargs)
         message = completion.choices[0].message
         calls = []
         for call in message.tool_calls or []:
@@ -226,6 +258,9 @@ class LLMClient:
                     "To read new letters, set BRIEFKLAR_MODE=live and point LLM_BASE_URL at an Apertus endpoint."
                 )
             self.stats["cached"] += 1
+        elif self.record and (reused := self._read(key)) is not None:
+            response = reused  # same request already answered in this recording (temperature 0, fixed seed)
+            self.stats["cached"] += 1
         else:
             response = self._call_backend(
                 messages, schema, tools, thinking, temperature, max_tokens, seed,
@@ -247,6 +282,9 @@ class LLMClient:
     def chat_json(self, messages: list[dict], model: type[T], **kwargs) -> T:
         """Call with a JSON schema, validate with Pydantic, retry once with the validation error."""
         schema = model.model_json_schema()
+        if not self.guided_json and messages and messages[0]["role"] == "system":
+            # without constrained decoding the instruction has to carry the format
+            messages = [{**messages[0], "content": f"{messages[0]['content']}\n\n{JSON_ONLY}"}, *messages[1:]]
         response = self.chat(messages, schema=schema, **kwargs)
         try:
             return model.model_validate(extract_json(response.content or ""))

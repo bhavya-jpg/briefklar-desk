@@ -37,7 +37,9 @@ class Settings:
 
     @property
     def replay_dir(self) -> Path:
-        return self.data_dir / "replay"
+        # BRIEFKLAR_REPLAY_DIR keeps a second set of recorded responses next to the committed one
+        override = os.environ.get("BRIEFKLAR_REPLAY_DIR")
+        return Path(override) if override else self.data_dir / "replay"
 
     @property
     def llm_host(self) -> str:

@@ -30,6 +30,8 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--live", action="store_true", help="record from LLM_BASE_URL instead of the fixture backend")
     parser.add_argument("--languages", default="all", help="comma-separated client languages for the demo case")
+    parser.add_argument("--resume", action="store_true", help="keep responses already recorded in the replay directory")
+    parser.add_argument("--only", choices=["all", "demo", "bench"], default="all", help="which part to record")
     args = parser.parse_args()
     configure(args.live)
 
@@ -48,10 +50,13 @@ def main() -> None:
     settings = get_settings()
     if ocr_languages() != "deu+fra+ita":
         sys.exit(f"Tesseract has {ocr_languages()!r}, need deu+fra+ita (set TESSDATA_PREFIX). Refusing to record.")
-    shutil.rmtree(settings.replay_dir, ignore_errors=True)
+    if not args.resume:
+        shutil.rmtree(settings.replay_dir, ignore_errors=True)
     client = LLMClient(settings)
     store = Store(settings)
     languages = list(LANG_CODES) if args.languages == "all" else args.languages.split(",")
+
+    failed: list[str] = []
 
     def run_letters(session, golds: dict[str, dict]) -> None:
         for letter in session.case.letters:
@@ -61,7 +66,10 @@ def main() -> None:
             finally:
                 CURRENT.reset(token)
             if letter.status != "done":
-                sys.exit(f"recording failed for {letter.label}: {letter.error}")
+                if not args.live:
+                    sys.exit(f"recording failed for {letter.label}: {letter.error}")
+                failed.append(letter.label)  # a real model can fail; replay then reproduces the failure
+                print(f"FAILED {letter.label}: {letter.error}", flush=True)
 
     def run_case(session, case_gold: dict) -> None:
         token = CURRENT.set({"case": case_gold})
@@ -75,14 +83,14 @@ def main() -> None:
     manifest = json.loads((demo_dir / "manifest.json").read_text(encoding="utf-8"))
     demo_gold = {e["id"]: json.loads((demo_dir / "gold" / f"{e['id']}.json").read_text(encoding="utf-8"))
                  for e in manifest["letters"]}
-    for language in languages:
+    for language in (languages if args.only in ("all", "demo") else []):
         session = load_demo_case(store, settings, language)
         run_letters(session, demo_gold)
         run_case(session, {"letter_ids": [l.label for l in session.case.letters],
                            "gold_order": manifest["gold_order"], "gold_threads": manifest["gold_threads"]})
         today = pipeline.case_today(session, settings)
         for letter in session.case.letters:  # every reply the UI offers for the demo letters
-            if letter.verification.red_flags:
+            if letter.status != "done" or letter.verification.red_flags:
                 continue
             for template in reply_pass.available_templates(letter.facts):
                 token = CURRENT.set({"gold": demo_gold[letter.label]})
@@ -96,7 +104,7 @@ def main() -> None:
     # -- bench_small ------------------------------------------------------------------------------
     small = DATA_DIR / "bench_small"
     rows = {r["id"]: r for r in read_jsonl(small / "letters.jsonl")}
-    for case_row in read_jsonl(small / "cases.jsonl"):
+    for case_row in (read_jsonl(small / "cases.jsonl") if args.only in ("all", "bench") else []):
         session = store.create_case(case_row["client_language"], case_row["canton"],
                                     today=date.fromisoformat(case_row["as_of"]))
         golds = {}
@@ -110,14 +118,18 @@ def main() -> None:
         run_case(session, {"letter_ids": case_row["letter_ids"], "gold_order": case_row["gold_order"],
                            "gold_threads": case_row["gold_threads"]})
         for letter in session.case.letters:  # the eval drafts an objection for every payment order
-            if letter.facts.letter_type == "payment_order" and not letter.verification.red_flags:
+            if letter.status == "done" and letter.facts.letter_type == "payment_order" and not letter.verification.red_flags:
                 token = CURRENT.set({"gold": golds[letter.id]})
                 try:
                     reply_pass.draft_reply(client, letter, "objection_payment_order", pipeline.case_today(session, settings))
+                except Exception as exc:  # noqa: BLE001
+                    if not args.live:
+                        raise
+                    print(f"FAILED reply {letter.label}: {type(exc).__name__}", flush=True)
                 finally:
                     CURRENT.reset(token)
         store.wipe(session.case.id)
-        print(f"bench_small recorded: {case_row['case_id']} ({case_row['client_language']})")
+        print(f"bench_small recorded: {case_row['case_id']} ({case_row['client_language']})", flush=True)
 
     backend = "http" if args.live else "fixture"
     write_json(settings.replay_dir / "MANIFEST.json", {
@@ -129,6 +141,8 @@ def main() -> None:
         "recorded_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "responses": len(list(settings.replay_dir.glob("*.json"))),
         "schema_retries": client.stats["schema_retries"],
+        "letters_failed": failed,
+        "vision": os.environ.get("BRIEFKLAR_VISION", "1") == "1",
         "demo_languages": languages,
     })
     manifest["recorded_languages"] = languages
