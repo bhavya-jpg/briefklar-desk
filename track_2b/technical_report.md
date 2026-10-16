@@ -4,8 +4,8 @@
 - **Event:** Online
 - **Team:** `team name` — `member`, `member`, `member`
 - **Demo:** `link to video`
-- **Status of this document:** written before any Apertus run. Every number that needs the model is marked
-  *not measured*. Replace them from `bench/eval/results/summary.json` after `make record-live` and `make eval`.
+- **Status of this document:** no Apertus run succeeded before the deadline (see section 6). Every number
+  that needs the model is marked *not measured*.
 
 ## 1. Summary
 
