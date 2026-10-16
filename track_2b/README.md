@@ -39,6 +39,11 @@ been run against Apertus:
   extraction** (what the deterministic parts do when Pass 1 is right). **No number describes Apertus yet.**
   B1 to B3 are reported as `not run`.
 
+A real run was attempted on 14 October with `bench/kaggle/apertus_kaggle.ipynb` (Apertus 8B Instruct 2509,
+vLLM 0.31.0, Kaggle 2 × T4). The weights loaded, but the vLLM engine crashed during start-up on the T4 GPUs
+(compute capability 7.5), and a retry also failed, so no Apertus numbers exist. Technical report, section 6,
+lists this and the earlier failed attempts.
+
 To replace the fixtures with real model output:
 
 ```bash

@@ -138,7 +138,13 @@ seconds and CHF per case on one 24 GB GPU; orchestrator-forced tool calls and sc
 ## 6. Limitations
 
 - **No model results yet.** Vision quality on phone photos, tool calling and guided JSON in the vLLM fork are
-  all unverified.
+  all unverified. Three attempts to get real Apertus output failed: Apertus 1.5 could not be loaded with the
+  public Transformers release (unknown model type); a local 4-bit MLX build of Apertus 8B on a 16 GB laptop
+  answered in prose instead of JSON and its server died after one to three requests; and on 14 October
+  `swiss-ai/Apertus-8B-Instruct-2509` with vLLM 0.31.0 on Kaggle (2 × T4, fp16, tensor parallel 2) loaded the
+  weights but the engine crashed in its start-up profiling run on these compute-capability-7.5 GPUs, and a retry
+  also failed. The notebook is `bench/kaggle/apertus_kaggle.ipynb`; it should be re-run on a GPU with compute
+  capability 8 or higher.
 - **Wrong extraction is possible.** The OCR cross-check flags amounts, IBANs, references and dates that the
   model and OCR read differently, and every sentence links to its source span, but a counsellor must review.
 - **Only SchKG deadline rules are implemented as verified.** Administrative deadlines are computed and shown
